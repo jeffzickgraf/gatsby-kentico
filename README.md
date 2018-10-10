@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  InGen Gatsby + Kentico Cloud Proof of Concept
 </h1>
 
 Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
