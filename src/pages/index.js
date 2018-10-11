@@ -31,7 +31,7 @@ export default ({ data }) => {
           <thead>
             <tr>
               <th>Title</th>
-              
+              <th>Image</th>
               <th>Description</th>
               <th>Price</th>
               <th>Content</th>
@@ -41,10 +41,10 @@ export default ({ data }) => {
               {data.allKenticoCloudItemDevice.edges.map(({ node }, index) => (
                 <tr key={index}>
                   <td>{node.title.value}</td> 
-                  
-                  <td>{node.description.value}</td> 
+                  <td><a href={node.product_image.value[0].url}><img alt={node.title.value} src={node.product_image.value[0].url} /></a></td>
+                  <td dangerouslySetInnerHTML={renderUnsafeHtml(node.description.value)}/> 
                   <td>{node.price.value}</td> 
-                  <td>{node.content.value}</td> 
+                  <td dangerouslySetInnerHTML={renderUnsafeHtml(node.content.value)}/> 
                 </tr>
               ))}
           </tbody>
@@ -54,6 +54,9 @@ export default ({ data }) => {
   )
 }
 
+function renderUnsafeHtml(thehtml) {
+  return {__html: thehtml};
+}
 
 export const query = graphql`
  {

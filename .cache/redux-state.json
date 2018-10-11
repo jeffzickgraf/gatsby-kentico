@@ -1,0 +1,1031 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "C:/source/InGen/gatsby-kentico-cloud/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ee5cd02b73cfc867a9024bd3f6ea41d8",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cd777af45d4804414cbfb811baa06cd5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ea0c874a01aee49fb2237c2710e35962",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bcaecd0071c230d57a51d1d5b1aa26df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5a38a50df91808217a27f892919d31c3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b156d18cc6c2198f798ae9d77e21a83d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aaa9b0897a14b3b961e9ccc1a063a970",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-kentico-cloud": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby-source-kentico-cloud",
+      "id": "Plugin gatsby-source-kentico-cloud",
+      "name": "gatsby-source-kentico-cloud",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "kcDeliveryEndpointUrl": "https://deliver.kenticocloud.com",
+        "kcProjectId": "34b491b4-c966-0045-dcf1-a81e969da44b",
+        "kcLanguageCodenames": [
+          "default",
+          "de-EN"
+        ],
+        "queryConfig": {
+          "usePreviewMode": false
+        }
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby-source-kentico-cloud",
+      "packageJson": {
+        "name": "gatsby-source-kentico-cloud",
+        "description": "Gatsby source plugin for Kentico Cloud",
+        "version": "1.0.1",
+        "main": "./gatsby-node.js",
+        "keywords": [
+          "kentico-cloud",
+          "gatsby-source-plugin",
+          "Kentico",
+          "Kentico Cloud",
+          "GatsbyJS",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Jan Lenoch",
+          "email": "janl@kentico.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "change-case",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "kentico-cloud-delivery",
+            "version": "^4.3.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.11"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.2"
+          },
+          {
+            "name": "rxjs",
+            "version": "^6.3.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/polyfill",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "babel-core",
+            "version": "^7.0.0-bridge.0"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "babel-jest",
+            "version": "^23.6.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.6.0"
+          },
+          {
+            "name": "eslint-config-google",
+            "version": "^0.10.0"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "jest",
+            "version": "^23.6.0"
+          },
+          {
+            "name": "regenerator-runtime",
+            "version": "^0.12.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d812ceb2c0a291f9da05632fbfb9234c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onPrefetchPathname",
+        "onServiceWorkerActive"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.4.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1f0d4a1bcd15a56767fa63eec274491e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "c578258734fca400716e714846966bdc",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "gatsby-source-kentico-cloud",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.14.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e300592457da2fd193ee13ed20e6a341",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.0",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "C:/source/InGen/gatsby-kentico-cloud/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/source/InGen/gatsby-kentico-cloud/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4e7f31295fbc8103845894da1427499f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Kentico Cloud / Gatsby"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-11T19:35:59.952Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "539e7f8430b55585a4454cfb22932f57",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b528b681-d630-5e68-a5d2-a77bc3331c34": {
+      "system": {
+        "codename": "device",
+        "id": "c876e3e7-3fc5-49e4-b38b-3c099edc90bb",
+        "name": "Device",
+        "lastModified": "2018-10-05T14:53:29.2415173Z"
+      },
+      "elements": [
+        {
+          "options": [],
+          "codename": "product_image",
+          "name": "Product Image",
+          "type": "asset"
+        },
+        {
+          "options": [],
+          "codename": "content",
+          "name": "Content",
+          "type": "rich_text"
+        },
+        {
+          "options": [],
+          "codename": "price",
+          "name": "Price",
+          "type": "number"
+        },
+        {
+          "options": [],
+          "codename": "specifications",
+          "name": "Specifications",
+          "type": "rich_text"
+        },
+        {
+          "options": [],
+          "codename": "description",
+          "name": "Description",
+          "type": "rich_text"
+        },
+        {
+          "options": [],
+          "codename": "title",
+          "name": "Title",
+          "type": "text"
+        }
+      ],
+      "contentItems___NODE": [],
+      "id": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudTypeDevice",
+        "content": "{\"system\":{\"codename\":\"device\",\"id\":\"c876e3e7-3fc5-49e4-b38b-3c099edc90bb\",\"name\":\"Device\",\"lastModified\":\"2018-10-05T14:53:29.2415173Z\"},\"elements\":[{\"options\":[],\"codename\":\"product_image\",\"name\":\"Product Image\",\"type\":\"asset\"},{\"options\":[],\"codename\":\"content\",\"name\":\"Content\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"price\",\"name\":\"Price\",\"type\":\"number\"},{\"options\":[],\"codename\":\"specifications\",\"name\":\"Specifications\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"description\",\"name\":\"Description\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"title\",\"name\":\"Title\",\"type\":\"text\"}]}",
+        "contentDigest": "e3dad3e228e5fb2830c26d128ebe281e",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "8e12cf4b-a7e3-5dd3-b8ac-b28591ff62f9": {
+      "system": {
+        "name": "Phaser",
+        "codename": "phaser",
+        "id": "eb1d2356-aaf8-47e3-86ec-b7a7aa771a3c",
+        "lastModified": "2018-10-11T19:04:54.1510511Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Xenon",
+        "type": "text",
+        "text": "Xenon"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [
+          {
+            "name": "xenon-angle_1_large.jpg",
+            "type": "image/jpeg",
+            "size": 14557,
+            "description": null,
+            "url": "https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/56d6f630-ff0d-46d8-8bf4-ffb6e452a11e/xenon-angle_1_large.jpg"
+          }
+        ],
+        "type": "asset",
+        "assets": [
+          {
+            "name": "xenon-angle_1_large.jpg",
+            "type": "image/jpeg",
+            "size": 14557,
+            "description": null,
+            "url": "https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/56d6f630-ff0d-46d8-8bf4-ffb6e452a11e/xenon-angle_1_large.jpg"
+          }
+        ]
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p>IoT Development Board (Mesh + Bluetooth)</p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 15,
+        "type": "number",
+        "number": 15
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p>The Xenon is a low cost mesh-enabled development board that can act as either an endpoint or repeater within a Particle Mesh network.</p>\n<p>The Xenon is mesh only and designed to function as the endpoint of your IoT network. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.</p>\n<p>The Xenon is best for connecting sensors, motors, pumps, valves, and points of data-interest. Pair it with an Argon or Boron gateway to get all that great data into the Device Cloud.</p>\n<p>The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 10 free micro networks using a Wi-Fi or Ethernet gateway. Alternatively, all customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our&nbsp;<a href=\"https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-\">documentation</a>.</p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<ul>\n  <li>Nordic Semiconductor nRF52840 SoC&nbsp;<br>\n<br>\n- ARM Cortex-M4F 32-bit processor @ 64MHz&nbsp;<br>\n<br>\n- 1MB flash, 256KB RAM&nbsp;<br>\n<br>\n- IEEE 802.15.4-2006: 250 Kbps&nbsp;<br>\n<br>\n- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps&nbsp;<br>\n<br>\n- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations&nbsp;<br>\n<br>\n- ARM TrustZone CryptoCell-310 Cryptographic and security module&nbsp;<br>\n<br>\n- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps)&nbsp;<br>\n<br>\n- NFC-A tag</li>\n  <li>On-board additional 2MB SPI flash</li>\n  <li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>\n  <li>Micro USB 2.0 full speed (12 Mbps)</li>\n  <li>Integrated Li-Po charging and battery connector</li>\n  <li>JTAG (SWD) Connector</li>\n  <li>RGB status LED</li>\n  <li>Reset and Mode buttons</li>\n  <li>On-board PCB antenna</li>\n  <li>U.FL connector for external antenna</li>\n  <li>Meets the Feather&nbsp;<a href=\"https://learn.adafruit.com/adafruit-feather/feather-specification\">specification</a>&nbsp;in dimensions and pinout</li>\n  <li>FCC, CE and IC certified</li>\n  <li>RoHS compliant (lead-free)</li>\n</ul>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "8e12cf4b-a7e3-5dd3-b8ac-b28591ff62f9",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Phaser\",\"codename\":\"phaser\",\"id\":\"eb1d2356-aaf8-47e3-86ec-b7a7aa771a3c\",\"lastModified\":\"2018-10-11T19:04:54.1510511Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Xenon\",\"type\":\"text\",\"text\":\"Xenon\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[{\"name\":\"xenon-angle_1_large.jpg\",\"type\":\"image/jpeg\",\"size\":14557,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/56d6f630-ff0d-46d8-8bf4-ffb6e452a11e/xenon-angle_1_large.jpg\"}],\"type\":\"asset\",\"assets\":[{\"name\":\"xenon-angle_1_large.jpg\",\"type\":\"image/jpeg\",\"size\":14557,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/56d6f630-ff0d-46d8-8bf4-ffb6e452a11e/xenon-angle_1_large.jpg\"}]},\"description\":{\"name\":\"Description\",\"value\":\"<p>IoT Development Board (Mesh + Bluetooth)</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":15,\"type\":\"number\",\"number\":15},\"content\":{\"name\":\"Content\",\"value\":\"<p>The Xenon is a low cost mesh-enabled development board that can act as either an endpoint or repeater within a Particle Mesh network.</p>\\n<p>The Xenon is mesh only and designed to function as the endpoint of your IoT network. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.</p>\\n<p>The Xenon is best for connecting sensors, motors, pumps, valves, and points of data-interest. Pair it with an Argon or Boron gateway to get all that great data into the Device Cloud.</p>\\n<p>The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 10 free micro networks using a Wi-Fi or Ethernet gateway. Alternatively, all customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our&nbsp;<a href=\\\"https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-\\\">documentation</a>.</p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<ul>\\n  <li>Nordic Semiconductor nRF52840 SoC&nbsp;<br>\\n<br>\\n- ARM Cortex-M4F 32-bit processor @ 64MHz&nbsp;<br>\\n<br>\\n- 1MB flash, 256KB RAM&nbsp;<br>\\n<br>\\n- IEEE 802.15.4-2006: 250 Kbps&nbsp;<br>\\n<br>\\n- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps&nbsp;<br>\\n<br>\\n- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations&nbsp;<br>\\n<br>\\n- ARM TrustZone CryptoCell-310 Cryptographic and security module&nbsp;<br>\\n<br>\\n- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps)&nbsp;<br>\\n<br>\\n- NFC-A tag</li>\\n  <li>On-board additional 2MB SPI flash</li>\\n  <li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>\\n  <li>Micro USB 2.0 full speed (12 Mbps)</li>\\n  <li>Integrated Li-Po charging and battery connector</li>\\n  <li>JTAG (SWD) Connector</li>\\n  <li>RGB status LED</li>\\n  <li>Reset and Mode buttons</li>\\n  <li>On-board PCB antenna</li>\\n  <li>U.FL connector for external antenna</li>\\n  <li>Meets the Feather&nbsp;<a href=\\\"https://learn.adafruit.com/adafruit-feather/feather-specification\\\">specification</a>&nbsp;in dimensions and pinout</li>\\n  <li>FCC, CE and IC certified</li>\\n  <li>RoHS compliant (lead-free)</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "e0d3cc50de9411faf73dc9aaba572b76",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "1cdc52e0-f192-56d0-9be8-bf067389f52d": {
+      "system": {
+        "name": "The Argon",
+        "codename": "the_argon",
+        "id": "01fca6a0-6a2e-4bc2-b6dc-391250aea577",
+        "lastModified": "2018-10-10T02:45:32.9162464Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "The Argon",
+        "type": "text",
+        "text": "The Argon"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [
+          {
+            "name": "argon-introducing.jpg",
+            "type": "image/jpeg",
+            "size": 37944,
+            "description": "The Argon",
+            "url": "https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/35343772-b201-4781-aef6-e7661ed46568/argon-introducing.jpg"
+          }
+        ],
+        "type": "asset",
+        "assets": [
+          {
+            "name": "argon-introducing.jpg",
+            "type": "image/jpeg",
+            "size": 37944,
+            "description": "The Argon",
+            "url": "https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/35343772-b201-4781-aef6-e7661ed46568/argon-introducing.jpg"
+          }
+        ]
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p>Wi-Fi + Mesh Gateway/Repeater</p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 25,
+        "type": "number",
+        "number": 25
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p>The Argon is a powerful Wi-Fi enabled development kit that can act as either a standalone Wi-Fi endpoint or Wi-Fi enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.</p>\n<p>The Argon is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints.</p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<ul>\n  <li>On-board 4MB flash for ESP32\n    <ul>\n      <li>802.11 b/g/n support</li>\n      <li>802.11 n (2.4 GHz), up to 150 Mbps</li>\n      <li>ARM Cortex-M4F 32-bit processor @ 64MHz</li>\n      <li>1MB flash, 256KB RAM</li>\n      <li>IEEE 802.15.4-2006: 250 Kbps</li>\n      <li>Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps</li>\n      <li>Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations</li>\n      <li>ARM TrustZone CryptoCell-310 Cryptographic and security module</li>\n      <li>Up to +8 dBm TX power (down to -20 dBm in 4 dB steps)</li>\n      <li>NFC-A tag</li>\n    </ul>\n  </li>\n  <li>On-board additional 2MB SPI flash</li>\n  <li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>\n  <li>Micro USB 2.0 full speed (12 Mbps)</li>\n  <li>Integrated Li-Po charging and battery connector</li>\n  <li>JTAG (SWD) Connector</li>\n  <li>RGB status LED</li>\n  <li>Reset and Mode buttons</li>\n  <li>On-board 2.4GHz PCB antenna for Thread/BLE (does not support Wi-Fi)</li>\n  <li>Two U.FL connectors for external antennas (one for Thread/BLE, another for Wi-Fi)</li>\n  <li>Meets the Feather&nbsp;<a href=\"https://learn.adafruit.com/adafruit-feather/feather-specification\">specification</a>&nbsp;in dimensions and pinout</li>\n  <li>FCC, CE and IC certified</li>\n  <li>RoHS compliant (lead-free)</li>\n</ul>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "1cdc52e0-f192-56d0-9be8-bf067389f52d",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"The Argon\",\"codename\":\"the_argon\",\"id\":\"01fca6a0-6a2e-4bc2-b6dc-391250aea577\",\"lastModified\":\"2018-10-10T02:45:32.9162464Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"The Argon\",\"type\":\"text\",\"text\":\"The Argon\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[{\"name\":\"argon-introducing.jpg\",\"type\":\"image/jpeg\",\"size\":37944,\"description\":\"The Argon\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/35343772-b201-4781-aef6-e7661ed46568/argon-introducing.jpg\"}],\"type\":\"asset\",\"assets\":[{\"name\":\"argon-introducing.jpg\",\"type\":\"image/jpeg\",\"size\":37944,\"description\":\"The Argon\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/35343772-b201-4781-aef6-e7661ed46568/argon-introducing.jpg\"}]},\"description\":{\"name\":\"Description\",\"value\":\"<p>Wi-Fi + Mesh Gateway/Repeater</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":25,\"type\":\"number\",\"number\":25},\"content\":{\"name\":\"Content\",\"value\":\"<p>The Argon is a powerful Wi-Fi enabled development kit that can act as either a standalone Wi-Fi endpoint or Wi-Fi enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.</p>\\n<p>The Argon is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints.</p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<ul>\\n  <li>On-board 4MB flash for ESP32\\n    <ul>\\n      <li>802.11 b/g/n support</li>\\n      <li>802.11 n (2.4 GHz), up to 150 Mbps</li>\\n      <li>ARM Cortex-M4F 32-bit processor @ 64MHz</li>\\n      <li>1MB flash, 256KB RAM</li>\\n      <li>IEEE 802.15.4-2006: 250 Kbps</li>\\n      <li>Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps</li>\\n      <li>Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations</li>\\n      <li>ARM TrustZone CryptoCell-310 Cryptographic and security module</li>\\n      <li>Up to +8 dBm TX power (down to -20 dBm in 4 dB steps)</li>\\n      <li>NFC-A tag</li>\\n    </ul>\\n  </li>\\n  <li>On-board additional 2MB SPI flash</li>\\n  <li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>\\n  <li>Micro USB 2.0 full speed (12 Mbps)</li>\\n  <li>Integrated Li-Po charging and battery connector</li>\\n  <li>JTAG (SWD) Connector</li>\\n  <li>RGB status LED</li>\\n  <li>Reset and Mode buttons</li>\\n  <li>On-board 2.4GHz PCB antenna for Thread/BLE (does not support Wi-Fi)</li>\\n  <li>Two U.FL connectors for external antennas (one for Thread/BLE, another for Wi-Fi)</li>\\n  <li>Meets the Feather&nbsp;<a href=\\\"https://learn.adafruit.com/adafruit-feather/feather-specification\\\">specification</a>&nbsp;in dimensions and pinout</li>\\n  <li>FCC, CE and IC certified</li>\\n  <li>RoHS compliant (lead-free)</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "9711e7f0fa2c30aa5723ad7c993790c0",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "C:/source/InGen/gatsby-kentico-cloud/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6cc34741a0b740e10f5e3ffec51b1d4b",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/source/InGen/gatsby-kentico-cloud/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "85462a594636f50c61542d0e63f4b8fd",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "C:/source/InGen/gatsby-kentico-cloud/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9c6baa22bc310b52b5319b3bcf06ef57",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "C:/source/InGen/gatsby-kentico-cloud/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1ca65a1001ead4105044283396c9a808",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "c2ac98a984d2802d087fb20b6a849619"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js"
+      ]
+    },
+    "connections": {
+      "KenticoCloudItemDevice": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "282/path---index-6a9-QxooiK1v9eq8LNptH9XxEYAldU",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "C:/source/InGen/gatsby-kentico-cloud/src/pages/404.js": {
+      "query": "",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/404.js"
+    },
+    "C:/source/InGen/gatsby-kentico-cloud/src/pages/index.js": {
+      "query": "query cSourceInGenGatsbyKenticoCloudSrcPagesIndexJs3856659247 {\n  allKenticoCloudItemDevice {\n    edges {\n      node {\n        title {\n          value\n        }\n        description {\n          value\n        }\n        price {\n          value\n        }\n        content {\n          value\n        }\n        product_image {\n          value {\n            name\n            type\n            size\n            description\n            url\n          }\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/index.js"
+    },
+    "C:/source/InGen/gatsby-kentico-cloud/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/page-2.js"
+    },
+    "C:/source/InGen/gatsby-kentico-cloud/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/.cache/dev-404-page.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    }
+  }
+}
