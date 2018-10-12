@@ -41,7 +41,9 @@ export default ({ data }) => {
               {data.allKenticoCloudItemDevice.edges.map(({ node }, index) => (
                 <tr key={index}>
                   <td>{node.title.value}</td> 
-                  <td><a href={node.product_image.value[0].url}><img alt={node.title.value} src={node.product_image.value[0].url} /></a></td>
+                  <td>
+                  {getImage(node.product_image)}
+                    </td>                  
                   <td dangerouslySetInnerHTML={renderUnsafeHtml(node.description.value)}/> 
                   <td>{node.price.value}</td> 
                   <td dangerouslySetInnerHTML={renderUnsafeHtml(node.content.value)}/> 
@@ -53,6 +55,18 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
+function getImage(productImages){
+  if(productImages===null || productImages.length==0 || productImages.value[0] ==undefined || productImages.value[0].url ==undefined)
+  {
+    return "";
+  }
+  else
+  {
+    return <a href={productImages.value[0].url}><img alt='product image' src={productImages.value[0].url} /></a>;
+  }
+}
+
 
 function renderUnsafeHtml(thehtml) {
   return {__html: thehtml};
