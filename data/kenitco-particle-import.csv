@@ -1,0 +1,44 @@
+﻿Name,Description,Price,Id
+Argon Kit,IoT Development Kit (Wi-Fi + Mesh + Bluetooth),35,pid-1
+Argon,IoT Development Board (Wi-Fi + Mesh + Bluetooth),25,pid-2
+Boron LTE Kit,IoT Development Kit (Cellular + Mesh + Bluetooth),59,pid-3
+Boron LTE,IoT Development Board (Cellular + Mesh + Bluetooth),49,pid-4
+Boron 2G/3G Kit,IoT Development Kit (Cellular + Mesh + Bluetooth),69,pid-5
+Xenon Kit,IoT Development Kit (Mesh + Bluetooth),25,pid-6
+Xenon,IoT Development Board (Mesh + Bluetooth),15,pid-7
+Particle Debugger,Professional debugging at a fraction of the cost,20,pid-8
+Particle Ethernet FeatherWing,Add wired connectivity to your Mesh dev kit,20,pid-9
+Particle Classic Adapter,Use your classic accessories to use with the Mesh dev kits,5,pid-10
+Particle FeatherWing Tripler,Add FeatherWing accessories without stacking,8.5,pid-11
+Adafruit INA219 FeatherWing,The Adafruit INA219 FeatherWing makes power-monitoring problems a thing of the past,7.95,pid-12
+Adafruit FeatherWing OLED,Add a mini user interface to any Feather main board,14.95,pid-13
+Adafruit Power Relay FeatherWing,"The Power Relay FeatherWing gives you power to control, and control over power",9.95,pid-14
+Grove Starter Kit for Particle Mesh,Explore the world of sensing with Particle Mesh,35,pid-15
+E Series Evaluation Kit 2G/3G or LTE,"Prototype with the E Series, our industrialized cellular module line.",99,pid-16
+E Series LTE Module,"Prototype with the E Series, our industrialized cellular module line.",69,pid-17
+E Series 3G Module (Global),"Prototype with the E Series, our industrialized cellular module line",79,pid-18
+Electron 3G Kit (Americas/Aus),A tiny development kit for creating 3G cellular connected products,69,pid-19
+Electron 3G Kit (Eur/Asia/Afr),A tiny development kit for creating 3G cellular connected products,69,pid-20
+Electron 2G Kit (Global),A tiny development kit for creating 2G cellular connected products,49,pid-21
+Assest Track Kit V2,Track your valuables with an Electron + GPS,109,pid-22
+Asset Tracker v2 Components,Asset Tracker Shield & Enclosure,72,pid-23
+Sensor Kit w/ Electron 3G,A hand-picked combination of our favorite sensors and components for prototyping.,149,pid-24
+Photon,"A tiny, reprogrammable Wi-Fi development kit for prototyping and scaling your Internet of Things product.",19,pid-25
+Photon Kit,"The total package—a Photon, mini-breadboard, USB cable, and components for your first project",29,pid-26
+Particle Maker Kit,"Everything you need to start building simple Internet enabled projects
+",89,pid-27
+Internet Button,"Connected with IFTTT, it combines hardware, sensors, and connectivity into one package",49,pid-28
+P0 - Particle Wi-Fi Module,Next generation MCU + Wi-Fi module based on Broadcom’s WICED architecture,10,pid-29
+P1 - Particle Wi-Fi Module with Antenna,Next generation MCU + Wi-Fi module with FCC certification and built-in antenna,12,pid-30
+RedBear Duo (Wi-Fi + BLE),A Wi-Fi + Bluetooth BLE development kit with the Particle Cloud,24.9,pid-31
+RedBear Bano V2,RedBear Nano v2,16.9,pid-32
+RedBear BLE Module MB-N2 (2 pack),RedBear BLE Module MB-N2 (2 pack),17.9,pid-33
+RedBear Link Shield,RedBear Link Shield,14.9,pid-34
+Power Shield,Easily add and monitor power with this shield that ships along with a 3.7V Li-Po battery,25,pid-35
+Programmer Shield,Access your Photon's memory space with this standalone JTAG programmer,30,pid-36
+Relay Shield,Regulate the power to a variety of electronics with this four relay shield,30,pid-37
+Shield Shield,Enables the use of your existing Arduino shields and accessories with your Photon,20,pid-38
+Wi-Fi Antennas,Add additional range to your Photon or Core uFL with a Flex or Duck Antenna,10,pid-39
+Cellular Antenna,Add an extra Taoglas GSM antenna to improve reception in cellular projects,10,pid-40
+Li-Po Battery,"Small, light and powerful 3.7V Li-Po battery",9,pid-41
+SIM Card,Add white labeled SIM cards from Telefonica with a Particle Cloud subscription to any hardware,5,pid-42
