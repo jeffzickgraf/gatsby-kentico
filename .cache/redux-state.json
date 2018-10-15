@@ -677,12 +677,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-11T19:35:59.952Z",
+      "buildTime": "2018-10-11T21:02:35.221Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "539e7f8430b55585a4454cfb22932f57",
+        "contentDigest": "a39bc438f627faa5ae0b1d8ff35e3f49",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -894,6 +894,140 @@
         "owner": "gatsby-source-kentico-cloud"
       }
     },
+    "bc5ddacf-adaf-5278-8022-528eb4a29174": {
+      "system": {
+        "name": " E Series LTE Module",
+        "codename": "_e_series_lte_module",
+        "id": "f1ea43da-7ece-4447-a22a-b465c8731b27",
+        "lastModified": "2018-10-11T20:57:42.825163Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "E Series LTE Module",
+        "type": "text",
+        "text": "E Series LTE Module"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p>Prototype with the E Series, our industrialized cellular module line.</p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 69,
+        "type": "number",
+        "number": 69
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><strong>*Now available to order, shipping fall 2018. If you add additional items to your order, your entire order will not ship until fall 2018.*</strong></p>\n<p>The&nbsp;<a href=\"https://particle.io/e-series\"><strong>E Series</strong></a>&nbsp;is Particle’s newest product&nbsp;family of industrialized cellular IoT modules.&nbsp;The&nbsp;<a href=\"https://store.particle.io/#e-series-evaluation-kit\"><strong>E Series Evaluation Kit</strong></a><strong>&nbsp;</strong>provides everything&nbsp;you need to build your first industrial-grade proof-of-concept on the Particle platform.</p>\n<p><strong>E&nbsp;Series Product Features</strong></p>\n<p>All E Series modules include the following features:</p>\n<p>&nbsp;- Embedded SIM card, which resists vibration, corrosion, and mechanical failure &nbsp;<br>\n - Surface-mountable design, for PCB assembly in mass-production&nbsp;<br>\n - Industrial temperature range from -20 to 85C for deployment in hostile environments&nbsp;<br>\n - Pinout with support for LTE M1 and a seamless transition from 2G/3G (future-compatible for NB1)&nbsp;<br>\n - Fully certified design virtually eliminating the cost and complexity of RF and carrier compliance&nbsp;<br>\n -&nbsp;Built-in compatibility with Particle's development tools, messaging platform, and device management console</p>\n<p>The E402 module supports LTE M1 connectivity.</p>\n<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>\n<ul>\n  <li>Access to the Device Cloud includes:</li>\n  <li><strong>3MB</strong>&nbsp;of cellular data per device/mo (additional data&nbsp;<a href=\"https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs\">$0.40/MB for most countries</a>)</li>\n  <li>First 3 months of Device Cloud&nbsp;<strong>FREE</strong>&nbsp;($2.99 per device/mo after)</li>\n  <li>Device Cloud Features:&nbsp;<br>\n<br>\n- Device Management&nbsp;<br>\n<br>\n- Over the Air Firmware Updates&nbsp;<br>\n<br>\n- Fully Managed Connectivity&nbsp;<br>\n<br>\n- Developer Tools&nbsp;<br>\n<br>\n- Integrations</li>\n</ul>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<ul>\n  <li>STM32F205 ARM Cortex M3 microcontroller</li>\n  <li>1MB Flash, 128K RAM</li>\n  <li>Cellular modem: u-blox SARA U-series (LTE M1)</li>\n  <li>36 pins total:&nbsp;28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</li>\n  <li>Board dimensions:&nbsp;36mm x 43mm&nbsp;</li>\n</ul>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "bc5ddacf-adaf-5278-8022-528eb4a29174",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\" E Series LTE Module\",\"codename\":\"_e_series_lte_module\",\"id\":\"f1ea43da-7ece-4447-a22a-b465c8731b27\",\"lastModified\":\"2018-10-11T20:57:42.825163Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"E Series LTE Module\",\"type\":\"text\",\"text\":\"E Series LTE Module\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p>Prototype with the E Series, our industrialized cellular module line.</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":69,\"type\":\"number\",\"number\":69},\"content\":{\"name\":\"Content\",\"value\":\"<p><strong>*Now available to order, shipping fall 2018. If you add additional items to your order, your entire order will not ship until fall 2018.*</strong></p>\\n<p>The&nbsp;<a href=\\\"https://particle.io/e-series\\\"><strong>E Series</strong></a>&nbsp;is Particle’s newest product&nbsp;family of industrialized cellular IoT modules.&nbsp;The&nbsp;<a href=\\\"https://store.particle.io/#e-series-evaluation-kit\\\"><strong>E Series Evaluation Kit</strong></a><strong>&nbsp;</strong>provides everything&nbsp;you need to build your first industrial-grade proof-of-concept on the Particle platform.</p>\\n<p><strong>E&nbsp;Series Product Features</strong></p>\\n<p>All E Series modules include the following features:</p>\\n<p>&nbsp;- Embedded SIM card, which resists vibration, corrosion, and mechanical failure &nbsp;<br>\\n - Surface-mountable design, for PCB assembly in mass-production&nbsp;<br>\\n - Industrial temperature range from -20 to 85C for deployment in hostile environments&nbsp;<br>\\n - Pinout with support for LTE M1 and a seamless transition from 2G/3G (future-compatible for NB1)&nbsp;<br>\\n - Fully certified design virtually eliminating the cost and complexity of RF and carrier compliance&nbsp;<br>\\n -&nbsp;Built-in compatibility with Particle's development tools, messaging platform, and device management console</p>\\n<p>The E402 module supports LTE M1 connectivity.</p>\\n<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>\\n<ul>\\n  <li>Access to the Device Cloud includes:</li>\\n  <li><strong>3MB</strong>&nbsp;of cellular data per device/mo (additional data&nbsp;<a href=\\\"https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs\\\">$0.40/MB for most countries</a>)</li>\\n  <li>First 3 months of Device Cloud&nbsp;<strong>FREE</strong>&nbsp;($2.99 per device/mo after)</li>\\n  <li>Device Cloud Features:&nbsp;<br>\\n<br>\\n- Device Management&nbsp;<br>\\n<br>\\n- Over the Air Firmware Updates&nbsp;<br>\\n<br>\\n- Fully Managed Connectivity&nbsp;<br>\\n<br>\\n- Developer Tools&nbsp;<br>\\n<br>\\n- Integrations</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<ul>\\n  <li>STM32F205 ARM Cortex M3 microcontroller</li>\\n  <li>1MB Flash, 128K RAM</li>\\n  <li>Cellular modem: u-blox SARA U-series (LTE M1)</li>\\n  <li>36 pins total:&nbsp;28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</li>\\n  <li>Board dimensions:&nbsp;36mm x 43mm&nbsp;</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "3dae2fb80334befb345090c8b3184a85",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "f9c70f10-d46e-5437-aabd-2b4501551c04": {
+      "system": {
+        "name": "Particle Debugger",
+        "codename": "particle_debugger",
+        "id": "204061b6-f0b9-4a59-ae66-666c57fc71ee",
+        "lastModified": "2018-10-11T20:54:48.3484686Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Particle Debugger",
+        "type": "text",
+        "text": "Particle Debugger"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [
+          {
+            "name": "debugger_large.jpg",
+            "type": "image/jpeg",
+            "size": 11249,
+            "description": null,
+            "url": "https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/c51073da-c652-47a3-8c7f-6c3e67fbda6a/debugger_large.jpg"
+          }
+        ],
+        "type": "asset",
+        "assets": [
+          {
+            "name": "debugger_large.jpg",
+            "type": "image/jpeg",
+            "size": 11249,
+            "description": null,
+            "url": "https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/c51073da-c652-47a3-8c7f-6c3e67fbda6a/debugger_large.jpg"
+          }
+        ]
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p>Professional debugging at a fraction of the cost</p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 20,
+        "type": "number",
+        "number": 20
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>\n<p>The Particle Debugger gives you the power of professional debugging at a fraction of the cost. Using this accessory, you’ll be able to program Particle mesh-ready hardware over common interfaces like JTAG and SWD, using open source tools like GDB.</p>\n<p>Supports the open source CMSIS-DAP specification and DAPLink firmware developed by ARM.</p>\n<p>Comes with one JTAG ribbon cable.</p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p>Comes with one JTAG ribbon cable.</p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "f9c70f10-d46e-5437-aabd-2b4501551c04",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Particle Debugger\",\"codename\":\"particle_debugger\",\"id\":\"204061b6-f0b9-4a59-ae66-666c57fc71ee\",\"lastModified\":\"2018-10-11T20:54:48.3484686Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Particle Debugger\",\"type\":\"text\",\"text\":\"Particle Debugger\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[{\"name\":\"debugger_large.jpg\",\"type\":\"image/jpeg\",\"size\":11249,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/c51073da-c652-47a3-8c7f-6c3e67fbda6a/debugger_large.jpg\"}],\"type\":\"asset\",\"assets\":[{\"name\":\"debugger_large.jpg\",\"type\":\"image/jpeg\",\"size\":11249,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/c51073da-c652-47a3-8c7f-6c3e67fbda6a/debugger_large.jpg\"}]},\"description\":{\"name\":\"Description\",\"value\":\"<p>Professional debugging at a fraction of the cost</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":20,\"type\":\"number\",\"number\":20},\"content\":{\"name\":\"Content\",\"value\":\"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>\\n<p>The Particle Debugger gives you the power of professional debugging at a fraction of the cost. Using this accessory, you’ll be able to program Particle mesh-ready hardware over common interfaces like JTAG and SWD, using open source tools like GDB.</p>\\n<p>Supports the open source CMSIS-DAP specification and DAPLink firmware developed by ARM.</p>\\n<p>Comes with one JTAG ribbon cable.</p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p>Comes with one JTAG ribbon cable.</p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "c37e636a676b898f0cc6aaba603c1775",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -993,7 +1127,7 @@
   },
   "jsonDataPaths": {
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "282/path---index-6a9-QxooiK1v9eq8LNptH9XxEYAldU",
+    "index": "963/path---index-6a9-V11iT557YONAnONAdxv9xSXTo",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
