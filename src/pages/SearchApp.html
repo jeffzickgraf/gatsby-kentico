@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/azsearch.js@0.0.21/dist/AzSearch.css">
+    <title>Kentico Gatsby snd Azure Search</title>
+
+    <style>
+        .searchResults__result h4 {
+            margin-top: 0px;
+            text-transform: uppercase;
+        }
+
+        .searchResults__result .resultDescription {
+            margin: 0.5em 0 0 0;
+        }
+
+        .searchResults__result ul.resultProperties {
+            margin: 1em 0 0 0;
+            padding: 0;
+        }
+
+        .searchResults__result ul.resultProperties li {
+            display: inline-block;
+            font-size: 1.2em;
+            padding: 0px;
+        }
+
+        .searchResults__result ul.resultProperties i.fa {
+            color: #bbb;
+        }
+
+        .searchResults__result ul.resultProperties li span {
+            padding-left: 0.3em;
+        }
+
+        .searchResults__result ul.resultProperties li.resultProperties__money {
+            width: 8em;
+        }       
+        .sk-bounce1,
+        .sk-bounce2,
+        .sk-bounce3,
+        .sk-spinner {
+            float: right;
+        }
+
+        @media (max-width: 850px) {
+            .searchResults__result ul.resultProperties li {
+                font-size: 1.1em;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .searchResults__result h4 {
+                margin-top: 0.5em;
+            }
+            .searchResults__result ul.resultProperties {
+                margin: 0.5em 0 0 0;
+            }
+            .searchResults__result ul.resultProperties li {
+                font-size: 1em;
+                padding: 0 0.5em 0 0;
+            }
+            .searchResults__result ul.resultProperties li.resultProperties__money {
+                width: inherit;
+            }          
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="app">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#facetPanel" aria-expanded="false"
+                        aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="row">
+                        <div class="col-md-2 pagelabel">
+                            <a class="navbar-brand pagelabel" href="https://github.com/EvanBoyle/AzSearch.js">AzSearch.js</a>
+                        </div>
+                        <div id="searchBox" class="col-mid-8 col-sm-8 col-xs-6"></div>
+                        <div id="navbar" class="navbar-collapse collapse">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div id="facetPanel" class="col-sm-3 col-md-3 sidebar collapse">
+                    <ul class="nav nav-sidebar">
+                        <div className="panel panel-primary behclick-panel">                            
+                            <li>
+                                <div id="TitleFacet">
+                                </div>
+                            </li>
+                            <li>
+                                <div id="PriceFacet">
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 results_section">
+                    <div id="loading"></div>
+                    <div id="results" class="row placeholders">
+                    </div>
+                    <div id="pager" class="row">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript
+            ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+</body>
+<!-- Dependencies -->
+<script src="https://cdn.jsdelivr.net/react/15.5.0/react.min.js"></script>
+<script src="https://cdn.jsdelivr.net/react/15.5.0/react-dom.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/redux/3.6.0/redux.min.js"></script>
+<!-- Main -->
+<script src="https://cdn.jsdelivr.net/npm/azsearch.js@0.0.21/dist/AzSearch.bundle.js"></script>
+<script>
+
+
+function formatPrice(n, currency) {
+  return currency + n.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+}
+
+    // Initialize and connect to your search service
+    var automagic = new AzSearch.Automagic({ index: "iot-index", queryKey: "A368F1B3EC159DD59F378D6362A8CB51", service: "kentico-iot" });
+
+ // Set some processors to format results for display
+ var suggestionsProcessor = function (results) {
+        return results.map(function (result) {
+            result.displayText = result.Title +  " " + (result.Price == null ? "" : formatPrice(Number(result.Price), '$'));
+            result.searchText = result["@search.text"];
+            return result;
+        });
+    };
+    var resultsProcessor = function (results) {
+        return results.map(function (result) {
+            result.displayText = result.Title + " " + result.Description + " " 
+                                + (result.Price == null ? "" : formatPrice(Number(result.Price), '$'));
+            var summary = result.Description;            
+            result.summary = summary.length < 200 ? summary : summary.substring(0, 200) + "...";            
+            var extendedSummary = result.Content;            
+            result.extendedSummary = extendedSummary.length < 200 ? extendedSummary : extendedSummary.substring(0, 200) + "...";            
+            result.price = result.Price == null ? "" : formatPrice(Number(result.Price), '$');//result.Price;
+            return result;
+        });
+    };
+    automagic.store.setSuggestionsProcessor(suggestionsProcessor);
+    automagic.store.setResultsProcessor(resultsProcessor);
+
+    
+
+ // Create some mustache templates to customize result/suggestion display. Default is JSON.stringify(result,null,4) rendered in <pre> and <code>.
+    var resultTemplate =
+        `<div class="col-xs-12 col-sm-3 col-md-3 result_img">
+            <img class="img-responsive result_img" style="height:100px;" src="http://cdn.shopify.com/s/files/1/0925/6626/products/argon-angle_884d1b9e-3c37-4a62-a713-fa372c97e992_large.jpg?v=1538570976" alt="image not found" />
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <h4>{{displayText}}</h4>
+            <div class="resultDescription">                
+                <i>{{{summary}}}</i>
+                <br/>
+                {{{extendedSummary}}}                
+            </div>
+            <ul class="resultProperties">
+                <li class="resultProperties__money"><i class="fa fa-money" aria-hidden="true"></i><span>{{price}}</span></li>                
+            </ul>
+        </div>`;
+
+    var suggestionsTemplate = "{{displayText}} <br/> {{{searchText}}}";
+
+
+    // add a results view using the template defined above    
+    automagic.addResults("results", { count: true }, resultTemplate);
+    //automagic.addResults("results", { count: true });
+
+    // Add a loading indicator above the results view
+    automagic.addLoadingIndicator("loading");
+
+    // Adds a pager control << 1 2 3 ... >>
+    automagic.addPager("pager");
+    
+    automagic.addSearchBox("searchBox",
+        {
+            highlightPreTag: "<b>",
+            highlightPostTag: "</b>",
+            suggesterName: "TitleDescriptionSuggester",
+            select:"Title, Description, Price, Content"
+        }, "displayText", suggestionsTemplate);
+   automagic.addCheckboxFacet("TitleFacet", "Title", "string");
+   automagic.addRangeFacet("PriceFacet", "Price", "number", 0, 1000);
+
+
+</script>
+<style>
+
+</style>
+
+</html>

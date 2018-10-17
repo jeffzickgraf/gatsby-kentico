@@ -57,13 +57,13 @@ export default ({ data }) => {
 }
 
 function getImage(productImages){
-  if(productImages===null || productImages.length==0 || productImages.value[0] ==undefined || productImages.value[0].url ==undefined)
+  if(productImages===null || productImages.length===0 || productImages.value[0] ===undefined || productImages.value[0].url ===undefined)
   {
     return "";
   }
   else
   {
-    return <a href={productImages.value[0].url}><img alt='product image' src={productImages.value[0].url} /></a>;
+    return <a href={productImages.value[0].url}><img alt='product' src={productImages.value[0].url} /></a>;
   }
 }
 
@@ -85,8 +85,7 @@ export const query = graphql`
           value {
           name
           type
-          size
-          description
+          size          
           url
         }}
       }

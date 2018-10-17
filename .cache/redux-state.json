@@ -677,12 +677,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-11T21:02:35.221Z",
+      "buildTime": "2018-10-15T20:11:27.556Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a39bc438f627faa5ae0b1d8ff35e3f49",
+        "contentDigest": "7752950e7690541dba2695baf47f88bc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -692,7 +692,7 @@
         "codename": "device",
         "id": "c876e3e7-3fc5-49e4-b38b-3c099edc90bb",
         "name": "Device",
-        "lastModified": "2018-10-05T14:53:29.2415173Z"
+        "lastModified": "2018-10-12T21:59:17.9005309Z"
       },
       "elements": [
         {
@@ -721,6 +721,12 @@
         },
         {
           "options": [],
+          "codename": "short_description",
+          "name": "Short Description",
+          "type": "text"
+        },
+        {
+          "options": [],
           "codename": "description",
           "name": "Description",
           "type": "rich_text"
@@ -739,8 +745,8 @@
       "usedByContentItems___NODE": [],
       "internal": {
         "type": "KenticoCloudTypeDevice",
-        "content": "{\"system\":{\"codename\":\"device\",\"id\":\"c876e3e7-3fc5-49e4-b38b-3c099edc90bb\",\"name\":\"Device\",\"lastModified\":\"2018-10-05T14:53:29.2415173Z\"},\"elements\":[{\"options\":[],\"codename\":\"product_image\",\"name\":\"Product Image\",\"type\":\"asset\"},{\"options\":[],\"codename\":\"content\",\"name\":\"Content\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"price\",\"name\":\"Price\",\"type\":\"number\"},{\"options\":[],\"codename\":\"specifications\",\"name\":\"Specifications\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"description\",\"name\":\"Description\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"title\",\"name\":\"Title\",\"type\":\"text\"}]}",
-        "contentDigest": "e3dad3e228e5fb2830c26d128ebe281e",
+        "content": "{\"system\":{\"codename\":\"device\",\"id\":\"c876e3e7-3fc5-49e4-b38b-3c099edc90bb\",\"name\":\"Device\",\"lastModified\":\"2018-10-12T21:59:17.9005309Z\"},\"elements\":[{\"options\":[],\"codename\":\"product_image\",\"name\":\"Product Image\",\"type\":\"asset\"},{\"options\":[],\"codename\":\"content\",\"name\":\"Content\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"price\",\"name\":\"Price\",\"type\":\"number\"},{\"options\":[],\"codename\":\"specifications\",\"name\":\"Specifications\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"short_description\",\"name\":\"Short Description\",\"type\":\"text\"},{\"options\":[],\"codename\":\"description\",\"name\":\"Description\",\"type\":\"rich_text\"},{\"options\":[],\"codename\":\"title\",\"name\":\"Title\",\"type\":\"text\"}]}",
+        "contentDigest": "67e1b9ede1e6ea3163466a877ff0c24e",
         "owner": "gatsby-source-kentico-cloud"
       }
     },
@@ -759,6 +765,12 @@
         "value": "Xenon",
         "type": "text",
         "text": "Xenon"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "",
+        "type": "text",
+        "text": ""
       },
       "product_image": {
         "name": "Product Image",
@@ -814,92 +826,17 @@
       "usedByContentItems___NODE": [],
       "internal": {
         "type": "KenticoCloudItemDevice",
-        "content": "{\"system\":{\"name\":\"Phaser\",\"codename\":\"phaser\",\"id\":\"eb1d2356-aaf8-47e3-86ec-b7a7aa771a3c\",\"lastModified\":\"2018-10-11T19:04:54.1510511Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Xenon\",\"type\":\"text\",\"text\":\"Xenon\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[{\"name\":\"xenon-angle_1_large.jpg\",\"type\":\"image/jpeg\",\"size\":14557,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/56d6f630-ff0d-46d8-8bf4-ffb6e452a11e/xenon-angle_1_large.jpg\"}],\"type\":\"asset\",\"assets\":[{\"name\":\"xenon-angle_1_large.jpg\",\"type\":\"image/jpeg\",\"size\":14557,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/56d6f630-ff0d-46d8-8bf4-ffb6e452a11e/xenon-angle_1_large.jpg\"}]},\"description\":{\"name\":\"Description\",\"value\":\"<p>IoT Development Board (Mesh + Bluetooth)</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":15,\"type\":\"number\",\"number\":15},\"content\":{\"name\":\"Content\",\"value\":\"<p>The Xenon is a low cost mesh-enabled development board that can act as either an endpoint or repeater within a Particle Mesh network.</p>\\n<p>The Xenon is mesh only and designed to function as the endpoint of your IoT network. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.</p>\\n<p>The Xenon is best for connecting sensors, motors, pumps, valves, and points of data-interest. Pair it with an Argon or Boron gateway to get all that great data into the Device Cloud.</p>\\n<p>The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 10 free micro networks using a Wi-Fi or Ethernet gateway. Alternatively, all customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our&nbsp;<a href=\\\"https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-\\\">documentation</a>.</p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<ul>\\n  <li>Nordic Semiconductor nRF52840 SoC&nbsp;<br>\\n<br>\\n- ARM Cortex-M4F 32-bit processor @ 64MHz&nbsp;<br>\\n<br>\\n- 1MB flash, 256KB RAM&nbsp;<br>\\n<br>\\n- IEEE 802.15.4-2006: 250 Kbps&nbsp;<br>\\n<br>\\n- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps&nbsp;<br>\\n<br>\\n- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations&nbsp;<br>\\n<br>\\n- ARM TrustZone CryptoCell-310 Cryptographic and security module&nbsp;<br>\\n<br>\\n- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps)&nbsp;<br>\\n<br>\\n- NFC-A tag</li>\\n  <li>On-board additional 2MB SPI flash</li>\\n  <li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>\\n  <li>Micro USB 2.0 full speed (12 Mbps)</li>\\n  <li>Integrated Li-Po charging and battery connector</li>\\n  <li>JTAG (SWD) Connector</li>\\n  <li>RGB status LED</li>\\n  <li>Reset and Mode buttons</li>\\n  <li>On-board PCB antenna</li>\\n  <li>U.FL connector for external antenna</li>\\n  <li>Meets the Feather&nbsp;<a href=\\\"https://learn.adafruit.com/adafruit-feather/feather-specification\\\">specification</a>&nbsp;in dimensions and pinout</li>\\n  <li>FCC, CE and IC certified</li>\\n  <li>RoHS compliant (lead-free)</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]}}",
-        "contentDigest": "e0d3cc50de9411faf73dc9aaba572b76",
-        "owner": "gatsby-source-kentico-cloud"
-      }
-    },
-    "1cdc52e0-f192-56d0-9be8-bf067389f52d": {
-      "system": {
-        "name": "The Argon",
-        "codename": "the_argon",
-        "id": "01fca6a0-6a2e-4bc2-b6dc-391250aea577",
-        "lastModified": "2018-10-10T02:45:32.9162464Z",
-        "language": "default",
-        "type": "device",
-        "sitemapLocations": []
-      },
-      "title": {
-        "name": "Title",
-        "value": "The Argon",
-        "type": "text",
-        "text": "The Argon"
-      },
-      "product_image": {
-        "name": "Product Image",
-        "value": [
-          {
-            "name": "argon-introducing.jpg",
-            "type": "image/jpeg",
-            "size": 37944,
-            "description": "The Argon",
-            "url": "https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/35343772-b201-4781-aef6-e7661ed46568/argon-introducing.jpg"
-          }
-        ],
-        "type": "asset",
-        "assets": [
-          {
-            "name": "argon-introducing.jpg",
-            "type": "image/jpeg",
-            "size": 37944,
-            "description": "The Argon",
-            "url": "https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/35343772-b201-4781-aef6-e7661ed46568/argon-introducing.jpg"
-          }
-        ]
-      },
-      "description": {
-        "name": "Description",
-        "value": "<p>Wi-Fi + Mesh Gateway/Repeater</p>",
-        "type": "rich_text",
-        "links": []
-      },
-      "price": {
-        "name": "Price",
-        "value": 25,
-        "type": "number",
-        "number": 25
-      },
-      "content": {
-        "name": "Content",
-        "value": "<p>The Argon is a powerful Wi-Fi enabled development kit that can act as either a standalone Wi-Fi endpoint or Wi-Fi enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.</p>\n<p>The Argon is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints.</p>",
-        "type": "rich_text",
-        "links": []
-      },
-      "specifications": {
-        "name": "Specifications",
-        "value": "<ul>\n  <li>On-board 4MB flash for ESP32\n    <ul>\n      <li>802.11 b/g/n support</li>\n      <li>802.11 n (2.4 GHz), up to 150 Mbps</li>\n      <li>ARM Cortex-M4F 32-bit processor @ 64MHz</li>\n      <li>1MB flash, 256KB RAM</li>\n      <li>IEEE 802.15.4-2006: 250 Kbps</li>\n      <li>Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps</li>\n      <li>Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations</li>\n      <li>ARM TrustZone CryptoCell-310 Cryptographic and security module</li>\n      <li>Up to +8 dBm TX power (down to -20 dBm in 4 dB steps)</li>\n      <li>NFC-A tag</li>\n    </ul>\n  </li>\n  <li>On-board additional 2MB SPI flash</li>\n  <li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>\n  <li>Micro USB 2.0 full speed (12 Mbps)</li>\n  <li>Integrated Li-Po charging and battery connector</li>\n  <li>JTAG (SWD) Connector</li>\n  <li>RGB status LED</li>\n  <li>Reset and Mode buttons</li>\n  <li>On-board 2.4GHz PCB antenna for Thread/BLE (does not support Wi-Fi)</li>\n  <li>Two U.FL connectors for external antennas (one for Thread/BLE, another for Wi-Fi)</li>\n  <li>Meets the Feather&nbsp;<a href=\"https://learn.adafruit.com/adafruit-feather/feather-specification\">specification</a>&nbsp;in dimensions and pinout</li>\n  <li>FCC, CE and IC certified</li>\n  <li>RoHS compliant (lead-free)</li>\n</ul>",
-        "type": "rich_text",
-        "links": []
-      },
-      "otherLanguages___NODE": [],
-      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
-      "id": "1cdc52e0-f192-56d0-9be8-bf067389f52d",
-      "parent": null,
-      "children": [],
-      "usedByContentItems___NODE": [],
-      "internal": {
-        "type": "KenticoCloudItemDevice",
-        "content": "{\"system\":{\"name\":\"The Argon\",\"codename\":\"the_argon\",\"id\":\"01fca6a0-6a2e-4bc2-b6dc-391250aea577\",\"lastModified\":\"2018-10-10T02:45:32.9162464Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"The Argon\",\"type\":\"text\",\"text\":\"The Argon\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[{\"name\":\"argon-introducing.jpg\",\"type\":\"image/jpeg\",\"size\":37944,\"description\":\"The Argon\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/35343772-b201-4781-aef6-e7661ed46568/argon-introducing.jpg\"}],\"type\":\"asset\",\"assets\":[{\"name\":\"argon-introducing.jpg\",\"type\":\"image/jpeg\",\"size\":37944,\"description\":\"The Argon\",\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/35343772-b201-4781-aef6-e7661ed46568/argon-introducing.jpg\"}]},\"description\":{\"name\":\"Description\",\"value\":\"<p>Wi-Fi + Mesh Gateway/Repeater</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":25,\"type\":\"number\",\"number\":25},\"content\":{\"name\":\"Content\",\"value\":\"<p>The Argon is a powerful Wi-Fi enabled development kit that can act as either a standalone Wi-Fi endpoint or Wi-Fi enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.</p>\\n<p>The Argon is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints.</p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<ul>\\n  <li>On-board 4MB flash for ESP32\\n    <ul>\\n      <li>802.11 b/g/n support</li>\\n      <li>802.11 n (2.4 GHz), up to 150 Mbps</li>\\n      <li>ARM Cortex-M4F 32-bit processor @ 64MHz</li>\\n      <li>1MB flash, 256KB RAM</li>\\n      <li>IEEE 802.15.4-2006: 250 Kbps</li>\\n      <li>Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps</li>\\n      <li>Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations</li>\\n      <li>ARM TrustZone CryptoCell-310 Cryptographic and security module</li>\\n      <li>Up to +8 dBm TX power (down to -20 dBm in 4 dB steps)</li>\\n      <li>NFC-A tag</li>\\n    </ul>\\n  </li>\\n  <li>On-board additional 2MB SPI flash</li>\\n  <li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>\\n  <li>Micro USB 2.0 full speed (12 Mbps)</li>\\n  <li>Integrated Li-Po charging and battery connector</li>\\n  <li>JTAG (SWD) Connector</li>\\n  <li>RGB status LED</li>\\n  <li>Reset and Mode buttons</li>\\n  <li>On-board 2.4GHz PCB antenna for Thread/BLE (does not support Wi-Fi)</li>\\n  <li>Two U.FL connectors for external antennas (one for Thread/BLE, another for Wi-Fi)</li>\\n  <li>Meets the Feather&nbsp;<a href=\\\"https://learn.adafruit.com/adafruit-feather/feather-specification\\\">specification</a>&nbsp;in dimensions and pinout</li>\\n  <li>FCC, CE and IC certified</li>\\n  <li>RoHS compliant (lead-free)</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]}}",
-        "contentDigest": "9711e7f0fa2c30aa5723ad7c993790c0",
+        "content": "{\"system\":{\"name\":\"Phaser\",\"codename\":\"phaser\",\"id\":\"eb1d2356-aaf8-47e3-86ec-b7a7aa771a3c\",\"lastModified\":\"2018-10-11T19:04:54.1510511Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Xenon\",\"type\":\"text\",\"text\":\"Xenon\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"\",\"type\":\"text\",\"text\":\"\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[{\"name\":\"xenon-angle_1_large.jpg\",\"type\":\"image/jpeg\",\"size\":14557,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/56d6f630-ff0d-46d8-8bf4-ffb6e452a11e/xenon-angle_1_large.jpg\"}],\"type\":\"asset\",\"assets\":[{\"name\":\"xenon-angle_1_large.jpg\",\"type\":\"image/jpeg\",\"size\":14557,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/56d6f630-ff0d-46d8-8bf4-ffb6e452a11e/xenon-angle_1_large.jpg\"}]},\"description\":{\"name\":\"Description\",\"value\":\"<p>IoT Development Board (Mesh + Bluetooth)</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":15,\"type\":\"number\",\"number\":15},\"content\":{\"name\":\"Content\",\"value\":\"<p>The Xenon is a low cost mesh-enabled development board that can act as either an endpoint or repeater within a Particle Mesh network.</p>\\n<p>The Xenon is mesh only and designed to function as the endpoint of your IoT network. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it’s easy to connect a Li-Po and deploy your local network in minutes.</p>\\n<p>The Xenon is best for connecting sensors, motors, pumps, valves, and points of data-interest. Pair it with an Argon or Boron gateway to get all that great data into the Device Cloud.</p>\\n<p>The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 10 free micro networks using a Wi-Fi or Ethernet gateway. Alternatively, all customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our&nbsp;<a href=\\\"https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-\\\">documentation</a>.</p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<ul>\\n  <li>Nordic Semiconductor nRF52840 SoC&nbsp;<br>\\n<br>\\n- ARM Cortex-M4F 32-bit processor @ 64MHz&nbsp;<br>\\n<br>\\n- 1MB flash, 256KB RAM&nbsp;<br>\\n<br>\\n- IEEE 802.15.4-2006: 250 Kbps&nbsp;<br>\\n<br>\\n- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps&nbsp;<br>\\n<br>\\n- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations&nbsp;<br>\\n<br>\\n- ARM TrustZone CryptoCell-310 Cryptographic and security module&nbsp;<br>\\n<br>\\n- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps)&nbsp;<br>\\n<br>\\n- NFC-A tag</li>\\n  <li>On-board additional 2MB SPI flash</li>\\n  <li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>\\n  <li>Micro USB 2.0 full speed (12 Mbps)</li>\\n  <li>Integrated Li-Po charging and battery connector</li>\\n  <li>JTAG (SWD) Connector</li>\\n  <li>RGB status LED</li>\\n  <li>Reset and Mode buttons</li>\\n  <li>On-board PCB antenna</li>\\n  <li>U.FL connector for external antenna</li>\\n  <li>Meets the Feather&nbsp;<a href=\\\"https://learn.adafruit.com/adafruit-feather/feather-specification\\\">specification</a>&nbsp;in dimensions and pinout</li>\\n  <li>FCC, CE and IC certified</li>\\n  <li>RoHS compliant (lead-free)</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "a14161e65df9ac4c0b657996823ab1d8",
         "owner": "gatsby-source-kentico-cloud"
       }
     },
     "bc5ddacf-adaf-5278-8022-528eb4a29174": {
       "system": {
-        "name": " E Series LTE Module",
-        "codename": "_e_series_lte_module",
-        "id": "f1ea43da-7ece-4447-a22a-b465c8731b27",
-        "lastModified": "2018-10-11T20:57:42.825163Z",
+        "name": "E Series LTE Module",
+        "codename": "e_series_lte_module",
+        "id": "ae3b5820-6819-5ad9-b15f-66a3276314aa",
+        "lastModified": "2018-10-12T22:02:18.6454836Z",
         "language": "default",
         "type": "device",
         "sitemapLocations": []
@@ -910,6 +847,12 @@
         "type": "text",
         "text": "E Series LTE Module"
       },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Prototype with the E Series, our industrialized cellular module line.",
+        "type": "text",
+        "text": "Prototype with the E Series, our industrialized cellular module line."
+      },
       "product_image": {
         "name": "Product Image",
         "value": [],
@@ -918,7 +861,7 @@
       },
       "description": {
         "name": "Description",
-        "value": "<p>Prototype with the E Series, our industrialized cellular module line.</p>",
+        "value": "<p><br></p>",
         "type": "rich_text",
         "links": []
       },
@@ -930,13 +873,13 @@
       },
       "content": {
         "name": "Content",
-        "value": "<p><strong>*Now available to order, shipping fall 2018. If you add additional items to your order, your entire order will not ship until fall 2018.*</strong></p>\n<p>The&nbsp;<a href=\"https://particle.io/e-series\"><strong>E Series</strong></a>&nbsp;is Particle’s newest product&nbsp;family of industrialized cellular IoT modules.&nbsp;The&nbsp;<a href=\"https://store.particle.io/#e-series-evaluation-kit\"><strong>E Series Evaluation Kit</strong></a><strong>&nbsp;</strong>provides everything&nbsp;you need to build your first industrial-grade proof-of-concept on the Particle platform.</p>\n<p><strong>E&nbsp;Series Product Features</strong></p>\n<p>All E Series modules include the following features:</p>\n<p>&nbsp;- Embedded SIM card, which resists vibration, corrosion, and mechanical failure &nbsp;<br>\n - Surface-mountable design, for PCB assembly in mass-production&nbsp;<br>\n - Industrial temperature range from -20 to 85C for deployment in hostile environments&nbsp;<br>\n - Pinout with support for LTE M1 and a seamless transition from 2G/3G (future-compatible for NB1)&nbsp;<br>\n - Fully certified design virtually eliminating the cost and complexity of RF and carrier compliance&nbsp;<br>\n -&nbsp;Built-in compatibility with Particle's development tools, messaging platform, and device management console</p>\n<p>The E402 module supports LTE M1 connectivity.</p>\n<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>\n<ul>\n  <li>Access to the Device Cloud includes:</li>\n  <li><strong>3MB</strong>&nbsp;of cellular data per device/mo (additional data&nbsp;<a href=\"https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs\">$0.40/MB for most countries</a>)</li>\n  <li>First 3 months of Device Cloud&nbsp;<strong>FREE</strong>&nbsp;($2.99 per device/mo after)</li>\n  <li>Device Cloud Features:&nbsp;<br>\n<br>\n- Device Management&nbsp;<br>\n<br>\n- Over the Air Firmware Updates&nbsp;<br>\n<br>\n- Fully Managed Connectivity&nbsp;<br>\n<br>\n- Developer Tools&nbsp;<br>\n<br>\n- Integrations</li>\n</ul>",
+        "value": "<p><br></p>",
         "type": "rich_text",
         "links": []
       },
       "specifications": {
         "name": "Specifications",
-        "value": "<ul>\n  <li>STM32F205 ARM Cortex M3 microcontroller</li>\n  <li>1MB Flash, 128K RAM</li>\n  <li>Cellular modem: u-blox SARA U-series (LTE M1)</li>\n  <li>36 pins total:&nbsp;28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</li>\n  <li>Board dimensions:&nbsp;36mm x 43mm&nbsp;</li>\n</ul>",
+        "value": "<p><br></p>",
         "type": "rich_text",
         "links": []
       },
@@ -948,8 +891,8 @@
       "usedByContentItems___NODE": [],
       "internal": {
         "type": "KenticoCloudItemDevice",
-        "content": "{\"system\":{\"name\":\" E Series LTE Module\",\"codename\":\"_e_series_lte_module\",\"id\":\"f1ea43da-7ece-4447-a22a-b465c8731b27\",\"lastModified\":\"2018-10-11T20:57:42.825163Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"E Series LTE Module\",\"type\":\"text\",\"text\":\"E Series LTE Module\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p>Prototype with the E Series, our industrialized cellular module line.</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":69,\"type\":\"number\",\"number\":69},\"content\":{\"name\":\"Content\",\"value\":\"<p><strong>*Now available to order, shipping fall 2018. If you add additional items to your order, your entire order will not ship until fall 2018.*</strong></p>\\n<p>The&nbsp;<a href=\\\"https://particle.io/e-series\\\"><strong>E Series</strong></a>&nbsp;is Particle’s newest product&nbsp;family of industrialized cellular IoT modules.&nbsp;The&nbsp;<a href=\\\"https://store.particle.io/#e-series-evaluation-kit\\\"><strong>E Series Evaluation Kit</strong></a><strong>&nbsp;</strong>provides everything&nbsp;you need to build your first industrial-grade proof-of-concept on the Particle platform.</p>\\n<p><strong>E&nbsp;Series Product Features</strong></p>\\n<p>All E Series modules include the following features:</p>\\n<p>&nbsp;- Embedded SIM card, which resists vibration, corrosion, and mechanical failure &nbsp;<br>\\n - Surface-mountable design, for PCB assembly in mass-production&nbsp;<br>\\n - Industrial temperature range from -20 to 85C for deployment in hostile environments&nbsp;<br>\\n - Pinout with support for LTE M1 and a seamless transition from 2G/3G (future-compatible for NB1)&nbsp;<br>\\n - Fully certified design virtually eliminating the cost and complexity of RF and carrier compliance&nbsp;<br>\\n -&nbsp;Built-in compatibility with Particle's development tools, messaging platform, and device management console</p>\\n<p>The E402 module supports LTE M1 connectivity.</p>\\n<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>\\n<ul>\\n  <li>Access to the Device Cloud includes:</li>\\n  <li><strong>3MB</strong>&nbsp;of cellular data per device/mo (additional data&nbsp;<a href=\\\"https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs\\\">$0.40/MB for most countries</a>)</li>\\n  <li>First 3 months of Device Cloud&nbsp;<strong>FREE</strong>&nbsp;($2.99 per device/mo after)</li>\\n  <li>Device Cloud Features:&nbsp;<br>\\n<br>\\n- Device Management&nbsp;<br>\\n<br>\\n- Over the Air Firmware Updates&nbsp;<br>\\n<br>\\n- Fully Managed Connectivity&nbsp;<br>\\n<br>\\n- Developer Tools&nbsp;<br>\\n<br>\\n- Integrations</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<ul>\\n  <li>STM32F205 ARM Cortex M3 microcontroller</li>\\n  <li>1MB Flash, 128K RAM</li>\\n  <li>Cellular modem: u-blox SARA U-series (LTE M1)</li>\\n  <li>36 pins total:&nbsp;28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</li>\\n  <li>Board dimensions:&nbsp;36mm x 43mm&nbsp;</li>\\n</ul>\",\"type\":\"rich_text\",\"links\":[]}}",
-        "contentDigest": "3dae2fb80334befb345090c8b3184a85",
+        "content": "{\"system\":{\"name\":\"E Series LTE Module\",\"codename\":\"e_series_lte_module\",\"id\":\"ae3b5820-6819-5ad9-b15f-66a3276314aa\",\"lastModified\":\"2018-10-12T22:02:18.6454836Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"E Series LTE Module\",\"type\":\"text\",\"text\":\"E Series LTE Module\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Prototype with the E Series, our industrialized cellular module line.\",\"type\":\"text\",\"text\":\"Prototype with the E Series, our industrialized cellular module line.\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":69,\"type\":\"number\",\"number\":69},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "9b89639e771d1a6f9b45e74c9f727c1e",
         "owner": "gatsby-source-kentico-cloud"
       }
     },
@@ -968,6 +911,12 @@
         "value": "Particle Debugger",
         "type": "text",
         "text": "Particle Debugger"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "",
+        "type": "text",
+        "text": ""
       },
       "product_image": {
         "name": "Product Image",
@@ -1023,8 +972,2803 @@
       "usedByContentItems___NODE": [],
       "internal": {
         "type": "KenticoCloudItemDevice",
-        "content": "{\"system\":{\"name\":\"Particle Debugger\",\"codename\":\"particle_debugger\",\"id\":\"204061b6-f0b9-4a59-ae66-666c57fc71ee\",\"lastModified\":\"2018-10-11T20:54:48.3484686Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Particle Debugger\",\"type\":\"text\",\"text\":\"Particle Debugger\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[{\"name\":\"debugger_large.jpg\",\"type\":\"image/jpeg\",\"size\":11249,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/c51073da-c652-47a3-8c7f-6c3e67fbda6a/debugger_large.jpg\"}],\"type\":\"asset\",\"assets\":[{\"name\":\"debugger_large.jpg\",\"type\":\"image/jpeg\",\"size\":11249,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/c51073da-c652-47a3-8c7f-6c3e67fbda6a/debugger_large.jpg\"}]},\"description\":{\"name\":\"Description\",\"value\":\"<p>Professional debugging at a fraction of the cost</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":20,\"type\":\"number\",\"number\":20},\"content\":{\"name\":\"Content\",\"value\":\"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>\\n<p>The Particle Debugger gives you the power of professional debugging at a fraction of the cost. Using this accessory, you’ll be able to program Particle mesh-ready hardware over common interfaces like JTAG and SWD, using open source tools like GDB.</p>\\n<p>Supports the open source CMSIS-DAP specification and DAPLink firmware developed by ARM.</p>\\n<p>Comes with one JTAG ribbon cable.</p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p>Comes with one JTAG ribbon cable.</p>\",\"type\":\"rich_text\",\"links\":[]}}",
-        "contentDigest": "c37e636a676b898f0cc6aaba603c1775",
+        "content": "{\"system\":{\"name\":\"Particle Debugger\",\"codename\":\"particle_debugger\",\"id\":\"204061b6-f0b9-4a59-ae66-666c57fc71ee\",\"lastModified\":\"2018-10-11T20:54:48.3484686Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Particle Debugger\",\"type\":\"text\",\"text\":\"Particle Debugger\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"\",\"type\":\"text\",\"text\":\"\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[{\"name\":\"debugger_large.jpg\",\"type\":\"image/jpeg\",\"size\":11249,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/c51073da-c652-47a3-8c7f-6c3e67fbda6a/debugger_large.jpg\"}],\"type\":\"asset\",\"assets\":[{\"name\":\"debugger_large.jpg\",\"type\":\"image/jpeg\",\"size\":11249,\"description\":null,\"url\":\"https://assets-us-01.kc-usercontent.com:443/34b491b4-c966-0045-dcf1-a81e969da44b/c51073da-c652-47a3-8c7f-6c3e67fbda6a/debugger_large.jpg\"}]},\"description\":{\"name\":\"Description\",\"value\":\"<p>Professional debugging at a fraction of the cost</p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":20,\"type\":\"number\",\"number\":20},\"content\":{\"name\":\"Content\",\"value\":\"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>\\n<p>The Particle Debugger gives you the power of professional debugging at a fraction of the cost. Using this accessory, you’ll be able to program Particle mesh-ready hardware over common interfaces like JTAG and SWD, using open source tools like GDB.</p>\\n<p>Supports the open source CMSIS-DAP specification and DAPLink firmware developed by ARM.</p>\\n<p>Comes with one JTAG ribbon cable.</p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p>Comes with one JTAG ribbon cable.</p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "d700281a2f1862b7ad2bc2dca3bb697d",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "1c9dd0a9-a11a-5291-812e-0799c514dbe9": {
+      "system": {
+        "name": "Adafruit FeatherWing OLED",
+        "codename": "adafruit_featherwing_oled",
+        "id": "f881a965-1a4d-573b-82bd-d11430c98a81",
+        "lastModified": "2018-10-12T22:02:16.5829701Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Adafruit FeatherWing OLED",
+        "type": "text",
+        "text": "Adafruit FeatherWing OLED"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Add a mini user interface to any Feather main board",
+        "type": "text",
+        "text": "Add a mini user interface to any Feather main board"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 14.95,
+        "type": "number",
+        "number": 14.95
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "1c9dd0a9-a11a-5291-812e-0799c514dbe9",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Adafruit FeatherWing OLED\",\"codename\":\"adafruit_featherwing_oled\",\"id\":\"f881a965-1a4d-573b-82bd-d11430c98a81\",\"lastModified\":\"2018-10-12T22:02:16.5829701Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Adafruit FeatherWing OLED\",\"type\":\"text\",\"text\":\"Adafruit FeatherWing OLED\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Add a mini user interface to any Feather main board\",\"type\":\"text\",\"text\":\"Add a mini user interface to any Feather main board\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":14.95,\"type\":\"number\",\"number\":14.95},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "00863cc3869709d958dc22b46663c11e",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "a695b4de-ad93-5c73-a333-67a0f755d25d": {
+      "system": {
+        "name": "Adafruit INA219 FeatherWing",
+        "codename": "adafruit_ina219_featherwing",
+        "id": "c650a859-3a15-5d95-8df9-01fe3340fccc",
+        "lastModified": "2018-10-12T22:02:15.9735621Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Adafruit INA219 FeatherWing",
+        "type": "text",
+        "text": "Adafruit INA219 FeatherWing"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "The Adafruit INA219 FeatherWing makes power-monitoring problems a thing of the past",
+        "type": "text",
+        "text": "The Adafruit INA219 FeatherWing makes power-monitoring problems a thing of the past"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 7.95,
+        "type": "number",
+        "number": 7.95
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "a695b4de-ad93-5c73-a333-67a0f755d25d",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Adafruit INA219 FeatherWing\",\"codename\":\"adafruit_ina219_featherwing\",\"id\":\"c650a859-3a15-5d95-8df9-01fe3340fccc\",\"lastModified\":\"2018-10-12T22:02:15.9735621Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Adafruit INA219 FeatherWing\",\"type\":\"text\",\"text\":\"Adafruit INA219 FeatherWing\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"The Adafruit INA219 FeatherWing makes power-monitoring problems a thing of the past\",\"type\":\"text\",\"text\":\"The Adafruit INA219 FeatherWing makes power-monitoring problems a thing of the past\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":7.95,\"type\":\"number\",\"number\":7.95},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "f9e083cabd5823cf77ed7a5e0c0f4859",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "59f6b330-258c-526b-881d-e1a38b866670": {
+      "system": {
+        "name": "Adafruit Power Relay FeatherWing",
+        "codename": "adafruit_power_relay_featherwing",
+        "id": "23ccd570-8e0a-585b-8af1-05102be8628d",
+        "lastModified": "2018-10-12T22:02:17.1142045Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Adafruit Power Relay FeatherWing",
+        "type": "text",
+        "text": "Adafruit Power Relay FeatherWing"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "The Power Relay FeatherWing gives you power to control, and control over power",
+        "type": "text",
+        "text": "The Power Relay FeatherWing gives you power to control, and control over power"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 9.95,
+        "type": "number",
+        "number": 9.95
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "59f6b330-258c-526b-881d-e1a38b866670",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Adafruit Power Relay FeatherWing\",\"codename\":\"adafruit_power_relay_featherwing\",\"id\":\"23ccd570-8e0a-585b-8af1-05102be8628d\",\"lastModified\":\"2018-10-12T22:02:17.1142045Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Adafruit Power Relay FeatherWing\",\"type\":\"text\",\"text\":\"Adafruit Power Relay FeatherWing\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"The Power Relay FeatherWing gives you power to control, and control over power\",\"type\":\"text\",\"text\":\"The Power Relay FeatherWing gives you power to control, and control over power\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":9.95,\"type\":\"number\",\"number\":9.95},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "eb40af1704c4c9d23afec6019ed033be",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "db6c5220-b388-5773-9d82-01dd46c7e50a": {
+      "system": {
+        "name": "Argon",
+        "codename": "argon",
+        "id": "bd536f3d-70ca-56f6-abd0-88032e0546f5",
+        "lastModified": "2018-10-12T22:02:10.8610189Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Argon",
+        "type": "text",
+        "text": "Argon"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "IoT Development Board (Wi-Fi + Mesh + Bluetooth)",
+        "type": "text",
+        "text": "IoT Development Board (Wi-Fi + Mesh + Bluetooth)"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 25,
+        "type": "number",
+        "number": 25
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "db6c5220-b388-5773-9d82-01dd46c7e50a",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Argon\",\"codename\":\"argon\",\"id\":\"bd536f3d-70ca-56f6-abd0-88032e0546f5\",\"lastModified\":\"2018-10-12T22:02:10.8610189Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Argon\",\"type\":\"text\",\"text\":\"Argon\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"IoT Development Board (Wi-Fi + Mesh + Bluetooth)\",\"type\":\"text\",\"text\":\"IoT Development Board (Wi-Fi + Mesh + Bluetooth)\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":25,\"type\":\"number\",\"number\":25},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "fc4c25cd3d760d5d832d40afa20922a1",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "7cc078a7-abc4-5c36-a10e-720658c2434e": {
+      "system": {
+        "name": "Argon Kits",
+        "codename": "argon_kits",
+        "id": "a782d680-f5fa-506d-9089-ee1c554a3a57",
+        "lastModified": "2018-10-12T21:38:50.3454082Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "",
+        "type": "text",
+        "text": ""
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "",
+        "type": "text",
+        "text": ""
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": null,
+        "type": "number",
+        "number": null
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "7cc078a7-abc4-5c36-a10e-720658c2434e",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Argon Kits\",\"codename\":\"argon_kits\",\"id\":\"a782d680-f5fa-506d-9089-ee1c554a3a57\",\"lastModified\":\"2018-10-12T21:38:50.3454082Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"\",\"type\":\"text\",\"text\":\"\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"\",\"type\":\"text\",\"text\":\"\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":null,\"type\":\"number\",\"number\":null},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "5beb315cd998be22a701dfdb10646b75",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "d5e55cba-a6dc-5424-9d72-478bf6437ea3": {
+      "system": {
+        "name": "Assest Track Kit V2",
+        "codename": "assest_track_kit_v2",
+        "id": "5d611a69-13be-5d8b-8aec-9f2863c9a011",
+        "lastModified": "2018-10-12T22:02:21.2392778Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Assest Track Kit V2",
+        "type": "text",
+        "text": "Assest Track Kit V2"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Track your valuables with an Electron + GPS",
+        "type": "text",
+        "text": "Track your valuables with an Electron + GPS"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 109,
+        "type": "number",
+        "number": 109
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "d5e55cba-a6dc-5424-9d72-478bf6437ea3",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Assest Track Kit V2\",\"codename\":\"assest_track_kit_v2\",\"id\":\"5d611a69-13be-5d8b-8aec-9f2863c9a011\",\"lastModified\":\"2018-10-12T22:02:21.2392778Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Assest Track Kit V2\",\"type\":\"text\",\"text\":\"Assest Track Kit V2\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Track your valuables with an Electron + GPS\",\"type\":\"text\",\"text\":\"Track your valuables with an Electron + GPS\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":109,\"type\":\"number\",\"number\":109},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "81eab54730ad418f49e1e5a9169506cf",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "eaec8738-f8a7-55ec-bba4-8d35a20de406": {
+      "system": {
+        "name": "Asset Tracker v2 Components",
+        "codename": "asset_tracker_v2_components",
+        "id": "8bb5d449-717c-53d5-a104-f6e8bcfb8462",
+        "lastModified": "2018-10-12T22:02:22.1611706Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Asset Tracker v2 Components",
+        "type": "text",
+        "text": "Asset Tracker v2 Components"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Asset Tracker Shield & Enclosure",
+        "type": "text",
+        "text": "Asset Tracker Shield & Enclosure"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 72,
+        "type": "number",
+        "number": 72
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "eaec8738-f8a7-55ec-bba4-8d35a20de406",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Asset Tracker v2 Components\",\"codename\":\"asset_tracker_v2_components\",\"id\":\"8bb5d449-717c-53d5-a104-f6e8bcfb8462\",\"lastModified\":\"2018-10-12T22:02:22.1611706Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Asset Tracker v2 Components\",\"type\":\"text\",\"text\":\"Asset Tracker v2 Components\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Asset Tracker Shield & Enclosure\",\"type\":\"text\",\"text\":\"Asset Tracker Shield & Enclosure\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":72,\"type\":\"number\",\"number\":72},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "818f017b014a71636ac843578f2b01b8",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "6a5f1c4d-8607-5326-bc43-5d2cfd2ce751": {
+      "system": {
+        "name": "Boron 2G/3G Kit",
+        "codename": "boron_2g_3g_kit",
+        "id": "c53cd7e3-def7-5d4c-9869-83557e84903f",
+        "lastModified": "2018-10-12T22:02:12.3485039Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Boron 2G/3G Kit",
+        "type": "text",
+        "text": "Boron 2G/3G Kit"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "IoT Development Kit (Cellular + Mesh + Bluetooth)",
+        "type": "text",
+        "text": "IoT Development Kit (Cellular + Mesh + Bluetooth)"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 69,
+        "type": "number",
+        "number": 69
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "6a5f1c4d-8607-5326-bc43-5d2cfd2ce751",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Boron 2G/3G Kit\",\"codename\":\"boron_2g_3g_kit\",\"id\":\"c53cd7e3-def7-5d4c-9869-83557e84903f\",\"lastModified\":\"2018-10-12T22:02:12.3485039Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Boron 2G/3G Kit\",\"type\":\"text\",\"text\":\"Boron 2G/3G Kit\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"IoT Development Kit (Cellular + Mesh + Bluetooth)\",\"type\":\"text\",\"text\":\"IoT Development Kit (Cellular + Mesh + Bluetooth)\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":69,\"type\":\"number\",\"number\":69},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "f3271f1fbe5d8f798d4951101ecfbade",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "1cf0ccab-0e29-5fad-9b32-5e649de70c4c": {
+      "system": {
+        "name": "Boron LTE",
+        "codename": "boron_lte",
+        "id": "0026a86f-9f71-4a06-ad49-67f2f460e98a",
+        "lastModified": "2018-10-12T15:22:04.0194974Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "",
+        "type": "text",
+        "text": ""
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "",
+        "type": "text",
+        "text": ""
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": null,
+        "type": "number",
+        "number": null
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "1cf0ccab-0e29-5fad-9b32-5e649de70c4c",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Boron LTE\",\"codename\":\"boron_lte\",\"id\":\"0026a86f-9f71-4a06-ad49-67f2f460e98a\",\"lastModified\":\"2018-10-12T15:22:04.0194974Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"\",\"type\":\"text\",\"text\":\"\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"\",\"type\":\"text\",\"text\":\"\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":null,\"type\":\"number\",\"number\":null},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "435bb747bb03f6a695c55f226b9e6dbc",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "8559e85c-6831-56f0-b96f-87c80b7a5b68": {
+      "system": {
+        "name": "Boron LTE",
+        "codename": "boron_lte_6339b89",
+        "id": "6339b898-428d-5746-a183-882b4454c863",
+        "lastModified": "2018-10-12T22:02:11.8143119Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Boron LTE",
+        "type": "text",
+        "text": "Boron LTE"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "IoT Development Board (Cellular + Mesh + Bluetooth)",
+        "type": "text",
+        "text": "IoT Development Board (Cellular + Mesh + Bluetooth)"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 49,
+        "type": "number",
+        "number": 49
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "8559e85c-6831-56f0-b96f-87c80b7a5b68",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Boron LTE\",\"codename\":\"boron_lte_6339b89\",\"id\":\"6339b898-428d-5746-a183-882b4454c863\",\"lastModified\":\"2018-10-12T22:02:11.8143119Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Boron LTE\",\"type\":\"text\",\"text\":\"Boron LTE\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"IoT Development Board (Cellular + Mesh + Bluetooth)\",\"type\":\"text\",\"text\":\"IoT Development Board (Cellular + Mesh + Bluetooth)\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":49,\"type\":\"number\",\"number\":49},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "976dfce20409bf73058de297e427e16f",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "aebd8a59-6987-5047-90a2-7ef269edf1a2": {
+      "system": {
+        "name": "Boron LTE Kit",
+        "codename": "boron_lte_kit",
+        "id": "7bd94f76-4485-486c-8c06-76f3813eaf69",
+        "lastModified": "2018-10-12T15:21:49.734616Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "",
+        "type": "text",
+        "text": ""
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "",
+        "type": "text",
+        "text": ""
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": null,
+        "type": "number",
+        "number": null
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "aebd8a59-6987-5047-90a2-7ef269edf1a2",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Boron LTE Kit\",\"codename\":\"boron_lte_kit\",\"id\":\"7bd94f76-4485-486c-8c06-76f3813eaf69\",\"lastModified\":\"2018-10-12T15:21:49.734616Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"\",\"type\":\"text\",\"text\":\"\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"\",\"type\":\"text\",\"text\":\"\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":null,\"type\":\"number\",\"number\":null},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "ef7a9701e50030d9716b0eaec612fd88",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "9994ad54-5f72-5167-b390-e7a9bd193b60": {
+      "system": {
+        "name": "Boron LTE Kit",
+        "codename": "boron_lte_kit_3fa8ca6",
+        "id": "3fa8ca63-c492-52b1-bfd8-9687310692b7",
+        "lastModified": "2018-10-12T22:02:11.3768058Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Boron LTE Kit",
+        "type": "text",
+        "text": "Boron LTE Kit"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "IoT Development Kit (Cellular + Mesh + Bluetooth)",
+        "type": "text",
+        "text": "IoT Development Kit (Cellular + Mesh + Bluetooth)"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 59,
+        "type": "number",
+        "number": 59
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "9994ad54-5f72-5167-b390-e7a9bd193b60",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Boron LTE Kit\",\"codename\":\"boron_lte_kit_3fa8ca6\",\"id\":\"3fa8ca63-c492-52b1-bfd8-9687310692b7\",\"lastModified\":\"2018-10-12T22:02:11.3768058Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Boron LTE Kit\",\"type\":\"text\",\"text\":\"Boron LTE Kit\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"IoT Development Kit (Cellular + Mesh + Bluetooth)\",\"type\":\"text\",\"text\":\"IoT Development Kit (Cellular + Mesh + Bluetooth)\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":59,\"type\":\"number\",\"number\":59},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "e0e71f51863b1746f31fa3cb4683659f",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "a399da9f-feb2-51d0-a44f-33c410cbfa74": {
+      "system": {
+        "name": "Cellular Antenna",
+        "codename": "cellular_antenna",
+        "id": "af8638be-014f-553b-bcaf-3f992af03778",
+        "lastModified": "2018-10-12T22:02:31.4738495Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Cellular Antenna",
+        "type": "text",
+        "text": "Cellular Antenna"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Add an extra Taoglas GSM antenna to improve reception in cellular projects",
+        "type": "text",
+        "text": "Add an extra Taoglas GSM antenna to improve reception in cellular projects"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 10,
+        "type": "number",
+        "number": 10
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "a399da9f-feb2-51d0-a44f-33c410cbfa74",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Cellular Antenna\",\"codename\":\"cellular_antenna\",\"id\":\"af8638be-014f-553b-bcaf-3f992af03778\",\"lastModified\":\"2018-10-12T22:02:31.4738495Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Cellular Antenna\",\"type\":\"text\",\"text\":\"Cellular Antenna\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Add an extra Taoglas GSM antenna to improve reception in cellular projects\",\"type\":\"text\",\"text\":\"Add an extra Taoglas GSM antenna to improve reception in cellular projects\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":10,\"type\":\"number\",\"number\":10},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "589e75189337017be48585f0ad3505ad",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "08a86c0b-fc2b-52fb-aad7-53434bf30707": {
+      "system": {
+        "name": "E Series 3G Module (Global)",
+        "codename": "e_series_3g_module__global_",
+        "id": "b2ed1822-1d3e-587f-bcd2-4ab8d671d150",
+        "lastModified": "2018-10-12T22:02:19.176753Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "E Series 3G Module (Global)",
+        "type": "text",
+        "text": "E Series 3G Module (Global)"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Prototype with the E Series, our industrialized cellular module line",
+        "type": "text",
+        "text": "Prototype with the E Series, our industrialized cellular module line"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 79,
+        "type": "number",
+        "number": 79
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "08a86c0b-fc2b-52fb-aad7-53434bf30707",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"E Series 3G Module (Global)\",\"codename\":\"e_series_3g_module__global_\",\"id\":\"b2ed1822-1d3e-587f-bcd2-4ab8d671d150\",\"lastModified\":\"2018-10-12T22:02:19.176753Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"E Series 3G Module (Global)\",\"type\":\"text\",\"text\":\"E Series 3G Module (Global)\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Prototype with the E Series, our industrialized cellular module line\",\"type\":\"text\",\"text\":\"Prototype with the E Series, our industrialized cellular module line\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":79,\"type\":\"number\",\"number\":79},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "e137e21d3e513c5b18133deb47dfb306",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "48162e6b-3db4-5dd9-9a70-e2bcba1a0309": {
+      "system": {
+        "name": "E Series Evaluation Kit 2G/3G or LTE",
+        "codename": "e_series_evaluation_kit_2g_3g_or_lte",
+        "id": "3e553ad5-9083-593b-8236-08acb9ab354c",
+        "lastModified": "2018-10-12T22:02:18.1142165Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "E Series Evaluation Kit 2G/3G or LTE",
+        "type": "text",
+        "text": "E Series Evaluation Kit 2G/3G or LTE"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Prototype with the E Series, our industrialized cellular module line.",
+        "type": "text",
+        "text": "Prototype with the E Series, our industrialized cellular module line."
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 99,
+        "type": "number",
+        "number": 99
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "48162e6b-3db4-5dd9-9a70-e2bcba1a0309",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"E Series Evaluation Kit 2G/3G or LTE\",\"codename\":\"e_series_evaluation_kit_2g_3g_or_lte\",\"id\":\"3e553ad5-9083-593b-8236-08acb9ab354c\",\"lastModified\":\"2018-10-12T22:02:18.1142165Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"E Series Evaluation Kit 2G/3G or LTE\",\"type\":\"text\",\"text\":\"E Series Evaluation Kit 2G/3G or LTE\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Prototype with the E Series, our industrialized cellular module line.\",\"type\":\"text\",\"text\":\"Prototype with the E Series, our industrialized cellular module line.\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":99,\"type\":\"number\",\"number\":99},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "ff5f176fdfcea780976b53ae2f1193b0",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "209c3521-ae12-504f-8bd7-044b38b65ed1": {
+      "system": {
+        "name": "Electron 2G Kit (Global)",
+        "codename": "electron_2g_kit__global_",
+        "id": "aa53279e-982c-56aa-8a72-533396b31a2b",
+        "lastModified": "2018-10-12T22:02:20.5048876Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Electron 2G Kit (Global)",
+        "type": "text",
+        "text": "Electron 2G Kit (Global)"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "A tiny development kit for creating 2G cellular connected products",
+        "type": "text",
+        "text": "A tiny development kit for creating 2G cellular connected products"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 49,
+        "type": "number",
+        "number": 49
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "209c3521-ae12-504f-8bd7-044b38b65ed1",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Electron 2G Kit (Global)\",\"codename\":\"electron_2g_kit__global_\",\"id\":\"aa53279e-982c-56aa-8a72-533396b31a2b\",\"lastModified\":\"2018-10-12T22:02:20.5048876Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Electron 2G Kit (Global)\",\"type\":\"text\",\"text\":\"Electron 2G Kit (Global)\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"A tiny development kit for creating 2G cellular connected products\",\"type\":\"text\",\"text\":\"A tiny development kit for creating 2G cellular connected products\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":49,\"type\":\"number\",\"number\":49},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "9a10026935a71d3ec1ffb356bc6d86b9",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "d86b8255-fa36-5908-8152-ab81341f3d4b": {
+      "system": {
+        "name": "Electron 3G Kit (Americas/Aus)",
+        "codename": "electron_3g_kit__americas_aus_",
+        "id": "e5603943-8e50-5eef-a537-89c1d2a77e2c",
+        "lastModified": "2018-10-12T22:02:19.5830161Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Electron 3G Kit (Americas/Aus)",
+        "type": "text",
+        "text": "Electron 3G Kit (Americas/Aus)"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "A tiny development kit for creating 3G cellular connected products",
+        "type": "text",
+        "text": "A tiny development kit for creating 3G cellular connected products"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 69,
+        "type": "number",
+        "number": 69
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "d86b8255-fa36-5908-8152-ab81341f3d4b",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Electron 3G Kit (Americas/Aus)\",\"codename\":\"electron_3g_kit__americas_aus_\",\"id\":\"e5603943-8e50-5eef-a537-89c1d2a77e2c\",\"lastModified\":\"2018-10-12T22:02:19.5830161Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Electron 3G Kit (Americas/Aus)\",\"type\":\"text\",\"text\":\"Electron 3G Kit (Americas/Aus)\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"A tiny development kit for creating 3G cellular connected products\",\"type\":\"text\",\"text\":\"A tiny development kit for creating 3G cellular connected products\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":69,\"type\":\"number\",\"number\":69},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "88a5e7bf7b29076d210c3aaa9740a6d7",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "05c2424e-5f41-532e-a7ed-26b9c2c6e175": {
+      "system": {
+        "name": "Electron 3G Kit (Eur/Asia/Afr)",
+        "codename": "electron_3g_kit__eur_asia_afr_",
+        "id": "0fc37cdf-7454-5d4b-b25c-a6d57641a313",
+        "lastModified": "2018-10-12T22:02:20.0205099Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Electron 3G Kit (Eur/Asia/Afr)",
+        "type": "text",
+        "text": "Electron 3G Kit (Eur/Asia/Afr)"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "A tiny development kit for creating 3G cellular connected products",
+        "type": "text",
+        "text": "A tiny development kit for creating 3G cellular connected products"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 69,
+        "type": "number",
+        "number": 69
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "05c2424e-5f41-532e-a7ed-26b9c2c6e175",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Electron 3G Kit (Eur/Asia/Afr)\",\"codename\":\"electron_3g_kit__eur_asia_afr_\",\"id\":\"0fc37cdf-7454-5d4b-b25c-a6d57641a313\",\"lastModified\":\"2018-10-12T22:02:20.0205099Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Electron 3G Kit (Eur/Asia/Afr)\",\"type\":\"text\",\"text\":\"Electron 3G Kit (Eur/Asia/Afr)\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"A tiny development kit for creating 3G cellular connected products\",\"type\":\"text\",\"text\":\"A tiny development kit for creating 3G cellular connected products\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":69,\"type\":\"number\",\"number\":69},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "0447401b26aa8bf895cfc75cbec6aeeb",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "2be7210d-f1cf-51ab-bb23-cb7009addb42": {
+      "system": {
+        "name": "Grove Starter Kit for Particle Mesh",
+        "codename": "grove_starter_kit_for_particle_mesh",
+        "id": "723603e6-622b-51c1-baee-c3b57ed6984d",
+        "lastModified": "2018-10-12T22:02:17.6454571Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Grove Starter Kit for Particle Mesh",
+        "type": "text",
+        "text": "Grove Starter Kit for Particle Mesh"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Explore the world of sensing with Particle Mesh",
+        "type": "text",
+        "text": "Explore the world of sensing with Particle Mesh"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 35,
+        "type": "number",
+        "number": 35
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "2be7210d-f1cf-51ab-bb23-cb7009addb42",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Grove Starter Kit for Particle Mesh\",\"codename\":\"grove_starter_kit_for_particle_mesh\",\"id\":\"723603e6-622b-51c1-baee-c3b57ed6984d\",\"lastModified\":\"2018-10-12T22:02:17.6454571Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Grove Starter Kit for Particle Mesh\",\"type\":\"text\",\"text\":\"Grove Starter Kit for Particle Mesh\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Explore the world of sensing with Particle Mesh\",\"type\":\"text\",\"text\":\"Explore the world of sensing with Particle Mesh\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":35,\"type\":\"number\",\"number\":35},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "beacd208e087e6922986baccc35c50ce",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "635563a9-22eb-5a05-b1bf-6a174a918f13": {
+      "system": {
+        "name": "Internet Button",
+        "codename": "internet_button",
+        "id": "205ba746-094a-5ad9-9a9e-5b4b324f9fd1",
+        "lastModified": "2018-10-12T22:02:24.864347Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Internet Button",
+        "type": "text",
+        "text": "Internet Button"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Connected with IFTTT, it combines hardware, sensors, and connectivity into one package",
+        "type": "text",
+        "text": "Connected with IFTTT, it combines hardware, sensors, and connectivity into one package"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 49,
+        "type": "number",
+        "number": 49
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "635563a9-22eb-5a05-b1bf-6a174a918f13",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Internet Button\",\"codename\":\"internet_button\",\"id\":\"205ba746-094a-5ad9-9a9e-5b4b324f9fd1\",\"lastModified\":\"2018-10-12T22:02:24.864347Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Internet Button\",\"type\":\"text\",\"text\":\"Internet Button\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Connected with IFTTT, it combines hardware, sensors, and connectivity into one package\",\"type\":\"text\",\"text\":\"Connected with IFTTT, it combines hardware, sensors, and connectivity into one package\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":49,\"type\":\"number\",\"number\":49},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "6613d98fb144706f45578fb908345ca4",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "509187df-172c-5268-8f35-e5a98c3273db": {
+      "system": {
+        "name": "Li-Po Battery",
+        "codename": "li_po_battery",
+        "id": "86d060e1-6c17-531a-8238-8625c959dadc",
+        "lastModified": "2018-10-12T22:02:32.348874Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Li-Po Battery",
+        "type": "text",
+        "text": "Li-Po Battery"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Small, light and powerful 3.7V Li-Po battery",
+        "type": "text",
+        "text": "Small, light and powerful 3.7V Li-Po battery"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 9,
+        "type": "number",
+        "number": 9
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "509187df-172c-5268-8f35-e5a98c3273db",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Li-Po Battery\",\"codename\":\"li_po_battery\",\"id\":\"86d060e1-6c17-531a-8238-8625c959dadc\",\"lastModified\":\"2018-10-12T22:02:32.348874Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Li-Po Battery\",\"type\":\"text\",\"text\":\"Li-Po Battery\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Small, light and powerful 3.7V Li-Po battery\",\"type\":\"text\",\"text\":\"Small, light and powerful 3.7V Li-Po battery\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":9,\"type\":\"number\",\"number\":9},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "209966a66512697314e57a4df2711738",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "02177d4c-b389-5b39-8164-95cd4c2eb58a": {
+      "system": {
+        "name": "P0 - Particle Wi-Fi Module",
+        "codename": "p0___particle_wi_fi_module",
+        "id": "0bd36e02-9f56-555d-bced-f06f6d5cd520",
+        "lastModified": "2018-10-12T22:02:25.770613Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "P0 - Particle Wi-Fi Module",
+        "type": "text",
+        "text": "P0 - Particle Wi-Fi Module"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Next generation MCU + Wi-Fi module based on Broadcom’s WICED architecture",
+        "type": "text",
+        "text": "Next generation MCU + Wi-Fi module based on Broadcom’s WICED architecture"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 10,
+        "type": "number",
+        "number": 10
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "02177d4c-b389-5b39-8164-95cd4c2eb58a",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"P0 - Particle Wi-Fi Module\",\"codename\":\"p0___particle_wi_fi_module\",\"id\":\"0bd36e02-9f56-555d-bced-f06f6d5cd520\",\"lastModified\":\"2018-10-12T22:02:25.770613Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"P0 - Particle Wi-Fi Module\",\"type\":\"text\",\"text\":\"P0 - Particle Wi-Fi Module\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Next generation MCU + Wi-Fi module based on Broadcom’s WICED architecture\",\"type\":\"text\",\"text\":\"Next generation MCU + Wi-Fi module based on Broadcom’s WICED architecture\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":10,\"type\":\"number\",\"number\":10},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "052f5398c2bba82f228e8ea4c7550866",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "46904a64-dd9a-5249-860a-403716c778aa": {
+      "system": {
+        "name": "P1 - Particle Wi-Fi Module with Antenna",
+        "codename": "p1___particle_wi_fi_module_with_antenna",
+        "id": "9d87c839-9ecb-5b26-8f01-1dda128dfe0b",
+        "lastModified": "2018-10-12T22:02:26.2550511Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "P1 - Particle Wi-Fi Module with Antenna",
+        "type": "text",
+        "text": "P1 - Particle Wi-Fi Module with Antenna"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Next generation MCU + Wi-Fi module with FCC certification and built-in antenna",
+        "type": "text",
+        "text": "Next generation MCU + Wi-Fi module with FCC certification and built-in antenna"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 12,
+        "type": "number",
+        "number": 12
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "46904a64-dd9a-5249-860a-403716c778aa",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"P1 - Particle Wi-Fi Module with Antenna\",\"codename\":\"p1___particle_wi_fi_module_with_antenna\",\"id\":\"9d87c839-9ecb-5b26-8f01-1dda128dfe0b\",\"lastModified\":\"2018-10-12T22:02:26.2550511Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"P1 - Particle Wi-Fi Module with Antenna\",\"type\":\"text\",\"text\":\"P1 - Particle Wi-Fi Module with Antenna\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Next generation MCU + Wi-Fi module with FCC certification and built-in antenna\",\"type\":\"text\",\"text\":\"Next generation MCU + Wi-Fi module with FCC certification and built-in antenna\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":12,\"type\":\"number\",\"number\":12},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "931842f64fa31a64bbfeb06ded322011",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "736f697a-68f8-5b36-b22d-d46137954d94": {
+      "system": {
+        "name": "Particle Classic Adapter",
+        "codename": "particle_classic_adapter",
+        "id": "95821beb-41c2-511f-bb0b-943909145340",
+        "lastModified": "2018-10-12T22:02:15.0047836Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Particle Classic Adapter",
+        "type": "text",
+        "text": "Particle Classic Adapter"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Use your classic accessories to use with the Mesh dev kits",
+        "type": "text",
+        "text": "Use your classic accessories to use with the Mesh dev kits"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 5,
+        "type": "number",
+        "number": 5
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "736f697a-68f8-5b36-b22d-d46137954d94",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Particle Classic Adapter\",\"codename\":\"particle_classic_adapter\",\"id\":\"95821beb-41c2-511f-bb0b-943909145340\",\"lastModified\":\"2018-10-12T22:02:15.0047836Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Particle Classic Adapter\",\"type\":\"text\",\"text\":\"Particle Classic Adapter\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Use your classic accessories to use with the Mesh dev kits\",\"type\":\"text\",\"text\":\"Use your classic accessories to use with the Mesh dev kits\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":5,\"type\":\"number\",\"number\":5},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "653c139e45b24a11b3990f58c8577c42",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "e2a0218f-302a-5fab-821d-403bb5251d5c": {
+      "system": {
+        "name": "Particle Debugger",
+        "codename": "particle_debugger_0a523dc",
+        "id": "0a523dc1-686d-5ab8-b032-91c52877aca6",
+        "lastModified": "2018-10-12T22:02:14.0203972Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Particle Debugger",
+        "type": "text",
+        "text": "Particle Debugger"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Professional debugging at a fraction of the cost",
+        "type": "text",
+        "text": "Professional debugging at a fraction of the cost"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 20,
+        "type": "number",
+        "number": 20
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "e2a0218f-302a-5fab-821d-403bb5251d5c",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Particle Debugger\",\"codename\":\"particle_debugger_0a523dc\",\"id\":\"0a523dc1-686d-5ab8-b032-91c52877aca6\",\"lastModified\":\"2018-10-12T22:02:14.0203972Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Particle Debugger\",\"type\":\"text\",\"text\":\"Particle Debugger\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Professional debugging at a fraction of the cost\",\"type\":\"text\",\"text\":\"Professional debugging at a fraction of the cost\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":20,\"type\":\"number\",\"number\":20},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "21575b1605fb94d6f02284ac7796d3d0",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "6461efd0-9854-5441-9e3e-575542d1ed85": {
+      "system": {
+        "name": "Particle Ethernet FeatherWing",
+        "codename": "particle_ethernet_featherwing",
+        "id": "4b006f26-9d20-5cd7-b4bc-fe1a3b804a8d",
+        "lastModified": "2018-10-12T22:02:14.5360343Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Particle Ethernet FeatherWing",
+        "type": "text",
+        "text": "Particle Ethernet FeatherWing"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Add wired connectivity to your Mesh dev kit",
+        "type": "text",
+        "text": "Add wired connectivity to your Mesh dev kit"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 20,
+        "type": "number",
+        "number": 20
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "6461efd0-9854-5441-9e3e-575542d1ed85",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Particle Ethernet FeatherWing\",\"codename\":\"particle_ethernet_featherwing\",\"id\":\"4b006f26-9d20-5cd7-b4bc-fe1a3b804a8d\",\"lastModified\":\"2018-10-12T22:02:14.5360343Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Particle Ethernet FeatherWing\",\"type\":\"text\",\"text\":\"Particle Ethernet FeatherWing\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Add wired connectivity to your Mesh dev kit\",\"type\":\"text\",\"text\":\"Add wired connectivity to your Mesh dev kit\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":20,\"type\":\"number\",\"number\":20},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "5557db1ad9d3af8705f669cff6a6c635",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "d45ba2dc-3f5f-5026-a2eb-7a4dffb818f6": {
+      "system": {
+        "name": "Particle FeatherWing Tripler",
+        "codename": "particle_featherwing_tripler",
+        "id": "77f419a3-88f4-5a08-a456-fd718847ae8f",
+        "lastModified": "2018-10-12T22:02:15.5516745Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Particle FeatherWing Tripler",
+        "type": "text",
+        "text": "Particle FeatherWing Tripler"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Add FeatherWing accessories without stacking",
+        "type": "text",
+        "text": "Add FeatherWing accessories without stacking"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 8.5,
+        "type": "number",
+        "number": 8.5
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "d45ba2dc-3f5f-5026-a2eb-7a4dffb818f6",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Particle FeatherWing Tripler\",\"codename\":\"particle_featherwing_tripler\",\"id\":\"77f419a3-88f4-5a08-a456-fd718847ae8f\",\"lastModified\":\"2018-10-12T22:02:15.5516745Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Particle FeatherWing Tripler\",\"type\":\"text\",\"text\":\"Particle FeatherWing Tripler\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Add FeatherWing accessories without stacking\",\"type\":\"text\",\"text\":\"Add FeatherWing accessories without stacking\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":8.5,\"type\":\"number\",\"number\":8.5},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "3130d3e09356b47120cb723e4d0d64fa",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "62b29efc-0d1a-5a29-bae0-111e9a71136b": {
+      "system": {
+        "name": "Particle Maker Kit",
+        "codename": "particle_maker_kit",
+        "id": "5c810189-357b-5f67-b78e-755add9bf11c",
+        "lastModified": "2018-10-12T22:02:24.395602Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Particle Maker Kit",
+        "type": "text",
+        "text": "Particle Maker Kit"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Everything you need to start building simple Internet enabled projects\n",
+        "type": "text",
+        "text": "Everything you need to start building simple Internet enabled projects\n"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 89,
+        "type": "number",
+        "number": 89
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "62b29efc-0d1a-5a29-bae0-111e9a71136b",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Particle Maker Kit\",\"codename\":\"particle_maker_kit\",\"id\":\"5c810189-357b-5f67-b78e-755add9bf11c\",\"lastModified\":\"2018-10-12T22:02:24.395602Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Particle Maker Kit\",\"type\":\"text\",\"text\":\"Particle Maker Kit\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Everything you need to start building simple Internet enabled projects\\n\",\"type\":\"text\",\"text\":\"Everything you need to start building simple Internet enabled projects\\n\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":89,\"type\":\"number\",\"number\":89},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "6cbde69ca4409bb6a3d3f0e5a0ce6fd6",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "37f85434-fbfb-51bc-b077-149ab8dbb5b1": {
+      "system": {
+        "name": "Photon",
+        "codename": "photon",
+        "id": "d796be1f-d5d9-5c3e-a352-156b0eaa7402",
+        "lastModified": "2018-10-12T22:02:23.2861905Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Photon",
+        "type": "text",
+        "text": "Photon"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "A tiny, reprogrammable Wi-Fi development kit for prototyping and scaling your Internet of Things product.",
+        "type": "text",
+        "text": "A tiny, reprogrammable Wi-Fi development kit for prototyping and scaling your Internet of Things product."
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 19,
+        "type": "number",
+        "number": 19
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "37f85434-fbfb-51bc-b077-149ab8dbb5b1",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Photon\",\"codename\":\"photon\",\"id\":\"d796be1f-d5d9-5c3e-a352-156b0eaa7402\",\"lastModified\":\"2018-10-12T22:02:23.2861905Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Photon\",\"type\":\"text\",\"text\":\"Photon\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"A tiny, reprogrammable Wi-Fi development kit for prototyping and scaling your Internet of Things product.\",\"type\":\"text\",\"text\":\"A tiny, reprogrammable Wi-Fi development kit for prototyping and scaling your Internet of Things product.\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":19,\"type\":\"number\",\"number\":19},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "3089287f655993673a1a993c9e437a03",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "4e50ebd7-130e-58a4-9aee-b73a7d3acab3": {
+      "system": {
+        "name": "Photon Kit",
+        "codename": "photon_kit",
+        "id": "db998f21-9713-52f3-9388-fd906baa0438",
+        "lastModified": "2018-10-12T22:02:23.8487026Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Photon Kit",
+        "type": "text",
+        "text": "Photon Kit"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "The total package—a Photon, mini-breadboard, USB cable, and components for your first project",
+        "type": "text",
+        "text": "The total package—a Photon, mini-breadboard, USB cable, and components for your first project"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 29,
+        "type": "number",
+        "number": 29
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "4e50ebd7-130e-58a4-9aee-b73a7d3acab3",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Photon Kit\",\"codename\":\"photon_kit\",\"id\":\"db998f21-9713-52f3-9388-fd906baa0438\",\"lastModified\":\"2018-10-12T22:02:23.8487026Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Photon Kit\",\"type\":\"text\",\"text\":\"Photon Kit\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"The total package—a Photon, mini-breadboard, USB cable, and components for your first project\",\"type\":\"text\",\"text\":\"The total package—a Photon, mini-breadboard, USB cable, and components for your first project\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":29,\"type\":\"number\",\"number\":29},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "7562766eaf17891024998201ecb0ccc7",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "93d050ef-c9ec-5bf0-8601-198eac083d53": {
+      "system": {
+        "name": "Power Shield",
+        "codename": "power_shield",
+        "id": "db0adb89-ea3f-5a3f-b0df-8a4545f65b52",
+        "lastModified": "2018-10-12T22:02:28.895682Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Power Shield",
+        "type": "text",
+        "text": "Power Shield"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Easily add and monitor power with this shield that ships along with a 3.7V Li-Po battery",
+        "type": "text",
+        "text": "Easily add and monitor power with this shield that ships along with a 3.7V Li-Po battery"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 25,
+        "type": "number",
+        "number": 25
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "93d050ef-c9ec-5bf0-8601-198eac083d53",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Power Shield\",\"codename\":\"power_shield\",\"id\":\"db0adb89-ea3f-5a3f-b0df-8a4545f65b52\",\"lastModified\":\"2018-10-12T22:02:28.895682Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Power Shield\",\"type\":\"text\",\"text\":\"Power Shield\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Easily add and monitor power with this shield that ships along with a 3.7V Li-Po battery\",\"type\":\"text\",\"text\":\"Easily add and monitor power with this shield that ships along with a 3.7V Li-Po battery\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":25,\"type\":\"number\",\"number\":25},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "2ece9e00e5b97848c410e541845f7c5b",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "0c7fec2e-5265-5caf-9eb3-631748f37452": {
+      "system": {
+        "name": "Programmer Shield",
+        "codename": "programmer_shield",
+        "id": "9df51e33-584c-5408-a287-625940e7be1c",
+        "lastModified": "2018-10-12T22:02:29.3488083Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Programmer Shield",
+        "type": "text",
+        "text": "Programmer Shield"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Access your Photon's memory space with this standalone JTAG programmer",
+        "type": "text",
+        "text": "Access your Photon's memory space with this standalone JTAG programmer"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 30,
+        "type": "number",
+        "number": 30
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "0c7fec2e-5265-5caf-9eb3-631748f37452",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Programmer Shield\",\"codename\":\"programmer_shield\",\"id\":\"9df51e33-584c-5408-a287-625940e7be1c\",\"lastModified\":\"2018-10-12T22:02:29.3488083Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Programmer Shield\",\"type\":\"text\",\"text\":\"Programmer Shield\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Access your Photon's memory space with this standalone JTAG programmer\",\"type\":\"text\",\"text\":\"Access your Photon's memory space with this standalone JTAG programmer\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":30,\"type\":\"number\",\"number\":30},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "a6d85a2f22cffbe32d15ec3541a2c5da",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "da9867df-df87-5f8e-9740-edd68abf6c10": {
+      "system": {
+        "name": "RedBear Bano V2",
+        "codename": "redbear_bano_v2",
+        "id": "1db38b52-e93d-596e-9b9c-292f60a9c8cb",
+        "lastModified": "2018-10-12T22:02:27.3487698Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "RedBear Bano V2",
+        "type": "text",
+        "text": "RedBear Bano V2"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "RedBear Nano v2",
+        "type": "text",
+        "text": "RedBear Nano v2"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 16.9,
+        "type": "number",
+        "number": 16.9
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "da9867df-df87-5f8e-9740-edd68abf6c10",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"RedBear Bano V2\",\"codename\":\"redbear_bano_v2\",\"id\":\"1db38b52-e93d-596e-9b9c-292f60a9c8cb\",\"lastModified\":\"2018-10-12T22:02:27.3487698Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"RedBear Bano V2\",\"type\":\"text\",\"text\":\"RedBear Bano V2\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"RedBear Nano v2\",\"type\":\"text\",\"text\":\"RedBear Nano v2\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":16.9,\"type\":\"number\",\"number\":16.9},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "54278d6a43edb71f73b279ce01928622",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "9ed6cc29-22a6-5229-babf-f257df38a5d3": {
+      "system": {
+        "name": "RedBear BLE Module MB-N2 (2 pack)",
+        "codename": "redbear_ble_module_mb_n2__2_pack_",
+        "id": "6f90957d-d4e1-5060-a0ab-11a3b29591ad",
+        "lastModified": "2018-10-12T22:02:27.8800346Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "RedBear BLE Module MB-N2 (2 pack)",
+        "type": "text",
+        "text": "RedBear BLE Module MB-N2 (2 pack)"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "RedBear BLE Module MB-N2 (2 pack)",
+        "type": "text",
+        "text": "RedBear BLE Module MB-N2 (2 pack)"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 17.9,
+        "type": "number",
+        "number": 17.9
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "9ed6cc29-22a6-5229-babf-f257df38a5d3",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"RedBear BLE Module MB-N2 (2 pack)\",\"codename\":\"redbear_ble_module_mb_n2__2_pack_\",\"id\":\"6f90957d-d4e1-5060-a0ab-11a3b29591ad\",\"lastModified\":\"2018-10-12T22:02:27.8800346Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"RedBear BLE Module MB-N2 (2 pack)\",\"type\":\"text\",\"text\":\"RedBear BLE Module MB-N2 (2 pack)\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"RedBear BLE Module MB-N2 (2 pack)\",\"type\":\"text\",\"text\":\"RedBear BLE Module MB-N2 (2 pack)\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":17.9,\"type\":\"number\",\"number\":17.9},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "87a12c0aee4f3b0520a1ffa549029507",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "39eee33c-fa74-5ce4-96c1-a6f9b143d6fe": {
+      "system": {
+        "name": "RedBear Duo (Wi-Fi + BLE)",
+        "codename": "redbear_duo__wi_fi___ble_",
+        "id": "608f5add-70b2-54d8-a066-d5de200ea308",
+        "lastModified": "2018-10-12T22:02:26.8643853Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "RedBear Duo (Wi-Fi + BLE)",
+        "type": "text",
+        "text": "RedBear Duo (Wi-Fi + BLE)"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "A Wi-Fi + Bluetooth BLE development kit with the Particle Cloud",
+        "type": "text",
+        "text": "A Wi-Fi + Bluetooth BLE development kit with the Particle Cloud"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 24.9,
+        "type": "number",
+        "number": 24.9
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "39eee33c-fa74-5ce4-96c1-a6f9b143d6fe",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"RedBear Duo (Wi-Fi + BLE)\",\"codename\":\"redbear_duo__wi_fi___ble_\",\"id\":\"608f5add-70b2-54d8-a066-d5de200ea308\",\"lastModified\":\"2018-10-12T22:02:26.8643853Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"RedBear Duo (Wi-Fi + BLE)\",\"type\":\"text\",\"text\":\"RedBear Duo (Wi-Fi + BLE)\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"A Wi-Fi + Bluetooth BLE development kit with the Particle Cloud\",\"type\":\"text\",\"text\":\"A Wi-Fi + Bluetooth BLE development kit with the Particle Cloud\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":24.9,\"type\":\"number\",\"number\":24.9},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "e68cadd4bdbb3b05638d7a5a8ee371d4",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "4fd7ddbe-f144-51c1-a315-06e4579db2f7": {
+      "system": {
+        "name": "RedBear Link Shield",
+        "codename": "redbear_link_shield",
+        "id": "dcc060ea-a967-59ba-9c7c-715cfc02488d",
+        "lastModified": "2018-10-12T22:02:28.348787Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "RedBear Link Shield",
+        "type": "text",
+        "text": "RedBear Link Shield"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "RedBear Link Shield",
+        "type": "text",
+        "text": "RedBear Link Shield"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 14.9,
+        "type": "number",
+        "number": 14.9
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "4fd7ddbe-f144-51c1-a315-06e4579db2f7",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"RedBear Link Shield\",\"codename\":\"redbear_link_shield\",\"id\":\"dcc060ea-a967-59ba-9c7c-715cfc02488d\",\"lastModified\":\"2018-10-12T22:02:28.348787Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"RedBear Link Shield\",\"type\":\"text\",\"text\":\"RedBear Link Shield\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"RedBear Link Shield\",\"type\":\"text\",\"text\":\"RedBear Link Shield\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":14.9,\"type\":\"number\",\"number\":14.9},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "ffb191d8b94a6a5019c3a545ce4bc2c7",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "0d7ffc98-0810-550c-bfbc-eba3192dcaeb": {
+      "system": {
+        "name": "Relay Shield",
+        "codename": "relay_shield",
+        "id": "0f152f64-26fe-5342-86f5-269881946533",
+        "lastModified": "2018-10-12T22:02:30.098822Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Relay Shield",
+        "type": "text",
+        "text": "Relay Shield"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Regulate the power to a variety of electronics with this four relay shield",
+        "type": "text",
+        "text": "Regulate the power to a variety of electronics with this four relay shield"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 30,
+        "type": "number",
+        "number": 30
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "0d7ffc98-0810-550c-bfbc-eba3192dcaeb",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Relay Shield\",\"codename\":\"relay_shield\",\"id\":\"0f152f64-26fe-5342-86f5-269881946533\",\"lastModified\":\"2018-10-12T22:02:30.098822Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Relay Shield\",\"type\":\"text\",\"text\":\"Relay Shield\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Regulate the power to a variety of electronics with this four relay shield\",\"type\":\"text\",\"text\":\"Regulate the power to a variety of electronics with this four relay shield\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":30,\"type\":\"number\",\"number\":30},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "0c3adf8baa4fd323f7731fd564df6d48",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "acc421e1-413c-5e2e-81f5-d5372149fcba": {
+      "system": {
+        "name": "Sensor Kit w/ Electron 3G",
+        "codename": "sensor_kit_w__electron_3g",
+        "id": "7d9e31cd-0d7d-5a1e-94fc-fd200ec545d2",
+        "lastModified": "2018-10-12T22:02:22.7393063Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Sensor Kit w/ Electron 3G",
+        "type": "text",
+        "text": "Sensor Kit w/ Electron 3G"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "A hand-picked combination of our favorite sensors and components for prototyping.",
+        "type": "text",
+        "text": "A hand-picked combination of our favorite sensors and components for prototyping."
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 149,
+        "type": "number",
+        "number": 149
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "acc421e1-413c-5e2e-81f5-d5372149fcba",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Sensor Kit w/ Electron 3G\",\"codename\":\"sensor_kit_w__electron_3g\",\"id\":\"7d9e31cd-0d7d-5a1e-94fc-fd200ec545d2\",\"lastModified\":\"2018-10-12T22:02:22.7393063Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Sensor Kit w/ Electron 3G\",\"type\":\"text\",\"text\":\"Sensor Kit w/ Electron 3G\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"A hand-picked combination of our favorite sensors and components for prototyping.\",\"type\":\"text\",\"text\":\"A hand-picked combination of our favorite sensors and components for prototyping.\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":149,\"type\":\"number\",\"number\":149},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "ccf8656396039ec53a613802ab22bed8",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "3ec87c19-37e8-5bda-81d4-fcd157bf21b7": {
+      "system": {
+        "name": "Shield Shield",
+        "codename": "shield_shield",
+        "id": "8678c788-f958-5341-a1cf-61b721c9b210",
+        "lastModified": "2018-10-12T22:02:30.5832108Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Shield Shield",
+        "type": "text",
+        "text": "Shield Shield"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Enables the use of your existing Arduino shields and accessories with your Photon",
+        "type": "text",
+        "text": "Enables the use of your existing Arduino shields and accessories with your Photon"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 20,
+        "type": "number",
+        "number": 20
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "3ec87c19-37e8-5bda-81d4-fcd157bf21b7",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Shield Shield\",\"codename\":\"shield_shield\",\"id\":\"8678c788-f958-5341-a1cf-61b721c9b210\",\"lastModified\":\"2018-10-12T22:02:30.5832108Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Shield Shield\",\"type\":\"text\",\"text\":\"Shield Shield\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Enables the use of your existing Arduino shields and accessories with your Photon\",\"type\":\"text\",\"text\":\"Enables the use of your existing Arduino shields and accessories with your Photon\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":20,\"type\":\"number\",\"number\":20},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "41e8125442d238b37dff37ab2ba47ee5",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "e96b5f50-65e7-5b53-94a8-0bbf2ba7bac1": {
+      "system": {
+        "name": "SIM Card",
+        "codename": "sim_card",
+        "id": "5522764f-a076-5c36-b4d1-4c3998ff45a2",
+        "lastModified": "2018-10-12T22:02:32.7863766Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "SIM Card",
+        "type": "text",
+        "text": "SIM Card"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Add white labeled SIM cards from Telefonica with a Particle Cloud subscription to any hardware",
+        "type": "text",
+        "text": "Add white labeled SIM cards from Telefonica with a Particle Cloud subscription to any hardware"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 5,
+        "type": "number",
+        "number": 5
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "e96b5f50-65e7-5b53-94a8-0bbf2ba7bac1",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"SIM Card\",\"codename\":\"sim_card\",\"id\":\"5522764f-a076-5c36-b4d1-4c3998ff45a2\",\"lastModified\":\"2018-10-12T22:02:32.7863766Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"SIM Card\",\"type\":\"text\",\"text\":\"SIM Card\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Add white labeled SIM cards from Telefonica with a Particle Cloud subscription to any hardware\",\"type\":\"text\",\"text\":\"Add white labeled SIM cards from Telefonica with a Particle Cloud subscription to any hardware\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":5,\"type\":\"number\",\"number\":5},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "cd57e18c059e22f00ca3bbebfc8f39b6",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "9f16c8e2-6f7b-5fd8-ae17-33a0d1e5932c": {
+      "system": {
+        "name": "Wi-Fi Antennas",
+        "codename": "wi_fi_antennas",
+        "id": "b18bc1b6-0e41-574b-8396-7dc7b4801f01",
+        "lastModified": "2018-10-12T22:02:31.0363409Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Wi-Fi Antennas",
+        "type": "text",
+        "text": "Wi-Fi Antennas"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "Add additional range to your Photon or Core uFL with a Flex or Duck Antenna",
+        "type": "text",
+        "text": "Add additional range to your Photon or Core uFL with a Flex or Duck Antenna"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 10,
+        "type": "number",
+        "number": 10
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "9f16c8e2-6f7b-5fd8-ae17-33a0d1e5932c",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Wi-Fi Antennas\",\"codename\":\"wi_fi_antennas\",\"id\":\"b18bc1b6-0e41-574b-8396-7dc7b4801f01\",\"lastModified\":\"2018-10-12T22:02:31.0363409Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Wi-Fi Antennas\",\"type\":\"text\",\"text\":\"Wi-Fi Antennas\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"Add additional range to your Photon or Core uFL with a Flex or Duck Antenna\",\"type\":\"text\",\"text\":\"Add additional range to your Photon or Core uFL with a Flex or Duck Antenna\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":10,\"type\":\"number\",\"number\":10},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "42ebea58b8f36011b6b829097dee8970",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "1bfdcb93-75cc-56c2-b45a-a9cd9edf6f24": {
+      "system": {
+        "name": "Xenon",
+        "codename": "xenon",
+        "id": "0d7d9182-1a31-5cee-8752-84ec64af7744",
+        "lastModified": "2018-10-12T22:02:13.4735091Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Xenon",
+        "type": "text",
+        "text": "Xenon"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "IoT Development Board (Mesh + Bluetooth)",
+        "type": "text",
+        "text": "IoT Development Board (Mesh + Bluetooth)"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 15,
+        "type": "number",
+        "number": 15
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "1bfdcb93-75cc-56c2-b45a-a9cd9edf6f24",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Xenon\",\"codename\":\"xenon\",\"id\":\"0d7d9182-1a31-5cee-8752-84ec64af7744\",\"lastModified\":\"2018-10-12T22:02:13.4735091Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Xenon\",\"type\":\"text\",\"text\":\"Xenon\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"IoT Development Board (Mesh + Bluetooth)\",\"type\":\"text\",\"text\":\"IoT Development Board (Mesh + Bluetooth)\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":15,\"type\":\"number\",\"number\":15},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "8737b70f34c198502e0015bc242b4410",
+        "owner": "gatsby-source-kentico-cloud"
+      }
+    },
+    "103424f1-243c-5e6a-8779-4639a6803e67": {
+      "system": {
+        "name": "Xenon Kit",
+        "codename": "xenon_kit",
+        "id": "dca9b5e9-2e26-5870-9bb6-d5dc7d869738",
+        "lastModified": "2018-10-12T22:02:12.910994Z",
+        "language": "default",
+        "type": "device",
+        "sitemapLocations": []
+      },
+      "title": {
+        "name": "Title",
+        "value": "Xenon Kit",
+        "type": "text",
+        "text": "Xenon Kit"
+      },
+      "short_description": {
+        "name": "Short Description",
+        "value": "IoT Development Kit (Mesh + Bluetooth)",
+        "type": "text",
+        "text": "IoT Development Kit (Mesh + Bluetooth)"
+      },
+      "product_image": {
+        "name": "Product Image",
+        "value": [],
+        "type": "asset",
+        "assets": []
+      },
+      "description": {
+        "name": "Description",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "price": {
+        "name": "Price",
+        "value": 25,
+        "type": "number",
+        "number": 25
+      },
+      "content": {
+        "name": "Content",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "specifications": {
+        "name": "Specifications",
+        "value": "<p><br></p>",
+        "type": "rich_text",
+        "links": []
+      },
+      "otherLanguages___NODE": [],
+      "contentType___NODE": "b528b681-d630-5e68-a5d2-a77bc3331c34",
+      "id": "103424f1-243c-5e6a-8779-4639a6803e67",
+      "parent": null,
+      "children": [],
+      "usedByContentItems___NODE": [],
+      "internal": {
+        "type": "KenticoCloudItemDevice",
+        "content": "{\"system\":{\"name\":\"Xenon Kit\",\"codename\":\"xenon_kit\",\"id\":\"dca9b5e9-2e26-5870-9bb6-d5dc7d869738\",\"lastModified\":\"2018-10-12T22:02:12.910994Z\",\"language\":\"default\",\"type\":\"device\",\"sitemapLocations\":[]},\"title\":{\"name\":\"Title\",\"value\":\"Xenon Kit\",\"type\":\"text\",\"text\":\"Xenon Kit\"},\"short_description\":{\"name\":\"Short Description\",\"value\":\"IoT Development Kit (Mesh + Bluetooth)\",\"type\":\"text\",\"text\":\"IoT Development Kit (Mesh + Bluetooth)\"},\"product_image\":{\"name\":\"Product Image\",\"value\":[],\"type\":\"asset\",\"assets\":[]},\"description\":{\"name\":\"Description\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"price\":{\"name\":\"Price\",\"value\":25,\"type\":\"number\",\"number\":25},\"content\":{\"name\":\"Content\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]},\"specifications\":{\"name\":\"Specifications\",\"value\":\"<p><br></p>\",\"type\":\"rich_text\",\"links\":[]}}",
+        "contentDigest": "ab9b9e15cc5ffffb062f1f3ffde186cb",
         "owner": "gatsby-source-kentico-cloud"
       }
     },
@@ -1127,7 +3871,7 @@
   },
   "jsonDataPaths": {
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "963/path---index-6a9-V11iT557YONAnONAdxv9xSXTo",
+    "index": "924/path---index-6a9-wKWtD5dMsKMkXtrJENWRngqBacI",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -1140,7 +3884,7 @@
       "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/404.js"
     },
     "C:/source/InGen/gatsby-kentico-cloud/src/pages/index.js": {
-      "query": "query cSourceInGenGatsbyKenticoCloudSrcPagesIndexJs3856659247 {\n  allKenticoCloudItemDevice {\n    edges {\n      node {\n        title {\n          value\n        }\n        description {\n          value\n        }\n        price {\n          value\n        }\n        content {\n          value\n        }\n        product_image {\n          value {\n            name\n            type\n            size\n            description\n            url\n          }\n        }\n      }\n    }\n  }\n}\n",
+      "query": "query cSourceInGenGatsbyKenticoCloudSrcPagesIndexJs4245523220 {\n  allKenticoCloudItemDevice {\n    edges {\n      node {\n        title {\n          value\n        }\n        description {\n          value\n        }\n        price {\n          value\n        }\n        content {\n          value\n        }\n        product_image {\n          value {\n            name\n            type\n            size\n            url\n          }\n        }\n      }\n    }\n  }\n}\n",
       "componentPath": "C:/source/InGen/gatsby-kentico-cloud/src/pages/index.js"
     },
     "C:/source/InGen/gatsby-kentico-cloud/src/pages/page-2.js": {
