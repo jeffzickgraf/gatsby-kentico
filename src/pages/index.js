@@ -1,5 +1,4 @@
 import React from 'react'
-/*import { Link } from 'gatsby'*/
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
@@ -40,13 +39,13 @@ export default ({ data }) => {
           <tbody>
               {data.allKenticoCloudItemDevice.edges.map(({ node }, index) => (
                 <tr key={index}>
-                  <td>{node.title.value}</td> 
+                  <td>{node.elements.title.value}</td>
                   <td>
-                  {getImage(node.product_image)}
+                  {getImage(node.elements.product_image)}
                     </td>                  
-                  <td dangerouslySetInnerHTML={renderUnsafeHtml(node.description.value)}/> 
-                  <td>{node.price.value}</td> 
-                  <td dangerouslySetInnerHTML={renderUnsafeHtml(node.content.value)}/> 
+                  <td dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.description.value)}/> 
+                  <td>{node.elements.price.value}</td> 
+                  <td dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.content.value)}/> 
                 </tr>
               ))}
           </tbody>
@@ -77,18 +76,21 @@ export const query = graphql`
   allKenticoCloudItemDevice {
     edges {
       node {
-        title {value}
-        description {value}
-        price {value}
-        content {value}
-        product_image{
-          value {
-          name
-          type
-          size          
-          url
-        }}
+        elements{
+          title {value}
+          description {value}
+          price {value}
+          content {value}
+          product_image{
+            value {
+              name
+              type
+              size          
+              url
+              }
+            }
+          }
+        }
       }
     }
-  }
 }`

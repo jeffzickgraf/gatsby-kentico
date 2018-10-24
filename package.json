@@ -8,10 +8,11 @@
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-source-kentico-cloud": "^1.0.1",
+    "gatsby-source-kentico-cloud": "^2.0.0-beta",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "rxjs": "^6.2.2"
   },
   "keywords": [
     "gatsby"
