@@ -23,35 +23,26 @@ export default IndexPage */
 export default ({ data }) => {
   console.log(data)
   return (
-    <Layout>
-      <div>
-        <h1>Devices</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Image</th>
-              <th>Description</th>
-              <th>Price</th>
-              <th>Content</th>
-            </tr>
-          </thead>
-          <tbody>
+      <Layout>
+          <div>
+              <h1>Devices</h1>
               {data.allKenticoCloudItemDevice.edges.map(({ node }, index) => (
-                <tr key={index}>
-                  <td>{node.elements.title.value}</td>
-                  <td>
-                  {getImage(node.elements.product_image)}
-                    </td>                  
-                  <td dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.description.value)}/> 
-                  <td>{node.elements.price.value}</td> 
-                  <td dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.content.value)}/> 
-                </tr>
+                  <div key={index}>
+                      <article class="hit">
+                          <div class="product-picture-wrapper">
+                              <div class="product-picture">{getImage(node.elements.product_image)}</div>
+                          </div>
+                          <div class="product-desc-wrapper">
+                              <div class="product-name">{node.elements.title.value}</div>
+                              <div class="product-type" dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.description.value)} />
+                              <div class="product-price">${node.elements.price.value}</div>
+                              <div class="description" dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.content.value)} />
+                          </div>
+                      </article>
+                  </div>
               ))}
-          </tbody>
-        </table>
-      </div>
-    </Layout>
+          </div>
+      </Layout>
   )
 }
 
