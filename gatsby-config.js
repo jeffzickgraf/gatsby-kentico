@@ -1,3 +1,44 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+const myQuery = `{
+  allKenticoCloudItemDevice {
+    edges {
+      node {
+        id
+        elements {
+          title {            
+            value
+          }
+          short_description{value}
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+`;
+
+const queries = [
+  {
+    query: myQuery,
+    transformer: ({ data }) => data.allKenticoCloudItemDevice.edges
+                  .filter(node => {console.log(node.title);if(node.title!=undefined)return true;}).map(({ node }) => 
+    ({
+      title: node.title || node.title.value,
+      slug: node.fields.slug,
+      objectID: node.id
+    })
+    ), // optional
+    indexName: process.env.ALGOLIA_INDEX_NAME, // overrides main index name, optional
+  },
+];
+
+
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby starter site with Kentico Cloud',
@@ -17,5 +58,18 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+          appId: process.env.ALGOLIA_APP_ID,
+          apiKey: process.env.ALGOLIA_API_KEY,
+          indexName: process.env.ALGOLIA_INDEX_NAME, // for all queries
+          queries,
+          chunkSize: 10000, // default: 1000
+        },
+      },
   ],
 };
+
+
+
