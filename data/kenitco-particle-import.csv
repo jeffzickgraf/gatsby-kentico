@@ -1,44 +1,1030 @@
-ï»¿Name,Description,Price,Id
-Argon Kit,IoT Development Kit (Wi-Fi + Mesh + Bluetooth),35,pid-1
-Argon,IoT Development Board (Wi-Fi + Mesh + Bluetooth),25,pid-2
-Boron LTE Kit,IoT Development Kit (Cellular + Mesh + Bluetooth),59,pid-3
-Boron LTE,IoT Development Board (Cellular + Mesh + Bluetooth),49,pid-4
-Boron 2G/3G Kit,IoT Development Kit (Cellular + Mesh + Bluetooth),69,pid-5
-Xenon Kit,IoT Development Kit (Mesh + Bluetooth),25,pid-6
-Xenon,IoT Development Board (Mesh + Bluetooth),15,pid-7
-Particle Debugger,Professional debugging at a fraction of the cost,20,pid-8
-Particle Ethernet FeatherWing,Add wired connectivity to your Mesh dev kit,20,pid-9
-Particle Classic Adapter,Use your classic accessories to use with the Mesh dev kits,5,pid-10
-Particle FeatherWing Tripler,Add FeatherWing accessories without stacking,8.5,pid-11
-Adafruit INA219 FeatherWing,The Adafruit INA219 FeatherWing makes power-monitoring problems a thing of the past,7.95,pid-12
-Adafruit FeatherWing OLED,Add a mini user interface to any Feather main board,14.95,pid-13
-Adafruit Power Relay FeatherWing,"The Power Relay FeatherWing gives you power to control, and control over power",9.95,pid-14
-Grove Starter Kit for Particle Mesh,Explore the world of sensing with Particle Mesh,35,pid-15
-E Series Evaluation Kit 2G/3G or LTE,"Prototype with the E Series, our industrialized cellular module line.",99,pid-16
-E Series LTE Module,"Prototype with the E Series, our industrialized cellular module line.",69,pid-17
-E Series 3G Module (Global),"Prototype with the E Series, our industrialized cellular module line",79,pid-18
-Electron 3G Kit (Americas/Aus),A tiny development kit for creating 3G cellular connected products,69,pid-19
-Electron 3G Kit (Eur/Asia/Afr),A tiny development kit for creating 3G cellular connected products,69,pid-20
-Electron 2G Kit (Global),A tiny development kit for creating 2G cellular connected products,49,pid-21
-Assest Track Kit V2,Track your valuables with an Electron + GPS,109,pid-22
-Asset Tracker v2 Components,Asset Tracker Shield & Enclosure,72,pid-23
-Sensor Kit w/ Electron 3G,A hand-picked combination of our favorite sensors and components for prototyping.,149,pid-24
-Photon,"A tiny, reprogrammable Wi-Fi development kit for prototyping and scaling your Internet of Things product.",19,pid-25
-Photon Kit,"The total packageâ€”a Photon, mini-breadboard, USB cable, and components for your first project",29,pid-26
-Particle Maker Kit,"Everything you need to start building simple Internet enabled projects
-",89,pid-27
-Internet Button,"Connected with IFTTT, it combines hardware, sensors, and connectivity into one package",49,pid-28
-P0 - Particle Wi-Fi Module,Next generation MCU + Wi-Fi module based on Broadcomâ€™s WICED architecture,10,pid-29
-P1 - Particle Wi-Fi Module with Antenna,Next generation MCU + Wi-Fi module with FCC certification and built-in antenna,12,pid-30
-RedBear Duo (Wi-Fi + BLE),A Wi-Fi + Bluetooth BLE development kit with the Particle Cloud,24.9,pid-31
-RedBear Bano V2,RedBear Nano v2,16.9,pid-32
-RedBear BLE Module MB-N2 (2 pack),RedBear BLE Module MB-N2 (2 pack),17.9,pid-33
-RedBear Link Shield,RedBear Link Shield,14.9,pid-34
-Power Shield,Easily add and monitor power with this shield that ships along with a 3.7V Li-Po battery,25,pid-35
-Programmer Shield,Access your Photon's memory space with this standalone JTAG programmer,30,pid-36
-Relay Shield,Regulate the power to a variety of electronics with this four relay shield,30,pid-37
-Shield Shield,Enables the use of your existing Arduino shields and accessories with your Photon,20,pid-38
-Wi-Fi Antennas,Add additional range to your Photon or Core uFL with a Flex or Duck Antenna,10,pid-39
-Cellular Antenna,Add an extra Taoglas GSM antenna to improve reception in cellular projects,10,pid-40
-Li-Po Battery,"Small, light and powerful 3.7V Li-Po battery",9,pid-41
-SIM Card,Add white labeled SIM cards from Telefonica with a Particle Cloud subscription to any hardware,5,pid-42
+Title	Short Description	Price	Product Image	Descriptions				Id
+Argon Kit	IoT Development Kit (Wi-Fi + Mesh + Bluetooth)	35	argon-breadboard_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>The Argon is a powerful Wi-Fi enabled development kit that can act as either a standalone Wi-Fi endpoint or Wi-Fi enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it&#8217;s easy to connect a Li-Po and deploy your local network in minutes.&nbsp;</p>
+<p>The Argon is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints.</p>
+<meta charset=""utf-8"">
+<p>All Particle Hardware is designed from the ground up to work with the Device Cloud; a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet. The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 10 free micro networks using a Wi-Fi or Ethernet gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our <a href=""https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-"" target=""_blank"" rel=""noopener noreferrer"">documentation</a>.</p>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Argon dev board</li>
+<li>Mini breadboard</li>
+<li>2.4GHz flex antenna</li>
+<li>USB cable</li>
+<li>Starter project includes two resistors (220 ohm), one red LED, and one photodiode</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>Espressif ESP32-D0WD 2.4G Wi-Fi coprocessor <br><br>- On-board 4MB flash for ESP32 <br><br>- 802.11 b/g/n support <br><br>- 802.11 n (2.4 GHz), up to 150 Mbps</li>
+<li>Nordic Semiconductor nRF52840 SoC <br><br>- ARM Cortex-M4F 32-bit processor @ 64MHz <br><br>- 1MB flash, 256KB RAM <br><br>- IEEE 802.15.4-2006: 250 Kbps <br><br>- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps <br><br>- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations <br><br>- ARM TrustZone CryptoCell-310 Cryptographic and security module <br><br>- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps) <br><br>- NFC-A tag</li>
+<li>On-board additional 2MB SPI flash</li>
+<li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>
+<li>Micro USB 2.0 full speed (12 Mbps)</li>
+<li>Integrated Li-Po charging and battery connector</li>
+<li>JTAG (SWD) Connector</li>
+<li>RGB status LED</li>
+<li>Reset and Mode buttons</li>
+<li>On-board 2.4GHz PCB antenna for Thread/BLE (does not support Wi-Fi)</li>
+<li>Two U.FL connectors for external antennas (one for Thread/BLE, another for Wi-Fi)</li>
+<li>Meets the Feather <a href=""https://learn.adafruit.com/adafruit-feather/feather-specification"" target=""_blank"" rel=""noopener noreferrer"">specification</a> in dimensions and pinout</li>
+<li>FCC, CE, and IC certified</li>
+<li>RoHS compliant (lead-free)</li>
+</ul>"				pid-1
+Argon	IoT Development Board (Wi-Fi + Mesh + Bluetooth)	25	argon-angle_884d1b9e-3c37-4a62-a713-fa372c97e992_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>The Argon is a powerful Wi-Fi enabled development board that can act as either a standalone Wi-Fi endpoint or Wi-Fi enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it&#8217;s easy to connect a Li-Po and deploy your local network in minutes.</p>
+<p>The Argon is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints.</p>
+<meta charset=""utf-8"">
+<p>All Particle Hardware is designed from the ground up to work with the Device Cloud; a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet. The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 10 free micro networks using a Wi-Fi or Ethernet gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our <a href=""https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-"" target=""_blank"" rel=""noopener noreferrer"">documentation</a>.</p>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>Espressif ESP32-D0WD 2.4G Wi-Fi coprocessor <br><br>- On-board 4MB flash for ESP32 <br><br>- 802.11 b/g/n support <br><br>- 802.11 n (2.4 GHz), up to 150 Mbps</li>
+<li>Nordic Semiconductor nRF52840 SoC <br><br>- ARM Cortex-M4F 32-bit processor @ 64MHz <br><br>- 1MB flash, 256KB RAM <br><br>- IEEE 802.15.4-2006: 250 Kbps <br><br>- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps <br><br>- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations <br><br>- ARM TrustZone CryptoCell-310 Cryptographic and security module <br><br>- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps) <br><br>- NFC-A tag</li>
+<li>On-board additional 2MB SPI flash</li>
+<li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>
+<li>Micro USB 2.0 full speed (12 Mbps)</li>
+<li>Integrated Li-Po charging and battery connector</li>
+<li>JTAG (SWD) Connector</li>
+<li>RGB status LED</li>
+<li>Reset and Mode buttons</li>
+<li>On-board 2.4GHz PCB antenna for Thread/BLE (does not support Wi-Fi)</li>
+<li>Two U.FL connectors for external antennas (one for Thread/BLE, another for Wi-Fi)</li>
+<li>Meets the Feather <a href=""https://learn.adafruit.com/adafruit-feather/feather-specification"" target=""_blank"" rel=""noopener noreferrer"">specification</a> in dimensions and pinout</li>
+<li>FCC, CE, and IC certified</li>
+<li>RoHS compliant (lead-free)</li>
+</ul>"				pid-2
+Boron LTE Kit	IoT Development Kit (Cellular + Mesh + Bluetooth)	59	boron-breadboard_1_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p><strong>Note: Particle&#8217;s MVNO will provide support for LTE M1 connectivity in the US upon initial release. Not in the region? Check out the Boron 2G/3G Kit. See the <a href=""https://www.particle.io/mesh/#faq"" target=""_blank"" rel=""noopener noreferrer"">cellular FAQ</a> for details.</strong></p>
+<p>The Boron LTE is a powerful LTE CAT-M1/NB1 enabled development kit that can act as either a standalone cellular endpoint or LTE enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it&#8217;s easy to connect a Li-Po and deploy your local network in minutes.</p>
+<p>The Boron is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints where Wi-Fi is missing or unreliable.</p>
+<meta charset=""utf-8"">
+<p><span>All Particle hardware is designed from the ground up to work with the Device Cloud; a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet. The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our <a href=""https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-"" target=""_blank"" rel=""noopener noreferrer"">documentation</a>.</span></p>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Boron LTE dev board</li>
+<li>Mini breadboard</li>
+<li>Cellular flex antenna</li>
+<li>USB cable</li>
+<li>Starter project includes two resistors (220 ohm), one red LED, and one photodiode</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>u-blox SARA R410 LTE modem <br><br>- LTE CAT M1/ NB1 module with global hardware support (MVNO support for US only) <br><br>- 3GPP Release 13 LTE Cat M1</li>
+<li>Nordic Semiconductor nRF52840 SoC <br><br>- ARM Cortex-M4F 32-bit processor @ 64MHz <br><br>- 1MB flash, 256KB RAM <br><br>- IEEE 802.15.4-2006: 250 Kbps <br><br>- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps <br><br>- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations <br><br>- ARM TrustZone CryptoCell-310 Cryptographic and security module <br><br>- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps) <br><br>- NFC-A tag</li>
+<li>On-board additional 2MB SPI flash</li>
+<li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>
+<li>Micro USB 2.0 full speed (12 Mbps)</li>
+<li>Integrated Li-Po charging and battery connector</li>
+<li>JTAG (SWD) Connector</li>
+<li>RGB status LED</li>
+<li>Reset and Mode buttons</li>
+<li>Dual SIM support: Nano 4FF (unpopulated) and MFF2</li>
+<li>U.FL connector for external antenna</li>
+<li>Meets the Feather <a href=""https://learn.adafruit.com/adafruit-feather/feather-specification"" target=""_blank"" rel=""noopener noreferrer"">specification</a> in dimensions and pinout</li>
+<li>FCC and PTCRB certified</li>
+<li>RoHS compliant (lead-free)&nbsp;</li>
+</ul>"				pid-3
+Boron LTE	IoT Development Board (Cellular + Mesh + Bluetooth)	49	boron-angle_1_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p><strong>Note: Particle&#8217;s MVNO will provide support for LTE M1 connectivity in the US upon initial release. Not in the region? Check out the Boron 2G/3G Kit. See the <a href=""https://www.particle.io/mesh/#faq"" target=""_blank"" rel=""noopener noreferrer"">cellular FAQ</a> for details.</strong></p>
+<p>The Boron LTE is a powerful LTE CAT-M1/NB1 enabled development board that can act as either a standalone cellular endpoint or LTE enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it&#8217;s easy to connect a Li-Po and deploy your local network in minutes.</p>
+<p>The Boron is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints where Wi-Fi is missing or unreliable.</p>
+<meta charset=""utf-8"">
+<p><span>All Particle hardware is designed from the ground up to work with the Device Cloud; a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet. The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our <a href=""https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-"" target=""_blank"" rel=""noopener noreferrer"">documentation</a>.</span></p>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>u-blox SARA R410 LTE modem <br><br>- LTE CAT M1/ NB1 module with global hardware support (MVNO support for US only) <br><br>- 3GPP Release 13 LTE Cat M1</li>
+<li>Nordic Semiconductor nRF52840 SoC <br><br>- ARM Cortex-M4F 32-bit processor @ 64MHz <br><br>- 1MB flash, 256KB RAM <br><br>- IEEE 802.15.4-2006: 250 Kbps <br><br>- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps <br><br>- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations <br><br>- ARM TrustZone CryptoCell-310 Cryptographic and security module <br><br>- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps) <br><br>- NFC-A tag</li>
+<li>On-board additional 2MB SPI flash</li>
+<li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>
+<li>Micro USB 2.0 full speed (12 Mbps)</li>
+<li>Integrated Li-Po charging and battery connector</li>
+<li>JTAG (SWD) Connector</li>
+<li>RGB status LED</li>
+<li>Reset and Mode buttons</li>
+<li>Dual SIM support: Nano 4FF (unpopulated) and MFF2</li>
+<li>U.FL connector for external antenna</li>
+<li>Meets the Feather <a href=""https://learn.adafruit.com/adafruit-feather/feather-specification"" target=""_blank"" rel=""noopener noreferrer"">specification</a> in dimensions and pinout</li>
+<li>FCC and PTCRB certified</li>
+<li>RoHS compliant (lead-free)</li>
+</ul>"				pid-4
+Boron 2G/3G Kit	IoT Development Kit (Cellular + Mesh + Bluetooth)	69	boron-kit-05_3_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p><strong>Note: Live in the United States? Check out the Boron LTE. See the <a href=""https://www.particle.io/mesh/#faq"" target=""_blank"" rel=""noopener noreferrer"">cellular FAQ</a> for 2G/3G country availability.</strong></p>
+<p>The Boron GSM is a powerful 2G/3G enabled development kit that can act as either a standalone cellular endpoint or 2G/3G enabled gateway for Particle Mesh networks. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it&#8217;s easy to connect a Li-Po and deploy your local network in minutes.</p>
+<p>The Boron is great for connecting existing projects to the Particle Device Cloud or as a gateway to connect an entire group of local endpoints where Wi-Fi is missing or unreliable.</p>
+<meta charset=""utf-8"">
+<p><span>All Particle hardware is designed from the ground up to work with the Device Cloud; a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet. The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our <a href=""https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-"" target=""_blank"" rel=""noopener noreferrer"">documentation</a>.&nbsp;</span></p>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Boron 2G/3G dev board</li>
+<li>Mini breadboard</li>
+<li>Cellular flex antenna</li>
+<li>1800mAh Li-Po battery</li>
+<li>USB cable</li>
+<li>Starter project includes two resistors (220 ohm), one red LED, and one photodiode</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>u-blox SARA U201 2G/3G modem <br><br>- HSPA/GSMqq with global hardware and SIM support <br><br>- 3GPP Release 7 <br><br>- Bands 800/850/900/1900/2100 MHz</li>
+<li>Nordic Semiconductor nRF52840 SoC <br><br>- ARM Cortex-M4F 32-bit processor @ 64MHz <br><br>- 1MB flash, 256KB RAM <br><br>- IEEE 802.15.4-2006: 250 Kbps <br><br>- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps <br><br>- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations <br><br>- ARM TrustZone CryptoCell-310 Cryptographic and security module <br><br>- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps) <br><br>- NFC-A tag</li>
+<li>On-board additional 2MB SPI flash</li>
+<li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>
+<li>Micro USB 2.0 full speed (12 Mbps)</li>
+<li>Integrated Li-Po charging and battery connector</li>
+<li>JTAG (SWD) Connector</li>
+<li>RGB status LED</li>
+<li>Reset and Mode buttons</li>
+<li>Dual SIM support: Nano 4FF and MFF2</li>
+<li>U.FL connector for external antenna</li>
+<li>Meets the Feather <a href=""https://learn.adafruit.com/adafruit-feather/feather-specification"" target=""_blank"" rel=""noopener noreferrer"">specification</a> in dimensions and pinout</li>
+<li>FCC and PTCRB certified</li>
+<li>RoHS compliant (lead-free)</li>
+</ul>"				pid-5
+Xenon Kit	IoT Development Kit (Mesh + Bluetooth)	25	xenon-breadboard_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>The Xenon is a low cost mesh-enabled development kit that can act as either an endpoint or repeater within a Particle Mesh network.</p>
+<p>The Xenon is mesh only and designed to function as the endpoint of your IoT network. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it&#8217;s easy to connect a Li-Po and deploy your local network in minutes.</p>
+<p>The Xenon is best for connecting sensors, motors, pumps, valves, and points of data-interest. Pair it with an Argon or Boron gateway to get all that great data into the Device Cloud.&nbsp;</p>
+<p>The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 10 free micro networks using a Wi-Fi or Ethernet gateway. Alternatively, all customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our <a href=""https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-"" target=""_blank"" rel=""noopener noreferrer"">documentation</a>.</p>
+<meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Xenon dev board</li>
+<li>Mini breadboard</li>
+<li>USB cable</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>Nordic Semiconductor nRF52840 SoC <br><br>- ARM Cortex-M4F 32-bit processor @ 64MHz <br><br>- 1MB flash, 256KB RAM <br><br>- IEEE 802.15.4-2006: 250 Kbps <br><br>- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps <br><br>- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations <br><br>- ARM TrustZone CryptoCell-310 Cryptographic and security module <br><br>- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps) <br><br>- NFC-A tag</li>
+<li>On-board additional 2MB SPI flash</li>
+<li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>
+<li>Micro USB 2.0 full speed (12 Mbps)</li>
+<li>Integrated Li-Po charging and battery connector</li>
+<li>JTAG (SWD) Connector</li>
+<li>RGB status LED</li>
+<li>Reset and Mode buttons</li>
+<li>On-board PCB antenna</li>
+<li>U.FL connector for external antenna</li>
+<li>Meets the Feather <a href=""https://learn.adafruit.com/adafruit-feather/feather-specification"" target=""_blank"" rel=""noopener noreferrer"">specification</a> in dimensions and pinout</li>
+<li>FCC, CE and IC certified</li>
+<li>RoHS compliant (lead-free)</li>
+</ul>"				pid-6
+Xenon	IoT Development Board (Mesh + Bluetooth)	15	xenon-angle_1_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>The Xenon is a low cost mesh-enabled development board that can act as either an endpoint or repeater within a Particle Mesh network.</p>
+<p>The Xenon is mesh only and designed to function as the endpoint of your IoT network. It is based on the Nordic nRF52840 and has built-in battery charging circuitry so it&#8217;s easy to connect a Li-Po and deploy your local network in minutes.</p>
+<p>The Xenon is best for connecting sensors, motors, pumps, valves, and points of data-interest. Pair it with an Argon or Boron gateway to get all that great data into the Device Cloud.</p>
+<p>The Device Cloud for Particle Mesh will be priced by network. All Particle customers get 10 free micro networks using a Wi-Fi or Ethernet gateway. Alternatively, all customers get 3 free months of Device Cloud access for micro networks using a cellular gateway. A micro network is defined as a network with 10 total devices and a single gateway. More pricing details to be released soon. In the meantime, check out our <a href=""https://docs.particle.io/faq/pricing/general-questions/core/#do-i-have-to-pay-anything-to-use-particle-mesh-devices-"" target=""_blank"" rel=""noopener noreferrer"">documentation</a>.</p>
+<meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>Nordic Semiconductor nRF52840 SoC <br><br>- ARM Cortex-M4F 32-bit processor @ 64MHz <br><br>- 1MB flash, 256KB RAM <br><br>- IEEE 802.15.4-2006: 250 Kbps <br><br>- Bluetooth 5: 2 Mbps, 1 Mbps, 500 Kbps, 125 Kbps <br><br>- Supports DSP instructions, HW accelerated Floating Point Unit (FPU) calculations <br><br>- ARM TrustZone CryptoCell-310 Cryptographic and security module <br><br>- Up to +8 dBm TX power (down to -20 dBm in 4 dB steps) <br><br>- NFC-A tag</li>
+<li>On-board additional 2MB SPI flash</li>
+<li>20 mixed signal GPIO (6 x Analog, 8 x PWM), UART, I2C, SPI</li>
+<li>Micro USB 2.0 full speed (12 Mbps)</li>
+<li>Integrated Li-Po charging and battery connector</li>
+<li>JTAG (SWD) Connector</li>
+<li>RGB status LED</li>
+<li>Reset and Mode buttons</li>
+<li>On-board PCB antenna</li>
+<li>U.FL connector for external antenna</li>
+<li>Meets the Feather <a href=""https://learn.adafruit.com/adafruit-feather/feather-specification"" target=""_blank"" rel=""noopener noreferrer"">specification</a> in dimensions and pinout</li>
+<li>FCC, CE and IC certified</li>
+<li>RoHS compliant (lead-free)</li>
+</ul>"				pid-7
+Particle Debugger	Professional debugging at a fraction of the cost	20	debugger_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>The Particle Debugger gives you the power of professional debugging at a fraction of the cost. Using this accessory, you&#8217;ll be able to program Particle mesh-ready hardware over common interfaces like JTAG and SWD, using open source tools like GDB.</p>
+<p>Supports the open source CMSIS-DAP specification and DAPLink firmware developed by ARM.</p>
+<p>Comes with one JTAG ribbon cable.</p>"				pid-8
+Particle Ethernet FeatherWing	Add wired connectivity to your Mesh dev kit	20	ethernet-featherwing_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>The Ethernet FeatherWing is the fastest way to add wired connectivity to your Argon, Boron, or Xenon and turns any Particle Mesh developer kit into an Ethernet gateway. Based on the WIZnet W5500 chip, this side-by-side FeatherWing maintains great RF performance even while adding Ethernet connectivity to any Particle Mesh device.</p>"				pid-9
+Particle Classic Adapter	Use your classic accessories to use with the Mesh dev kits	5	adpt2_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>The Particle Classic Adapter lets you use your <a href=""https://store.particle.io/products/asset-tracker"">Asset Tracker</a>, <a href=""https://store.particle.io/products/relay-shield"">Relay Shield</a>, or other third-party shields with our third generation developer kits. Plug your Argon, Boron, or Xenon into this adapter and continue development as usual!</p>
+<p><strong>Note:</strong> this product is a one-way adapter. That is, this product does not enable use of Adafruit FeatherWings with the Photon or Electron.</p>"				pid-10
+Particle FeatherWing Tripler	Add FeatherWing accessories without stacking	8.5	mesh-tripler-iso-view_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>Perfect for any prototyping project, the Tripler provides space&nbsp;to add-on up to two FeatherWing accessories without any stacking header needs. Compatible with the newest generation of Particle developer kits (Particle Mesh).</p>
+<p>The Tripler has three breakouts for each pin on a Feather, as well as plain grid proto holes. In addition, three sets of pins are cross connected with a full strip of connected pads&nbsp;for GND and 3.3V.</p>
+<ul>
+<li>
+<h5>Includes:</h5>
+</li>
+<li>One Tripler printed circuit board (PCB)</li>
+<li>Three sets of FeatherWing headers</li>
+</ul>
+<p>Note: some soldering required.</p>"				pid-11
+Adafruit INA219 FeatherWing	The Adafruit INA219 FeatherWing makes power-monitoring problems a thing of the past	7.95	ina_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>The INA219 FeatherWing makes power-monitoring problems a thing of the past. Instead of struggling with two multimeters, you can just use the handy INA219B chip on this breakout to measure both the high side voltage and DC current draw over I2C with 1% precision. Works with all Feather boards including the new Particle Argon, Boron, and Xenon.</p>
+<p>This chip is smarter than your average current-measuring devices. It can handle high side current measuring, up to +26VDC, even though it is powered with 3.3V. It will also report back that high side voltage, which is great for tracking battery life or solar panels. Communicates over I2C and possible to change the I2C address to have up to 4 of these Wings on one Feather.</p>
+<p>See the full specs at <a href=""https://www.adafruit.com/product/3650"" target=""_blank"" rel=""noopener noreferrer"">Adafruit</a>.</p>
+<meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>Product Dimensions: 51.0mm x 22.8mm x 3.6mm / 2.0&quot; x 0.9&quot; x 0.1&quot;</li>
+<li>Product Weight: 3.4g / 0.1oz</li>
+</ul>"				pid-12
+Adafruit FeatherWing OLED	Add a mini user interface to any Feather main board	14.95	oled_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>This is the FeatherWing OLED: it adds a 128x32 monochrome OLED plus 3 user buttons to any Feather main board including the new Particle Argon, Boron, and Xenon.</p>
+<p>These displays are about 1&quot; diagonal and very readable due to the high contrast of an OLED display. This screen is made of 128x32 individual white OLED pixels that provide a crisp display. Includes a reset button and three mini tactile buttons (A, B, and C) so you can add a mini user interface to your feather. Works with all Feather boards and stacks with FeatherWings, using only the two I2C pins.</p>
+<p>See the full specs at <a href=""https://www.adafruit.com/product/2900"" target=""_blank"" rel=""noopener noreferrer"">Adafruit</a>.</p>
+<meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>PCB dimensions: 22.9mm x 50.9mm / 0.9&quot; x 2&quot;</li>
+<li>Display area: ~25.8mm / ~1.0&quot;</li>
+<li>Weight: 4.8g</li>
+</ul>"				pid-13
+Adafruit Power Relay FeatherWing	"The Power Relay FeatherWing gives you power to control, and control over power"	9.95	PWRLY_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p>This is the Power Relay FeatherWing. It gives you power to control...well power. Turn on and off lamps, fans, solenoids, and other small appliances that run on up to 250VAC or DC power; can handle up to 1200 Watts. Works with all Feather boards including the new Particle Argon, Boron, and Xenon.</p>
+<p>Each FeatherWing comes with a fully assembled and tested PCB header you can use to attach to your Feather. By soldering closed the jumper on the underside of the Wing, you can select which pin you want to use for the relay control. Some light soldering is required.</p>
+<p>This Wing has a non-latching type relay. You can switch up to 10A of resistive-load current at 120VAC, 5A at 240VAC, and with inductive loads, about half that. Please note: If using with high voltages (&gt; 24V) use care and common sense. High voltages require experience, and are only for use by engineers who are comfortable with guidelines and know how to use them safely.</p>
+<p>See the full specs at <a href=""https://www.adafruit.com/product/3191"" target=""_blank"" rel=""noopener noreferrer"">Adafruit</a>.</p>
+<meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>Product Dimensions: 51.0mm x 23.0mm x 20.2mm / 2.0&quot; x 0.9&quot; x 0.8&quot;</li>
+<li>Product Weight: 16.8g / 0.6oz</li>
+</ul>"				pid-14
+Grove Starter Kit for Particle Mesh	Explore the world of sensing with Particle Mesh	35	Grove_Starter_Kit_large.jpg	"<p><strong>*Now available to order, shipping November 2018. If you add additional items to your order, your entire order will not ship until November 2018.*</strong></p>
+<p><strong>Please note the Grove Starter Kit does not include a Particle development board. You will need to purchase a Particle Mesh Argon or Boron to accompany this kit.</strong></p>
+<p>The Starter Kit is designed to make your first exploration into the world of sensing and actuating a breeze. The kit comes with seven different components that work out-of-the-box with Particle Mesh hardware and let you focus on learning the basics. Working with Starter Kit requires no soldering and minimal wiring. Simply connect the kit&#8217;s Grove Shield (the new co-developed FeatherWing adapter from Particle and Grove) to your Particle Mesh board and use the included cables to connect the adapter and the sensors and actuators that you want to use. It&#8217;s a plug-and-play experience.</p>
+<meta charset=""utf-8"">
+<ul>
+<li>
+<h5>This kit includes:</h5>
+</li>
+<li>1x Grove Shield for Particle Mesh</li>
+<li>1x Button</li>
+<li>1x Rotary Angle Sensor</li>
+<li>1x Ultrasonic Ranger</li>
+<li>1x Temp&amp;Humi Sensor</li>
+<li>1x Light Sensor v1.2</li>
+<li>1x Chainable RGB LED</li>
+<li>1x Buzzer</li>
+<li>1x 4-Digit Display</li>
+</ul>
+<ul>
+<li>
+<h5>Features:</h5>
+</li>
+<li><span>Grove Shield for Particle Mesh - Plug and play your Particle Mesh Argon or Boron in the FeatherWing form factor; includes Grove connectors (3 Digital, 2 analog, 2 I2C_1, 1 UART)</span></li>
+<li><span>Button - A momentary push button that uses Standard 4-pin Grove Cables to connect to other Grove modules</span></li>
+<li><span>Rotary Angle Sensor - Also known as a &#8216;potentiometer&#8217;, this sensor produces analog output between 0 and Vcc</span></li>
+<li><span>Ultrasonic Ranger - A non-contact distance measurement module working at 40KHz</span></li>
+<li><span>Temp&amp;Humi Sensor - Highly reliable and integrated temperature and humidity sensor</span></li>
+<li><span>Light Sensor v1.2 - Integrates a photo-resistor to detect light intensity and can be used to build a light controlled switch</span></li>
+<li><span>Chainable RGB LED - Full-color LED driver with 3 constant-current drivers as well as modulated output of 256 shades of gray</span></li>
+<li><span>Buzzer - Easy to use piezoelectric buzzer with a sound output of &gt;85dB</span></li>
+<li><span>4-Digit Display - Red alpha-numeric display with 8 adjustable luminance levels&nbsp;</span></li>
+</ul>"				pid-15
+E Series Evaluation Kit 2G/3G or LTE	"Prototype with the E Series, our industrialized cellular module line."	99	e-series-evalkit_large.jpg	"<p class=""p1"">The E Series Evaluation Kit is the best way to get started with the&nbsp;<a href=""https://particle.io/e-series""><span class=""s1""><b>E Series</b></span></a>, Particle&#8217;s product&nbsp;family of industrialized cellular IoT modules. The Evaluation Kit includes an E Series Evaluation Board with your choice of 2G/3G or LTE connectivity, a sample IoT sensor (temperature), and all the cellular accessories you need to build your first industrial-grade proof-of-concept on the Particle platform.</p>
+<p><b>E</b><b> Series Product Features</b></p>
+<meta charset=""utf-8"">
+<p>Particle&#8217;s E Series is a new family of production-grade 2G, 3G, and LTE-enabled hardware that vastly reduces&nbsp;the cost and complexity of deploying cellular-connected IoT solutions at scale.<b><br></b></p>
+<p>All E Series modules include the following features:</p>
+<p>&nbsp; &nbsp; &nbsp; - Embedded SIM card, which resists vibration, corrosion, and mechanical failure &nbsp; <br>&nbsp; &nbsp; &nbsp; - Surface-mountable design, for PCB assembly in mass-production <br>&nbsp; &nbsp; &nbsp; - Industrial temperature range from -20 to 85C for deployment in hostile environments <br>&nbsp; &nbsp; &nbsp; - Pinout with support for 2G, 3G, LTE M1, and future-compatible for NB1<br>&nbsp; &nbsp; &nbsp; - Fully certified design virtually eliminating the cost and complexity of RF and carrier compliance <br>&nbsp; &nbsp; &nbsp; -&nbsp;Built-in compatibility with Particle's development tools, messaging platform, and device management console</p>
+<meta charset=""utf-8"">
+<p><span style=""font-weight: 400;""><b>E Series&nbsp;Evaluation Board&nbsp;Features</b></span></p>
+<p><span style=""font-weight: 400;"">The E Series Evaluation Kit contains a breakout board which provides easy access to all the pins and peripherals available&nbsp;on all E Series module variants.&nbsp;</span><span style=""font-weight: 400;"">The Evaluation Board includes:</span></p>
+<p>&nbsp; &nbsp; &nbsp; - Physical USB access for flashing and serial communications<br>&nbsp; &nbsp; &nbsp; - Li-Po battery connector for connecting external batteries<br>&nbsp; &nbsp; &nbsp; - Power barrel jack connector for external power<br>&nbsp; &nbsp; &nbsp; - MODE and RESET buttons<br>&nbsp; &nbsp; &nbsp; - Charge and status LEDs to appreciate device state at a glance</p>
+<p class=""p1"">The 2G/3G E Series Evaluation board contains a soldered E310 module, which supports worldwide 2G and&nbsp;3G connectivity and can be configured into a 2G only mode.</p>
+<p class=""p1"">The LTE E Series Evaluation board contains a soldered E402 module, which supports LTE M1 connectivity.</p>
+<p><span>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</span></p>
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>
+<strong>3MB</strong> of cellular data per device/mo (additional data <a href=""https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs"" target=""_blank"" rel=""noopener noreferrer"">$0.40/MB for most countries</a>)</li>
+<li>First 3 months of Device Cloud <strong>FREE</strong> ($2.99 per device/mo after)</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li><span style=""font-weight: 400;"">E310 (2G/3G) or E402 (LTE) module mounted on an evaluation board</span></li>
+<li><span style=""font-weight: 400;"">Li-Po battery</span></li>
+<li><span style=""font-weight: 400;"">Taoglas Penta-band Cellular Antenna (u.FL)</span></li>
+<li><span style=""font-weight: 400;"">SMA to u.FL adapter for connecting external SMA antennas</span></li>
+<li><span style=""font-weight: 400;"">Grove temperature sensor</span></li>
+<li><span style=""font-weight: 400;"">USB Micro cable</span></li>
+<li><span style=""font-weight: 400;"">Pinout reference card</span></li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>STM32F205 ARM Cortex M3 microcontroller</span></li>
+<li><span>1MB Flash, 128K RAM</span></li>
+<li><span>Cellular modem: u-blox SARA U-series (3G Global with 2G fallback / LTE)</span></li>
+<li><span>36 pins total: <span style=""font-weight: 400;"">28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</span></span></li>
+<li>
+<span>Board dimensions: <span style=""font-weight: 400;"">36mm x 43mm</span></span>&nbsp;</li>
+</ul>
+<p>Continent compatibility is <b><i>simplified</i></b><span> and exceptions exist. Please be sure to check the </span><a href=""https://s3.amazonaws.com/particle-marketing-assets/CountryListings.png""><span>full list</span></a><span> of compatible countries for the location in which your product will be deployed.</span></p>"				pid-16
+E Series LTE Module	"Prototype with the E Series, our industrialized cellular module line."	69	LTEModule_large.jpg	"<p><span style=""font-weight: 400;"">The <a href=""https://particle.io/e-series"" title=""E Series""><b>E Series</b></a> is Particle&#8217;s newest product&nbsp;family of industrialized cellular IoT modules.&nbsp;The <strong><a href=""https://store.particle.io/#e-series-evaluation-kit"" target=""_blank"" rel=""noopener noreferrer"">E Series Evaluation Kit</a> </strong>provides everything&nbsp;</span>you need to build your first industrial-grade proof-of-concept on the Particle platform.</p>
+<meta charset=""utf-8"">
+<p><b>E</b><b> Series Product Features</b></p>
+<p>All E Series modules include the following features:</p>
+<p>&nbsp; &nbsp; &nbsp; - Embedded SIM card, which resists vibration, corrosion, and mechanical failure &nbsp; <br>&nbsp; &nbsp; &nbsp; - Surface-mountable design, for PCB assembly in mass-production <br>&nbsp; &nbsp; &nbsp; - Industrial temperature range from -20 to 85C for deployment in hostile environments <br>&nbsp; &nbsp; &nbsp; - Pinout with support for LTE M1 and a seamless transition from 2G/3G (future-compatible for NB1) <br>&nbsp; &nbsp; &nbsp; - Fully certified design virtually eliminating the cost and complexity of RF and carrier compliance <br>&nbsp; &nbsp; &nbsp; -&nbsp;Built-in compatibility with Particle's development tools, messaging platform, and device management console</p>
+<p>The E402 module supports LTE M1 connectivity.</p>
+<p><span>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</span></p>
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>
+<strong>3MB</strong> of cellular data per device/mo (additional data <a href=""https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs"" target=""_blank"" rel=""noopener noreferrer"">$0.40/MB for most countries</a>)</li>
+<li>First 3 months of Device Cloud <strong>FREE</strong> ($2.99 per device/mo after)</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>STM32F205 ARM Cortex M3 microcontroller</span></li>
+<li><span>1MB Flash, 128K RAM</span></li>
+<li><span>Cellular modem: u-blox SARA U-series (LTE M1)</span></li>
+<li><span>36 pins total: <span style=""font-weight: 400;"">28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</span></span></li>
+<li>
+<span>Board dimensions: <span style=""font-weight: 400;"">36mm x 43mm</span></span>&nbsp;</li>
+</ul>"				pid-17
+E Series 3G Module (Global)	"Prototype with the E Series, our industrialized cellular module line"	79	Screen_Shot_2018-10-19_at_11.56.06_AM_large.jpg	"<p><span style=""font-weight: 400;"">The <a href=""https://particle.io/e-series"" title=""E Series""><b>E Series</b></a> is Particle&#8217;s newest product&nbsp;family of industrialized cellular IoT modules.</span></p>
+<meta charset=""utf-8"">
+<p><b>E</b><b> Series Product Features</b></p>
+<meta charset=""utf-8"">
+<p>Particle&#8217;s E Series is a new family of production-grade 2G, 3G, and LTE-enabled hardware that vastly reduces&nbsp;the cost and complexity of deploying cellular-connected IoT solutions at scale.<b><br></b></p>
+<p>All E Series modules include the following features:</p>
+<p>&nbsp; &nbsp; &nbsp; - Embedded SIM card, which resists vibration, corrosion, and mechanical failure &nbsp; <br>&nbsp; &nbsp; &nbsp; - Surface-mountable design, for PCB assembly in mass-production <br>&nbsp; &nbsp; &nbsp; - Industrial temperature range from -20 to 85C for deployment in hostile environments <br>&nbsp; &nbsp; &nbsp; - Future-compatible pinout with support for 2G and 3G today and a seamless transition to LTE M1 and NB1 in 2018 <br>&nbsp; &nbsp; &nbsp; - Fully certified design virtually eliminating the cost and complexity of RF and carrier compliance <br>&nbsp; &nbsp; &nbsp; -&nbsp;Built-in compatibility with Particle's development tools, messaging platform, and device management console</p>
+<p>The E310 module supports worldwide 2G and <span style=""font-weight: 400;"">3G connectivity and can be configured into a 2G only mode.</span></p>
+<p><span>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</span></p>
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>
+<strong>3MB</strong> of cellular data per device/mo (additional data <a href=""https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs"" target=""_blank"" rel=""noopener noreferrer"">$0.40/MB for most countries</a>)</li>
+<li>First 3 months of Device Cloud <strong>FREE</strong> ($2.99 per device/mo after)</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>STM32F205 ARM Cortex M3 microcontroller</span></li>
+<li><span>1MB Flash, 128K RAM</span></li>
+<li><span>Cellular modem: u-blox SARA U-series (3G Global with 2G fallback)</span></li>
+<li><span>36 pins total: <span style=""font-weight: 400;"">28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</span></span></li>
+<li>
+<span>Board dimensions: <span style=""font-weight: 400;"">36mm x 43mm</span></span>&nbsp;</li>
+</ul>
+<p>Continent compatibility is <b><i>simplified</i></b><span> and exceptions exist. Please be sure to check the </span><a href=""https://s3.amazonaws.com/particle-marketing-assets/CountryListings.png""><span>full list</span></a><span> of compatible countries for the location in which your product will be deployed.</span></p>"				pid-18
+Electron 3G Kit (Americas/Aus)	A tiny development kit for creating 3G cellular connected products	69	Electron-Kit_1f61613d-491d-474a-8875-ef0f386069e9_large.jpg	"<p>The Electron 3G Kit is a tiny development kit for creating 3G cellular-connected electronics projects and products. It comes with a Particle SIM card with service in more than 100 countries worldwide.</p>
+<p><span>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</span></p>
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>
+<strong>3MB</strong> of cellular data per device/mo (additional data <a href=""https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs"" target=""_blank"" rel=""noopener noreferrer"">$0.40/MB for most countries</a>)</li>
+<li>First 3 months of Device Cloud <strong>FREE</strong> ($2.99 per device/mo after)</li>
+<li>Device Cloud Features: <br><br> - Device Management <br><br> - Over the Air Firmware Updates <br><br> - Fully Managed Connectivity <br><br> - Developer Tools <br><br> - Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Particle Electron PCB</li>
+<li>Particle SIM Card</li>
+<li>Li-Po battery</li>
+<li>Taoglas Cellular Antenna</li>
+<li>USB cable</li>
+<li>Breadboard</li>
+<li>Pinout reference card</li>
+<li>Components for a sample product</li>
+</ul>
+<br>
+<ul style=""clear: left;"">
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>STM32F205 ARM Cortex M3 microcontroller</span></li>
+<li><span>1MB Flash, 128K RAM</span></li>
+<li><span>Cellular modem: u-blox SARA U-series (3G)</span></li>
+<li><span>36 pins total: 28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</span></li>
+<li><span>Board dimensions: 2.0&quot; x 0.8&quot; x 0.3&quot; (0.5&quot; including headers)</span></li>
+</ul>
+<ul>
+<li>
+<h5>Country compatibility*:</h5>
+</li>
+<li>North America</li>
+<li>South America</li>
+<li>Australia</li>
+</ul>
+<p>*The Electron is a GSM-only device, and does not support CDMA networks. We offer two types of Electron 3G Kits&#8212;one for Americas/Australia (850/1900 MHz) and one for Europe/Asia/Africa (900/1800 MHz). Please be sure to check the <a href=""https://s3.amazonaws.com/particle-marketing-assets/CountryListings.png""><span>full list</span></a><span> of compatible countries for the location in which your product will be deployed.</span></p>"				pid-19
+Electron 3G Kit (Eur/Asia/Afr)	A tiny development kit for creating 3G cellular connected products	69	Electron-Kit_cfdde7a9-b161-4e85-9184-1821732889ab_large.jpg	"<p>The Electron 3G Kit is a tiny development kit for creating 3G cellular-connected electronics projects and products. It comes with a Particle SIM card with service in more than 100 countries worldwide.</p>
+<p><span>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</span></p>
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>
+<strong>3MB</strong> of cellular data per device/mo (additional data <a href=""https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs"" target=""_blank"" rel=""noopener noreferrer"">$0.40/MB for most countries</a>)</li>
+<li>First 3 months of Device Cloud <strong>FREE</strong> ($2.99 per device/mo after)</li>
+<li>Device Cloud Features: <br><br> - Device Management <br><br> - Over the Air Firmware Updates <br><br> - Fully Managed Connectivity <br><br> - Developer Tools <br><br> - Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Particle Electron PCB</li>
+<li>Particle SIM Card</li>
+<li>Li-Po battery</li>
+<li>Taoglas Cellular Antenna</li>
+<li>USB cable</li>
+<li>Breadboard</li>
+<li>Pinout reference card</li>
+<li>Components for a sample product</li>
+</ul>
+<br>
+<ul style=""clear: left;"">
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>STM32F205 ARM Cortex M3 microcontroller</span></li>
+<li><span>1MB Flash, 128K RAM</span></li>
+<li><span>Cellular modem: u-blox SARA U-series (3G)</span></li>
+<li><span>36 pins total: 28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</span></li>
+<li><span>Board dimensions: 2.0&quot; x 0.8&quot; x 0.3&quot; (0.5&quot; including headers)</span></li>
+</ul>
+<ul>
+<li>
+<h5>Country compatibility*:</h5>
+</li>
+<li>Europe</li>
+<li>Asia</li>
+<li>Africa</li>
+</ul>
+<p>*The Electron is a GSM-only device, and does not support CDMA networks. We offer two types of Electron 3G Kits&#8212;one for Americas/Australia (850/1900 MHz) and one for Europe/Asia/Africa (900/1800 MHz). Please be sure to check the <a href=""https://s3.amazonaws.com/particle-marketing-assets/CountryListings.png""><span>full list</span></a><span> of compatible countries for the location in which your product will be deployed.</span></p>"				pid-20
+Electron 2G Kit (Global)	A tiny development kit for creating 2G cellular connected products	49	Electron-Kit_large.jpg	"<p>The Electron 2G Kit is a tiny development kit for creating cellular-connected electronics projects and products. It comes with a Particle SIM card with service in more than 100 countries worldwide.</p>
+<p><span>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</span></p>
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>
+<strong>3MB</strong> of cellular data per device/mo (additional data <a href=""https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs"" target=""_blank"" rel=""noopener noreferrer"">$0.40/MB for most countries</a>)</li>
+<li>First 3 months of Device Cloud <strong>FREE</strong> ($2.99 per device/mo after)</li>
+<li>Device Cloud Features: <br><br> - Device Management <br><br> - Over the Air Firmware Updates <br><br> - Fully Managed Connectivity <br><br> - Developer Tools <br><br> - Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Particle Electron PCB</li>
+<li>Particle SIM Card</li>
+<li>Li-Po battery</li>
+<li>Taoglas Cellular Antenna</li>
+<li>USB cable</li>
+<li>Breadboard</li>
+<li>Pinout reference card</li>
+<li>Components for a sample product</li>
+</ul>
+<br>
+<ul style=""clear: left;"">
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>STM32F205 ARM Cortex M3 microcontroller</span></li>
+<li><span>1MB Flash, 128K RAM</span></li>
+<li><span>Cellular modem: u-blox SARA G-series (2G)</span></li>
+<li><span>36 pins total: 28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</span></li>
+<li><span>Board dimensions: 2.0&quot; x 0.8&quot; x 0.3&quot; (0.5&quot; including headers)</span></li>
+</ul>
+<ul>
+<li>
+<h5>Country compatibility*:</h5>
+</li>
+<li>North America (limited timeline)</li>
+<li>South America</li>
+<li>Europe</li>
+<li>Asia</li>
+<li>Oceania</li>
+</ul>
+<p>2G coverage will now exist in the United States until 2020&nbsp;through T-Mobile. For T-Mobile's coverage map,<a href=""http://maps.t-mobile.com/pcc.html?map=mvno-roamdcm-2""> click here.</a></p>
+<meta charset=""utf-8"">
+<p><span><strong><span style=""font-weight: 400;"">Please note that the Electron is a GSM-only device, and does not support CDMA networks.&nbsp;</span></strong></span><strong><span style=""font-weight: 400;"">Many global carriers are planning to sunset their 2G networks beginning as soon as late 2016 and early 2017, so please confirm continued 2G service with your local carrier. We recommend 3G Electrons for anyone concerned about long-term&nbsp;cellular support in their home country.&nbsp;</span></strong><strong><span style=""font-weight: 400;"">2G Electrons will not work in Japan, where 2G networks have already been discontinued.&nbsp;</span></strong></p>
+<p>*Continent compatibility is <b><i>simplified</i></b> and exceptions exist. Please be sure to check the <a href=""https://s3.amazonaws.com/particle-marketing-assets/CountryListings.png""><span>full list</span></a><span> of compatible countries for the location in which your product will be deployed.</span></p>"				pid-21
+Assest Track Kit V2	Track your valuables with an Electron + GPS	109	assetTrackerV2-extra_1cd097a8-a85e-423c-8c81-89ad61db4286_large.jpg	"Locate your stuff! The Asset Tracker Kit contains all of the hardware you need to build a GSM + GPS location tracker for your most prized possessions. In addition to a GPS Shield and Electron, the Asset Tracker Kit comes with a weatherproof enclosure, so it'll keep your electronics safe from the dust, dirt, and moisture of the great outdoors. Keep your bicycle, boomerang, and backpack safe--satellite lock onto this bargain project kit today!<br><br>Our new Asset Tracker v2 shield has the following new features and improvements:<br>- Improved GPS performance<br>-&nbsp;Smaller enclosure for space-constrained tracking applications<br>- Expandable with Grove; Seeed's huge library of sensors and firmware libraries<br>- Satellite support for GPS, GLONASS, Galileo, BeiDou<br><br>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet. <br><br>
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>
+<strong>3MB</strong> of cellular data per device/mo (additional data <a href=""https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs"" target=""_blank"" rel=""noopener noreferrer"">$0.40/MB for most countries</a>)</li>
+<li>First 3 months of Device Cloud <strong>FREE</strong> ($2.99 per device/mo after)</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Particle Electron PCB</li>
+<li>Weatherproof Enclosure</li>
+<li>Asset Tracker Shield PCB</li>
+<li>Particle SIM Card</li>
+<li>Li-Po battery</li>
+<li>USB cable</li>
+<li>Breadboard</li>
+<li>Pinout reference card</li>
+<li>Components for a sample product</li>
+</ul>
+<br>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>STM32F205 ARM Cortex M3 microcontroller</span></li>
+<li><span>1MB Flash, 128K RAM</span></li>
+<li><span>Cellular modem: u-blox SARA U-series (3G) or G-series (2G)</span></li>
+<li><span>36 pins total: 28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</span></li>
+<li>Based on 72-channel u-blox M8 engine</li>
+<li>GPS/QZSS L1 C/A, GLONASS L10F, BeiDou B1I, Galileo E1B/C, SBAS L1 C/A: WAAS, EGNOS, MSAS, GAGAN</li>
+<li>Update rates: Single GNSS: up to 18 Hz, 2 Concurrent GNSS: up to 10 Hz</li>
+<li>Position accuracy of 2.5 meters&gt;</li>
+<li>Sensitivity of -167dBm</li>
+<li>Acquisition times: Cold starts: 26s, Aided starts: 2s, Reacquisition: 1s</li>
+<li>Operating temperature of &#8211;40&#176; C to 85&#176; C</li>
+<li>On board ROM</li>
+<li>Anti spoofing and anti jamming technologies</li>
+<li>Two quick connect grove sensor ports</li>
+<li>Built-in 3 axis IMU</li>
+<li>On board ceramic GPS antenna with LNA and bandpass filter</li>
+<li>Ability to switch between on board antenna or external active antenna</li>
+<li><span>Board dimensions: 4.6&quot; x 1.42&quot; x 0.3&quot; (0.5&quot; including headers)</span></li>
+</ul>
+<p>The Asset Tracker Kit comes with a Particle SIM card with service in more than 100 countries worldwide. The Electron is a GSM-only device, and does not support CDMA networks. Some US carriers are planning to sunset their 2G networks beginning in 2017, so we recommend the Electron 3G (Americas) for our customers in the US.</p>
+<p>We offer two types of Electron 3G Kits&#8212;one for Americas/Australia (850/1900 MHz) and one for Europe/Asia/Africa (900/1800 MHz). Please be sure to check the <a href=""https://s3.amazonaws.com/particle-marketing-assets/CountryListings.png""><span>full list</span></a><span> of compatible countries for the location in which your product will be deployed.</span></p>"				pid-22
+Asset Tracker v2 Components	Asset Tracker Shield & Enclosure	72	asset-tracker-v2-top-01_1_large.jpg	"<p>Already own an Electron Kit? Needing to locate or track your stuff? Look no further! The Asset Tracker components, a shield and&nbsp;an enclosure, are the perfect add-on&nbsp;to enhance your PI skills. This add-on bundle contains a GPS Shield and a weatherproof enclosure, so it'll keep your electronics safe from the dust, dirt, and moisture of the great outdoors.</p>
+<p>Our new Asset Tracker v2 shield has the following new features and improvements:<br><span>- Improved GPS performance</span><br><span>-&nbsp;Smaller enclosure for space-constrained tracking applications</span><br><span>- Expandable with Grove; Seeed's huge library of sensors and firmware libraries</span><br><span>- Satellite support for GPS, GLONASS, Galileo, BeiDou</span></p>
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>Weatherproof Enclosure</li>
+<li>Asset Tracker Shield PCB</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>GPS/QZSS L1 C/A, GLONASS L10F, BeiDou B1I, Galileo E1B/C, SBAS L1 C/A: WAAS, EGNOS, MSAS, GAGAN</li>
+<li>Update rates: Single GNSS: up to 18 Hz, 2 Concurrent GNSS: up to 10 Hz</li>
+<li>Position accuracy of 2.5 meters&gt;</li>
+<li>Sensitivity<span>&nbsp;</span>of -167dBm</li>
+<li>Acquisition times: Cold starts: 26s, Aided starts: 2s, Reacquisition: 1s</li>
+<li>Operating temperature of &#8211;40&#176; C to 85&#176; C</li>
+</ul>
+<p>Please note, this add-on <strong>does not contain an Electron.</strong> If&nbsp;you are looking for the entire Asset Tracker Kit, please view the item <a href=""https://store.particle.io/products/asset-tracker"" target=""_blank"" rel=""noopener noreferrer"">here</a>.</p>
+<p>Enclosure colors may vary.</p>"				pid-23
+Sensor Kit w/ Electron 3G	A hand-picked combination of our favorite sensors and components for prototyping.	149	electron_sensor_kit_large.jpg	"<p><span style=""font-weight: 400;"">Quantify the world! The Sensor Kit is a curated mix of awesome sensors and electrical components specifically selected by the engineers on the Particle Team. If you want to measure temperature, sense loudness, measure distances, capture motion, or detect noxious gases, the Sensor Kit has you covered. Whether you&#8217;re building a connected robot or measuring the world around you, the Sensor Kit is the place to start. For a full list of the sensors and included components, <a href=""https://docs.particle.io/datasheets/particle-shields/#electron-sensor-kit"" target=""_blank"" rel=""noopener noreferrer"">check out the documentation!</a></span></p>
+<p><span>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</span></p>
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>
+<strong>3MB</strong> of cellular data per device/mo (additional data <a href=""https://www.particle.io/products/connectivity/cellular-iot-sim-2g-3g-lte#additional-mbs"" target=""_blank"" rel=""noopener noreferrer"">$0.40/MB for most countries</a>)</li>
+<li>First 3 months of Device Cloud <strong>FREE</strong> ($2.99 per device/mo after)</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Contents:</h5>
+</li>
+<li>10 sensors for measuring acceleration, distance, temperature, humidity, motion, vibration, and gases</li>
+<li>Particle Electron PCB</li>
+<li>Particle SIM Card</li>
+<li>Li-Po battery</li>
+<li>Taoglas Cellular Antenna</li>
+<li>USB cable</li>
+<li>Breadboard</li>
+<li>Pinout reference card</li>
+<li>Components for a sample product</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>STM32F205 ARM Cortex M3 microcontroller</span></li>
+<li><span>1MB Flash, 128K RAM</span></li>
+<li><span>Cellular modem: u-blox SARA G-series (2G) or U-series (3G)</span></li>
+<li><span>36 pins total: 28 GPIOs (D0-D13, A0-A13), plus TX/RX, 2 GNDs, VIN, VBAT, WKP, 3V3, RST</span></li>
+<li><span>Board dimensions: 2.0&quot; x 0.8&quot; x 0.3&quot; (0.5&quot; including headers)</span></li>
+</ul>
+<h3><span style=""font-weight: 400;"">&nbsp;</span></h3>
+<ul></ul>
+<strong><strong><br></strong></strong>
+<p><span style=""font-weight: 400;"">The Sensor Kit comes with a Particle SIM card with service in more than 100 countries worldwide. The Electron is a GSM-only device, and does not support CDMA networks. We offer two types of Electron 3G Kits&#8212;one for Americas/Australia (850/1900 MHz) and one for Europe/Asia/Africa (900/1800 MHz).&nbsp;</span><span style=""font-weight: 400;"">Check the </span><a href=""https://s3.amazonaws.com/particle-marketing-assets/CountryListings.png""><span style=""font-weight: 400;"">full list</span></a><span style=""font-weight: 400;""> of compatible countries for the location in which your product will be deployed.</span></p>"				pid-24
+Photon	"A tiny, reprogrammable Wi-Fi development kit for prototyping and scaling your Internet of Things product."	19	150802_Particle-26_large.jpg	"<meta charset=""utf-8"">
+<p>The Photon is a $19 tiny Wi-Fi IoT device for creating connected projects and products for the Internet of Things. It's easy to use, it's powerful, and it's connected to the cloud. The board itself uses a Cypress Wi-Fi chip (one that can be found in Nest Protect, LIFX, and Amazon Dash) alongside a powerful STM32 ARM Cortex M3 microcontroller. It's like the Spark Core. But better.</p>
+<p>The tools that make up the Photon's ecosystem (and come along with the board) are designed to let you build and create whether you're an embedded engineer, web developer, Arduino enthusiast or IoT entrepreneur. You'll be able to write your firmware in our <a href=""https://docs.particle.io/guide/getting-started/build/photon/"" target=""_blank"" rel=""noopener noreferrer"">web</a> or <a href=""https://docs.particle.io/guide/tools-and-features/dev/"" target=""_blank"" rel=""noopener noreferrer"">local </a>IDE, deploy it over the air, and build your web and mobile apps with <a href=""https://docs.particle.io/reference/javascript/"" target=""_blank"" rel=""noopener noreferrer"">ParticleJS</a> and our <a href=""https://docs.particle.io/guide/how-to-build-a-product/mobile-app/"" target=""_blank"" rel=""noopener noreferrer"">Mobile SDKs</a>.</p>
+<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>Device Cloud <strong>FREE</strong> for first 100 devices <a href=""https://www.particle.io/pricing"" target=""_blank"" rel=""noopener noreferrer"">(learn more)</a>
+</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>Particle P0 Wi-Fi module</span></li>
+<li><span>Cypress BCM43362 Wi-Fi chip</span></li>
+<li><span>STM32F205 120Mhz ARM Cortex M3</span></li>
+<li><span>1MB flash, 128KB RAM</span></li>
+<li><span>802.11b/g/n</span></li>
+<li><span>Soft AP setup</span></li>
+<li><span>FCC/CE/IC certified</span></li>
+<li><span>Full specs <a href=""https://docs.particle.io/datasheets/photon-datasheet/"" target=""_blank"" rel=""noopener noreferrer"">here</a></span></li>
+</ul>
+<p>Does not ship with breadboard or USB cable. This board can ship with or without <a href=""https://en.wikipedia.org/wiki/Pin_header"" target=""_blank"" rel=""noopener noreferrer"">headers</a>. Photons with headers are&nbsp;great for using with breadboards; Photons&nbsp;without headers are best for surface mounting and special applications.</p>"				pid-25
+Photon Kit	"The total package—a Photon, mini-breadboard, USB cable, and components for your first project"	29	150803_Particle-14_large.jpg	"<p class=""p1""><b></b>The Photon Kit includes a Photon with headers, a shiny white mini-breadboard, a USB-micro cable, and a couple of extra surprises to help you start building right away.</p>
+<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>Device Cloud <strong>FREE</strong> for first 100 devices <a href=""https://www.particle.io/pricing"" target=""_blank"" rel=""noopener noreferrer"">(learn more)</a>
+</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>Single band 2.4GHz IEEE 802.11b/g/n</span></li>
+<li><span>Supports wireless data rates of up to 65Mbit/s</span></li>
+<li><span>Supports Open, WEP, WAPI, WPA and WPA2-PSK Wi-Fi security modes</span></li>
+<li><span>Supports Wi-Fi channels 1 to 14</span></li>
+<li><span>Low power sleep, stand-by and stop modes</span></li>
+</ul>
+<style type=""text/css""><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p>&nbsp;</p>
+<p>&nbsp;</p>"				pid-26
+Particle Maker Kit	"Everything you need to start building simple Internet enabled projects
+"	89	150802_Particle-1_66558738-bdcb-4b41-b867-722dd3741393_large.jpg	"<p>If you're new to the world of hardware, don't panic&#8212;the Maker Kit has everything you need to level up from hacker zero to hardware hero. &nbsp;In addition to a shiny new&nbsp;Photon, the Particle Maker Kit includes all the components and accessories you need to start building simple Internet-enabled projects.</p>
+<p>The Maker Kit comes with enough jumper wires, LEDs, resistors and more to make sure&nbsp;you can&nbsp;can build multiple different types of projects. It also comes with&nbsp;a super-neat project carrying case so you can tidy up your workspace when you're done building.</p>
+<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>Device Cloud <strong>FREE</strong> for first 100 devices <a href=""https://www.particle.io/pricing"" target=""_blank"" rel=""noopener noreferrer"">(learn more)</a>
+</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>What's included with&nbsp;the Particle&nbsp;Maker Kit:</h5>
+</li>
+<li>Photon with Headers (1)</li>
+<li>USB Micro B Cable (1)</li>
+<li>Flex antenna (1)</li>
+<li>Mini Breadboard (1)</li>
+<li>Proto-board (1)</li>
+<li>Deluxe Jumper Wire Pack (1)</li>
+<li>Male to Female Jumper Wires (10)</li>
+<li>Battery holder - 4xAA (1)</li>
+<li>Headers (7)</li>
+<li>Ceramic Capacitors (10 each)</li>
+<li>Electrolytic Capacitor 100uF (5)</li>
+<li>LEDs (10)</li>
+<li>RGB LED (1)</li>
+<li>Diode (6)</li>
+<li>IR LED (1)</li>
+<li>Resistors (30)</li>
+<li>Photoresistors (2)</li>
+<li>10K Rotary Potentiometer (1)</li>
+<li>Temperature Sensor (1)</li>
+<li>Temperature Sensor - Sealed (1)</li>
+<li>Piezo Buzzer (1)</li>
+<li>Mini Pushbuttons (3)</li>
+<li>SPDT Switch (2)</li>
+<li>SPDT Relay (1)</li>
+<li>NPN Transistor (1)</li>
+<li>PIR sensor (1)</li>
+<li>Pancake Vibration Motor (1)</li>
+<li>Micro Servo (1)</li>
+<li>Serial OLED Screen,0.96&quot;(1)</li>
+</ul>
+<meta charset=""utf-8"">"				pid-27
+Internet Button	"Connected with IFTTT, it combines hardware, sensors, and connectivity into one package"	49	150802_Particle-46_large.jpg	"<p>The Internet Button includes a Photon, which can also be easily removed and used for other projects, a USB-micro cable and a removable plastic cover.</p>
+<p>Quickly start playing with LEDs, multiple buttons, an accelerometer and more without any wires or soldering. On the firmware side, custom libraries are available to make programming your projects quick and beautiful. The <a href=""https://www.particle.io/button"" target=""_blank"" title=""Particle Internet Button"" rel=""noopener noreferrer"">Internet Button</a> is not only an easy way to get started on the Internet of Things, it's also a clean and simple way to start building your own prototypes.</p>
+<meta charset=""utf-8"">
+<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>Device Cloud <strong>FREE</strong> for first 100 devices <a href=""https://www.particle.io/pricing"" target=""_blank"" rel=""noopener noreferrer"">(learn more)</a>
+</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>11 individually controllable RGB LEDs</span></li>
+<li><span>ADXL362 3-axis accelerometer</span></li>
+<li><span>4 tactile buttons for D-pad style interactions</span></li>
+<li><span>Female socket for connection to Photon</span></li>
+<li><span>Additional female headers for adding extra actuators and sensors</span></li>
+<li><span>Backward compatible with the Core</span></li>
+</ul>"				pid-28
+P0 - Particle Wi-Fi Module	Next generation MCU + Wi-Fi module based on Broadcom’s WICED architecture	10	P0Edit_large.jpg	"<meta charset=""utf-8"">
+<p><strong>P0s&nbsp;ship in strips of 10. Price is per module, therefore you must enter quantities of 10.</strong></p>
+<p>The P0 is the connected brain of the <a href=""http://particle-io.myshopify.com/products/photon"" target=""_blank"" title=""Photon"" rel=""noopener noreferrer"">Photon</a>&nbsp;&#8212;&nbsp;a powerful, reprogrammable Wi-Fi module.</p>
+<p>Based on Cypress's BCM43362 wireless chipset, the P0 is designed to help you seamlessly transition from your Photon-powered prototype to mass production. Each module comes pre-loaded with Particle firmware.</p>
+<meta charset=""utf-8"">
+<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>Device Cloud <strong>FREE</strong> for first 100 devices <a href=""https://www.particle.io/pricing"" target=""_blank"" rel=""noopener noreferrer"">(learn more)</a>
+</li>
+<li>Device Cloud Features: <br><br> - Device Management <br><br> - Over the Air Firmware Updates <br><br> - Fully Managed Connectivity <br><br> - Developer Tools <br><br> - Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Wi-Fi Specs:</h5>
+</li>
+<li><span>Single band 2.4GHz IEEE 802.11b/g/n</span></li>
+<li><span>Supports wireless data rates of up to 65Mbit/s</span></li>
+<li><span>Ultra low power sleep, stand-by and stop modes</span></li>
+<li><span>Supports Open, WEP, WAPI, WPA and WPA2-PSK WiFi security modes</span></li>
+</ul>
+<ul>
+<li>
+<h5>Microcontroller specs:</h5>
+</li>
+<li><span>STM32F205</span></li>
+<li><span>1MB flash, 128KB RAM</span></li>
+<li><span>120Mhz CPU</span></li>
+<li><span>Shipping in multiples of 10 in cut tape packaging.</span></li>
+</ul>"				pid-29
+P1 - Particle Wi-Fi Module with Antenna	Next generation MCU + Wi-Fi module with FCC certification and built-in antenna	12	P1_DSC3791_large.jpg	"<meta charset=""utf-8"">
+<p><strong>P1s&nbsp;ship in strips of 10. Price is per module and must be ordered in multiples of 10.</strong></p>
+<p><span>Thinking of&nbsp;transitioning from your Photon-powered prototype into mass&nbsp;production? The P1 is your answer. It's Particle's tiny Wi-Fi module that contains both the Cypress Wi-Fi chip and a reprogrammable STM32 32-bit ARM Cortex-M3 microcontroller. The P1</span>&nbsp;comes pre-loaded with Particle firmware.</p>
+<p>The P1 has a built-in antenna and a uFL connector, so you don't have to stress over the optimization of RF designs. This&nbsp;module&nbsp;is FCC-certified, and has additional external flash to accommodate super-hardcore projects.</p>
+<meta charset=""utf-8"">
+<p>All Particle Hardware is designed from the ground up to work with the Device Cloud. The Device Cloud is a powerful set of tools and infrastructure to build, connect, and manage your IoT fleet.</p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>Device Cloud <strong>FREE</strong> for first 100 devices <a href=""https://www.particle.io/pricing"" target=""_blank"" rel=""noopener noreferrer"">(learn more)</a>
+</li>
+<li>Device Cloud Features: <br><br> - Device Management <br><br> - Over the Air Firmware Updates <br><br> - Fully Managed Connectivity <br><br> - Developer Tools <br><br> - Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Wi-Fi specs:</h5>
+</li>
+<li><span>Single band 2.4GHz IEEE 802.11b/g/n</span></li>
+<li><span>Supports wireless data rates of up to 65Mbit/s</span></li>
+<li><span>Ultra low power sleep, stand-by and stop modes</span></li>
+<li><span>Supports Open, WEP, WAPI, WPA and WPA2-PSK WiFi security modes</span></li>
+</ul>
+<ul>
+<li>
+<h5>Microcontroller Specs:</h5>
+</li>
+<li><span>STM32F205 120Mhz ARM Cortex M3</span></li>
+<li><span style=""line-height: 1.4;"">1MB flash, 128KB RAM</span></li>
+<li><span style=""line-height: 1.4;"">Shipping in multiples of 10 in cut tape packaging.</span></li>
+</ul>
+<meta charset=""utf-8"">
+<p><span style=""line-height: 1.4;""><span>P1 module dimensions are: 0.787&quot;(28mm) (W) x 1.102&quot;(20mm) (L) x 0.0787&quot;(2.0mm) (H) +/-0.0039&quot;(0.1mm) (includes metal shielding).</span></span></p>"				pid-30
+RedBear Duo (Wi-Fi + BLE)	A Wi-Fi + Bluetooth BLE development kit with the Particle Cloud	24.9	redbearduo_thumbnail_large.jpg	"<p><strong>The RedBear Duo with Headers will be available in late October. The RedBear Duo without Headers is available and comes with headers included but not soldered on.</strong></p>
+<p>The RedBear Duo is a Wi-Fi + Bluetooth Low-Energy (BLE) development kit. The RedBear Duo leverages its Wi-Fi and Bluetooth connections to connect to the Particle Cloud, publish and subscribe to online events, trigger webhooks, and update firmware over the air.<br><br>The Duo is perfect for applications where you want to leverage BLE for low-power local communications with other BLE sensors and devices with the flexibility of waking up Wi-Fi to send data and communications back to the Cloud on a regular interval. Best of all, the RedBear Duo is compatible with all Particle development tools, including our Web IDE, Desktop IDE,&nbsp;and our developer Console.</p>
+<p>This board can ship with or without headers. Units with headers are great for using with breadboards; units without headers are best for surface mounting and special applications.</p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Access to the Device Cloud includes:</h5>
+</li>
+<li>Device Cloud <strong>FREE</strong> for first 100 devices <a href=""https://www.particle.io/pricing"" target=""_blank"" rel=""noopener noreferrer"">(learn more)</a>
+</li>
+<li>Device Cloud Features: <br><br>- Device Management <br><br>- Over the Air Firmware Updates <br><br>- Fully Managed Connectivity <br><br>- Developer Tools <br><br>- Integrations</li>
+</ul>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li>STMicroelectronics STM32F205 ARM Cortex-M3 @ 120MHz, 128 KB SRAM and 1MB Flash</li>
+<li>Broadcom BCM43438 Wi-Fi 802.11n (2.4GHz only) + Bluetooth 4.1 (Dual Mode) combo chip</li>
+<li>Onboard 16 Mbit (2 MB) SPI Flash</li>
+<li>Integrated chip antenna with the option to connect external antenna</li>
+<li>18 GPIO pins</li>
+<li>RGB status LED</li>
+<li>Small single-sided PCB for easy mounting on other PCB boards</li>
+<li>Dimensions: 40 x 20 x13 mm</li>
+</ul>
+<p><br>Visit <a href=""https://github.com/redbear/Duo"" target=""_blank"" rel=""noopener noreferrer"">https://github.com/redbear/Duo</a> for detailed setup and troubleshooting instructions.</p>"				pid-31
+RedBear Nano V2	RedBear Nano v2	16.9	NANH_large.jpg	"<p>*Please note, you will need a RedBear DAPLink v1.5 board or the new <a href=""https://store.particle.io/products/particle-debugger"" target=""_blank"" rel=""noopener noreferrer"">Particle Debugger</a> in order to program the BLE Nano v2.</p>
+<p>The RedBear Nano v2 is the smallest Bluetooth Low Energy System-on-Chip (SoC) development board, measuring 18.5mm x 21mm. You can develop applications using Nordic's SDK, mbed.org, or our open source Arduino Library for nRF5x.</p>
+<p>The RedBear Nano v2 with Headers comes with headers soldered on. The RedBear Nano v2 without Headers comes with two 6-pin male headers included but not soldered on.</p>
+<p>Visit <a href=""https://github.com/redbear/nRF5x/tree/master/nRF52832""><span class=""s1""><b>RedBear's GitHub page</b></span></a> for detailed setup and troubleshooting instructions.</p>"				pid-32
+RedBear BLE Module MB-N2 (2 pack)	RedBear BLE Module MB-N2 (2 pack)	17.9	MB-N2_1_large.jpg	"<p>The RedBear MB-N2 features a Nordic nRF52832 BLE chip, onboard antenna, and has great performance&nbsp;with low power consumption. The module provides all GPIO pins and supports all advanced features offer by Nordic nRF52832. It is FCC, CE &amp; Bluetooth SIG certified.</p>
+<p><em>Please note there are 2 MB-N2 modules in each pack.</em></p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>RedBear BLE Module MB-N2 Product Features:</h5>
+</li>
+<li>Nordic Semiconductor nRF52832 SoC <br><br>- ARM Cortex-M4F (32-bit, @64MHz) <br><br>- Bluetooth 4.2 certified and 5.0 ready (BLE only) <br><br>- Bluetooth QDID: 91904 <br><br>- NFC <br><br>- 64KB SRAM <br><br>- 512KB Flash <br><br>- FPU <br><br>- DSP</li>
+<li>Onboard Chip Antenna</li>
+<li>Certifications <br><br>- CE <br><br>- FCC <br><br>- BQB</li>
+<li>Total 32-I/O, includes <br><br>- 1 x UART <br><br>- 2 x I2C <br><br>- 2 x SPI <br><br>- Max. 12 PWM <br><br>- Max. 8 ADC</li>
+<li>Physical Dimensions <br><br>- 10 mm x 18 mm</li>
+<li>Operation Voltage <br><br>- 1.8V to 3.6V</li>
+</ul>
+<p>Visit <a href=""https://github.com/redbear/nRF5x/tree/master/nRF52832""><span class=""s1""><b>RedBear's GitHub page</b></span></a> for detailed setup and troubleshooting instructions.</p>"				pid-33
+RedBear Link Shield	RedBear Link Shield	14.9	SHLD-RBLink_front_1_large.jpg	"<p>The RedBear Link is designed for development application for Duo using Broadcom WICED SDK and it supports debugging. You can easily attach modules from Seeed&#8217;s Grove System to your project. If you have an MFi license and the co-processor (authentication chip), you can use the RedBear Link to develop MFi projects like the Home Kit.</p>
+<meta charset=""utf-8""><meta charset=""utf-8"">
+<ul>
+<li>
+<h5>RedBear Link Shield Product Features:</h5>
+</li>
+<li>Running ST-LINK/V2&nbsp;</li>
+<li>Broadcom WICED SDK for Internet of Things compatible&nbsp;</li>
+<li>Apple MFi authentication co-processor support (**MFi license is required)&nbsp;</li>
+<li>USB MSD interface - enabling programming Duo by drag and drop of bin file&nbsp;</li>
+<li>USB CDC Virtual Serial port&nbsp;</li>
+<li>STM32 ST-LINK Utility software compatible&nbsp;</li>
+<li>8x Seeed Grove compatible connectors</li>
+<li>Dimensions: 53 x 53 x10 mm</li>
+</ul>
+<p>Visit <a href=""https://github.com/redbear/nRF5x/tree/master/nRF52832""><span class=""s1""><b>RedBear's GitHub page</b></span></a> for detailed setup and troubleshooting instructions.</p>"				pid-34
+Power Shield	Easily add and monitor power with this shield that ships along with a 3.7V Li-Po battery	25	PowerShield_DSC3750_large.jpg	"<meta charset=""utf-8"">
+<p>The Power Shield is the best way to&#8212;you guessed it&#8212;provide power to your mobile Particle projects. Based around the MCP73871 battery management controller, this shield allows you to simultaneously power a Photon and charge a connected Li-Ion or Li-Po battery. You'll also be able to monitor battery levels using the Photon itself, which makes the Power Shield the best way to untether your wireless project.</p>
+<p>Besides the on-board USB port, you can also use an external DC power supply or solar-cell to charge the battery.</p>
+<p>This shield ships with a 3.7V Li-Po battery and headers.&nbsp;</p>
+<p>Designed for use with the Photon, backwards compatible with the Core.</p>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>Operating voltage: USB or External DC of 7 to 20V</span></li>
+<li><span>Current consumption: 500mA max (USB) &amp; 1.2A max (other DC sources)</span></li>
+<li><span>Dimensions: 1&quot; x 1.84&quot;</span></li>
+</ul>"				pid-35
+Programmer Shield	Access your Photon's memory space with this standalone JTAG programmer	30	150802_Particle-20_large.jpg	"<p>The new and improved Programmer Shield is essentially a USB-JTAG converter that gives advanced users complete access to the Photon's memory space. It supports openOCD and the WICED SDK, and is built around the FT2232H high speed USB FIFO.</p>
+<p>Unlike the previous Programmer Shield, it is fully standalone and requires no third-party programmers.</p>
+<p>In addition to providing a JTAG interface, this shield can also act as a USB to Serial converter. You can also use this shield as a generic JTAG programmer for your other projects!</p>
+<p>Designed for use with the Photon, backwards compatible with the Core.</p>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span>Operating supply: USB</span></li>
+<li><span>Current consumption:</span></li>
+<li><span>Dimensions: 1.55&quot; x 3.3&quot;</span></li>
+<li><span>Weight: 18 gms</span></li>
+<li><span>Compatibility: OpenOCD and WICED IDE</span></li>
+</ul>"				pid-36
+Relay Shield	Regulate the power to a variety of electronics with this four relay shield	30	150802_Particle-17_large.jpg	"<p>The Relay Shield allows you to control any normal outlet or high voltage product from anywhere.&nbsp;The shield comes with four relays that are rated at a max of 220V @10Amp allowing you to control any electric appliance rated at under 2000 Watts.</p>
+<p>Note that you *will* need a DC adapter to power the relays! We recommend <a href=""https://www.amazon.com/dp/B00KZ2ZQE8/ref=cm_sw_su_dp"" target=""_blank"" rel=""noopener noreferrer"">this one</a>.</p>
+<ul>
+<li>
+<h5>Specs:</h5>
+</li>
+<li><span><span>Operating voltage: 7 to 15V DC</span></span></li>
+<li><span>Current consumption: 150mA min to 290mA (at 9V DC)</span></li>
+<li><span>Relay Max Voltage: 250V AC</span></li>
+<li><span>Relay Max Current: 10Amp at 125V AC</span></li>
+<li><span>Compatible with both the Core and the Photon.</span></li>
+</ul>"				pid-37
+Wi-Fi Antennas	Add additional range to your Photon or Core uFL with a Flex or Duck Antenna	10	150802_Particle-15_large.jpg	"<p>These external antennas are the perfect way to extend the wireless range of your Particle-powered Wi-Fi project.</p>
+<meta charset=""utf-8"">
+<p>The ultra portable <strong>Flex Antenna</strong> is particularly useful when space is at a premium, but you want a little more range than a chip or trace antenna can provide. It requires no additional connector &#8212; it attaches directly to the u.FL connector already on your Core u.FL or Photon.</p>
+<p>Cable length - 100mm; Input Connector - IPEX(u.FL)</p>
+<meta charset=""utf-8"">
+<p>The <strong>Duck Antenna</strong> is especially great for projects that need a metallic enclosure, which often block Wi-Fi transmission. The antenna includes an interface cable for RP-SMA to u.FL. The Duck Antenna can be used with the Photon as well as&nbsp;Cores with u.FL connectors.</p>
+<p>Cable length - 109mm; Input Connector - RP-SMA</p>
+<meta charset=""utf-8"">
+<ul>
+<li>
+<h5>Specs for both antennas:</h5>
+</li>
+<li><span>Gain - 2 DBI&nbsp;</span></li>
+<li><span>Frequency range 2400~2500MHz&nbsp;</span></li>
+<li>
+<span>Input Impedance - 50&nbsp;</span>&#937;</li>
+</ul>"				pid-39
+Cellular Antenna	Add an extra Taoglas GSM antenna to improve reception in cellular projects	10	Antenna_large_50fba6d2-294b-472f-994d-de78d546c3e0_large.jpg	"<p><span>This penta-band GSM antenna from industry leader Taoglas is a great multi-purpose antenna for almost all cellular applications. It's compact size makes it convenient for design&nbsp;into small enclosures, and it features a rigid structure that ensures minimal gain loss during integration.&nbsp;</span></p>
+<p><span>This antenna attaches directly to the u.FL connector on the Electron, and is the same antenna that we include with all of our Electron development kits. RoHS compliant, and includes 3M adhesive for easy integration into enclosures.</span></p>
+<p>Find the complete datasheet for the antenna, <a href=""https://www.taoglas.com/wp-content/uploads/2015/06/PC104.07.0165C.pdf"" target=""_blank"" title=""here."" rel=""noopener noreferrer"">here</a>.</p>
+<p><strong>Specifications</strong></p>
+<table width=""100%"">
+<tbody>
+<tr>
+<td style=""width: 21.1409%;"">Dimensions</td>
+<td style=""width: 74.8591%;"">80 x 20.8 x 1.0 mm</td>
+</tr>
+<tr>
+<td style=""width: 21.1409%;"">Cable Length</td>
+<td style=""width: 74.8591%;"">164.9mm</td>
+</tr>
+<tr>
+<td style=""width: 21.1409%;"">Connector</td>
+<td style=""width: 74.8591%;"">u.FL (IPEX)</td>
+</tr>
+<tr>
+<td style=""width: 21.1409%;"">Gain</td>
+<td style=""width: 74.8591%;"">Average -1.32 to -3.26 dBi</td>
+</tr>
+<tr>
+<td style=""width: 21.1409%;"">Frequency Range</td>
+<td style=""width: 74.8591%;"">850/900/1800/1900/2100 MHz bands</td>
+</tr>
+<tr>
+<td style=""width: 21.1409%;"">Input Impedance</td>
+<td style=""width: 74.8591%;"">50<span>&#937;</span>
+</td>
+</tr>
+</tbody>
+</table>"				pid-40
+Li-Po Battery	"Small, light and powerful 3.7V Li-Po battery"	9	Battery_large_84ba0547-b0ef-4e4a-b51d-a701eee7e214_large.jpg	"<p>Li-Po batteries are the industry standard for rechargeable devices because they're safe, powerful, and efficient. This 3.7V battery features a convenient 2-pin JST-PH connector to make powering your Wi-Fi or cellular Particle device simple and convenient.</p>
+<p>These batteries are convenient with the battery connector on the Electron and Power Shield (for use with the Photon).</p>
+<p>This battery is compliant with all international safety and transportation standards. For additional testing and certification details, click <a href=""https://docs.particle.io/guide/how-to-build-a-product/certification/#battery-certifications"" title=""here"">here</a>.</p>
+<p><strong>Specifications</strong></p>
+<table width=""100%"">
+<tbody>
+<tr>
+<td style=""width: 26.8456%;"">Model Number</td>
+<td style=""width: 70.8054%;"">
+<div><meta charset=""utf-8""></div>
+<span>LP103450</span>
+</td>
+</tr>
+<tr>
+<td style=""width: 26.8456%;"">Voltage</td>
+<td style=""width: 70.8054%;"">3.7V DC</td>
+</tr>
+<tr>
+<td style=""width: 26.8456%;"">Capacity</td>
+<td style=""width: 70.8054%;"">1800mAh</td>
+</tr>
+<tr>
+<td style=""width: 26.8456%;"">Power</td>
+<td style=""width: 70.8054%;"">7.4Wh</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>"				pid-41
+SIM Card	Add white labeled SIM cards from Telefonica with a Particle Cloud subscription to any hardware	5	SIM_large_1b6cb947-8445-4af5-bafd-66627bfd76cd_large.jpg	"<p>Add your hardware to the Particle Cloud! We sell SIM cards to add whatever cellular connected products you are creating to our easy and cheap Particle data&nbsp;plan. SIMs come with automatic access to the Particle Cloud platform.&nbsp;</p>
+<meta charset=""utf-8"">
+<p><span>The tools that make up the Photon's ecosystem (and come along with the SIM cards) are designed to let you build, create and manage your fleet of devices. You'll be able to write your firmware in our </span><a href=""https://docs.particle.io/guide/getting-started/build/photon/"" target=""_blank"" rel=""noopener noreferrer"">web</a><span> or </span><a href=""https://docs.particle.io/guide/tools-and-features/dev/"" target=""_blank"" rel=""noopener noreferrer"">local </a><span>IDE, deploy it over the air, and build your web and mobile apps with </span><a href=""https://docs.particle.io/reference/javascript/"" target=""_blank"" rel=""noopener noreferrer"">ParticleJS</a><span> and our </span><a href=""https://docs.particle.io/guide/how-to-build-a-product/mobile-app/"" target=""_blank"" rel=""noopener noreferrer"">Mobile SDKs</a><span>. Once you deploy a product, you'll be able to bulk over the air update, collect data and manage the devices in our Console.&nbsp;</span></p>
+<p><span>SIMs come individually and&nbsp;labeled with Particle.&nbsp;</span></p>
+<meta charset=""utf-8"">
+<p><i><span>*Data rates vary by country and by data usage, see <a href=""http://www.particle.io/cellular#electron-pricing"">here</a> for full pricing&nbsp;and bulk discounts.</span></i></p>
+<p>** <span>Please be sure to check the </span><a href=""https://s3.amazonaws.com/particle-marketing-assets/CountryListings.png""><span>full list</span></a><span> of countries for locations in which this SIM card will work.</span></p>"				pid-42
