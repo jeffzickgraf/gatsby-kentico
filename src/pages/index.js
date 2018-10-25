@@ -36,7 +36,7 @@ export default ({ data }) => {
                               <div class="product-name">{node.elements.title.value}</div>
                               <div class="product-type" dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.description.value)} />
                               <div class="product-price">${node.elements.price.value}</div>
-                              <div class="description" dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.content.value)} />
+                              <div class="description" dangerouslySetInnerHTML={renderUnsafeHtml(node.elements.content.value)} />                              
                           </div>
                       </article>
                   </div>
@@ -72,6 +72,7 @@ export const query = graphql`
           description {value}
           price {value}
           content {value}
+          specifications{value}
           product_image{
             value {
               name
