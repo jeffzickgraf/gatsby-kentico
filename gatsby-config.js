@@ -12,24 +12,25 @@ const myQuery = `{
             value
           }
           short_description{value}
-        }
-        fields {
-          slug
-        }
+        }        
       }
     }
   }
 }
 `;
 
+
+
+//Data always undefined here. Data is availavle in both index.js page and gatsby-node.js
+//See .filter below that is console.logging title
 const queries = [
   {
     query: myQuery,
     transformer: ({ data }) => data.allKenticoCloudItemDevice.edges
                   .filter(node => {console.log(node.title);if(node.title!=undefined)return true;}).map(({ node }) => 
     ({
-      title: node.title || node.title.value,
-      slug: node.fields.slug,
+      title: node.title.value,
+      description: node.short_description.value,      
       objectID: node.id
     })
     ), // optional
